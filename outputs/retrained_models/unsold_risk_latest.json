@@ -1,0 +1,2190 @@
+{
+  "available": true,
+  "as_of": "2025-12-31",
+  "trained_through_as_of": "2025-10-02",
+  "n_train": 64119,
+  "n_test": 19547,
+  "n_current_units": 2201,
+  "unsold_rate_test": 0.8494,
+  "metrics": [
+    {
+      "model": "prior_rate",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.5,
+      "PR_AUC": 0.8494,
+      "Brier": 0.1283,
+      "LogLoss": 0.4252,
+      "Precision@top20%": 0.7594,
+      "Brier_skill_vs_prior": 0.0,
+      "ROC_AUC_lift_vs_rule": -0.1572,
+      "metrics_won": [],
+      "beats_baselines": false
+    },
+    {
+      "model": "project_rate_rule",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.6572,
+      "PR_AUC": 0.9046,
+      "Brier": 0.1244,
+      "LogLoss": 0.4132,
+      "Precision@top20%": 0.9318,
+      "Brier_skill_vs_prior": 0.0304,
+      "ROC_AUC_lift_vs_rule": 0.0,
+      "metrics_won": [],
+      "beats_baselines": false
+    },
+    {
+      "model": "logistic",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.7207,
+      "PR_AUC": 0.9283,
+      "Brier": 0.118,
+      "LogLoss": 0.386,
+      "Precision@top20%": 0.9549,
+      "Brier_skill_vs_prior": 0.0803,
+      "ROC_AUC_lift_vs_rule": 0.0635,
+      "metrics_won": [
+        "ROC_AUC",
+        "PR_AUC",
+        "Precision@top20%",
+        "Brier",
+        "LogLoss"
+      ],
+      "beats_baselines": true
+    },
+    {
+      "model": "gbm",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.7047,
+      "PR_AUC": 0.9229,
+      "Brier": 0.1198,
+      "LogLoss": 0.397,
+      "Precision@top20%": 0.9427,
+      "Brier_skill_vs_prior": 0.0663,
+      "ROC_AUC_lift_vs_rule": 0.0475,
+      "metrics_won": [
+        "ROC_AUC",
+        "PR_AUC",
+        "Precision@top20%",
+        "Brier",
+        "LogLoss"
+      ],
+      "beats_baselines": true
+    },
+    {
+      "model": "blend",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.7202,
+      "PR_AUC": 0.9284,
+      "Brier": 0.1176,
+      "LogLoss": 0.3856,
+      "Precision@top20%": 0.9551,
+      "Brier_skill_vs_prior": 0.0834,
+      "ROC_AUC_lift_vs_rule": 0.063,
+      "metrics_won": [
+        "ROC_AUC",
+        "PR_AUC",
+        "Precision@top20%",
+        "Brier",
+        "LogLoss"
+      ],
+      "beats_baselines": true
+    },
+    {
+      "model": "gbm_calibrated",
+      "n_train": 64119,
+      "n_test": 19547,
+      "unsold_rate_train": 0.8679,
+      "unsold_rate_test": 0.8494,
+      "ROC_AUC": 0.7114,
+      "PR_AUC": 0.924,
+      "Brier": 0.1188,
+      "LogLoss": 0.3903,
+      "Precision@top20%": 0.9413,
+      "Brier_skill_vs_prior": 0.074,
+      "ROC_AUC_lift_vs_rule": 0.0542,
+      "metrics_won": [
+        "ROC_AUC",
+        "PR_AUC",
+        "Precision@top20%",
+        "Brier",
+        "LogLoss"
+      ],
+      "beats_baselines": true
+    }
+  ],
+  "primary_model": "blend",
+  "calibration_model": "blend",
+  "calibration": [
+    {
+      "n": 1955,
+      "mean_pred": 0.5889,
+      "observed": 0.624
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.7203,
+      "observed": 0.7171
+    },
+    {
+      "n": 1954,
+      "mean_pred": 0.7974,
+      "observed": 0.7948
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.8489,
+      "observed": 0.8307
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.886,
+      "observed": 0.8747
+    },
+    {
+      "n": 1954,
+      "mean_pred": 0.9099,
+      "observed": 0.9007
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.9249,
+      "observed": 0.9228
+    },
+    {
+      "n": 1954,
+      "mean_pred": 0.938,
+      "observed": 0.9227
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.9521,
+      "observed": 0.9437
+    },
+    {
+      "n": 1955,
+      "mean_pred": 0.9787,
+      "observed": 0.9627
+    }
+  ],
+  "calibration_by_model": {
+    "logistic": [
+      {
+        "n": 1955,
+        "mean_pred": 0.5376,
+        "observed": 0.6225
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.6716,
+        "observed": 0.7187
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.7608,
+        "observed": 0.7932
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.8237,
+        "observed": 0.8317
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.8672,
+        "observed": 0.8793
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.8968,
+        "observed": 0.9089
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9154,
+        "observed": 0.9151
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.9328,
+        "observed": 0.9171
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.95,
+        "observed": 0.9478
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9756,
+        "observed": 0.9596
+      }
+    ],
+    "gbm": [
+      {
+        "n": 1955,
+        "mean_pred": 0.6308,
+        "observed": 0.6348
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.7626,
+        "observed": 0.732
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.829,
+        "observed": 0.7907
+      },
+      {
+        "n": 1956,
+        "mean_pred": 0.8729,
+        "observed": 0.843
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.9047,
+        "observed": 0.8721
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.9234,
+        "observed": 0.9028
+      },
+      {
+        "n": 1956,
+        "mean_pred": 0.9363,
+        "observed": 0.9064
+      },
+      {
+        "n": 1953,
+        "mean_pred": 0.9478,
+        "observed": 0.9268
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9632,
+        "observed": 0.9402
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9879,
+        "observed": 0.9453
+      }
+    ],
+    "blend": [
+      {
+        "n": 1955,
+        "mean_pred": 0.5889,
+        "observed": 0.624
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.7203,
+        "observed": 0.7171
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.7974,
+        "observed": 0.7948
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.8489,
+        "observed": 0.8307
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.886,
+        "observed": 0.8747
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.9099,
+        "observed": 0.9007
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9249,
+        "observed": 0.9228
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.938,
+        "observed": 0.9227
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9521,
+        "observed": 0.9437
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9787,
+        "observed": 0.9627
+      }
+    ],
+    "gbm_calibrated": [
+      {
+        "n": 1966,
+        "mean_pred": 0.6113,
+        "observed": 0.6455
+      },
+      {
+        "n": 1946,
+        "mean_pred": 0.7447,
+        "observed": 0.7117
+      },
+      {
+        "n": 1952,
+        "mean_pred": 0.8059,
+        "observed": 0.79
+      },
+      {
+        "n": 1970,
+        "mean_pred": 0.8561,
+        "observed": 0.8239
+      },
+      {
+        "n": 1982,
+        "mean_pred": 0.8946,
+        "observed": 0.8708
+      },
+      {
+        "n": 1926,
+        "mean_pred": 0.9213,
+        "observed": 0.9154
+      },
+      {
+        "n": 2031,
+        "mean_pred": 0.9357,
+        "observed": 0.9281
+      },
+      {
+        "n": 1866,
+        "mean_pred": 0.9451,
+        "observed": 0.9282
+      },
+      {
+        "n": 1983,
+        "mean_pred": 0.9549,
+        "observed": 0.9304
+      },
+      {
+        "n": 1925,
+        "mean_pred": 0.9778,
+        "observed": 0.9522
+      }
+    ],
+    "project_rate_rule": [
+      {
+        "n": 1988,
+        "mean_pred": 0.7569,
+        "observed": 0.754
+      },
+      {
+        "n": 2010,
+        "mean_pred": 0.8051,
+        "observed": 0.7746
+      },
+      {
+        "n": 1876,
+        "mean_pred": 0.8265,
+        "observed": 0.7655
+      },
+      {
+        "n": 1974,
+        "mean_pred": 0.853,
+        "observed": 0.7791
+      },
+      {
+        "n": 2048,
+        "mean_pred": 0.8974,
+        "observed": 0.8096
+      },
+      {
+        "n": 1862,
+        "mean_pred": 0.9214,
+        "observed": 0.9227
+      },
+      {
+        "n": 1999,
+        "mean_pred": 0.9342,
+        "observed": 0.902
+      },
+      {
+        "n": 1935,
+        "mean_pred": 0.9442,
+        "observed": 0.9344
+      },
+      {
+        "n": 2133,
+        "mean_pred": 0.9579,
+        "observed": 0.9372
+      },
+      {
+        "n": 1722,
+        "mean_pred": 0.9769,
+        "observed": 0.9216
+      }
+    ]
+  },
+  "backtest": {
+    "confusion": [
+      {
+        "model": "project_rate_rule",
+        "threshold": 0.8007,
+        "flagged_share": 0.8705,
+        "tp": 14680,
+        "fp": 2335,
+        "fn": 1923,
+        "tn": 609,
+        "precision": 0.8628,
+        "recall": 0.8842,
+        "specificity": 0.2069,
+        "balanced_accuracy": 0.5455,
+        "top20_actual_unsold": 0.9317,
+        "bottom20_actual_unsold": 0.7644,
+        "base_rate": 0.8494
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.6528,
+        "flagged_share": 0.8679,
+        "tp": 14938,
+        "fp": 2027,
+        "fn": 1665,
+        "tn": 917,
+        "precision": 0.8805,
+        "recall": 0.8997,
+        "specificity": 0.3115,
+        "balanced_accuracy": 0.6056,
+        "top20_actual_unsold": 0.9537,
+        "bottom20_actual_unsold": 0.6706,
+        "base_rate": 0.8494
+      },
+      {
+        "model": "gbm",
+        "threshold": 0.7499,
+        "flagged_share": 0.8679,
+        "tp": 14933,
+        "fp": 2032,
+        "fn": 1670,
+        "tn": 912,
+        "precision": 0.8802,
+        "recall": 0.8994,
+        "specificity": 0.3098,
+        "balanced_accuracy": 0.6046,
+        "top20_actual_unsold": 0.9427,
+        "bottom20_actual_unsold": 0.6834,
+        "base_rate": 0.8494
+      },
+      {
+        "model": "blend",
+        "threshold": 0.704,
+        "flagged_share": 0.8679,
+        "tp": 14936,
+        "fp": 2029,
+        "fn": 1667,
+        "tn": 915,
+        "precision": 0.8804,
+        "recall": 0.8996,
+        "specificity": 0.3108,
+        "balanced_accuracy": 0.6052,
+        "top20_actual_unsold": 0.9532,
+        "bottom20_actual_unsold": 0.6706,
+        "base_rate": 0.8494
+      },
+      {
+        "model": "gbm_calibrated",
+        "threshold": 0.7333,
+        "flagged_share": 0.8682,
+        "tp": 14888,
+        "fp": 2082,
+        "fn": 1715,
+        "tn": 862,
+        "precision": 0.8773,
+        "recall": 0.8967,
+        "specificity": 0.2928,
+        "balanced_accuracy": 0.5948,
+        "top20_actual_unsold": 0.9408,
+        "bottom20_actual_unsold": 0.6784,
+        "base_rate": 0.8494
+      }
+    ],
+    "by_asof": [
+      {
+        "as_of": "2025-06-06",
+        "n": 2159,
+        "actual": 0.8601,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8935,
+        "logistic": 0.8394,
+        "gbm": 0.8833,
+        "blend": 0.8613,
+        "gbm_calibrated": 0.8694
+      },
+      {
+        "as_of": "2025-06-20",
+        "n": 2173,
+        "actual": 0.8481,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8915,
+        "logistic": 0.8375,
+        "gbm": 0.8767,
+        "blend": 0.8571,
+        "gbm_calibrated": 0.8629
+      },
+      {
+        "as_of": "2025-07-04",
+        "n": 2167,
+        "actual": 0.8417,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8919,
+        "logistic": 0.8268,
+        "gbm": 0.8733,
+        "blend": 0.8501,
+        "gbm_calibrated": 0.8594
+      },
+      {
+        "as_of": "2025-07-18",
+        "n": 2138,
+        "actual": 0.8405,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8916,
+        "logistic": 0.8295,
+        "gbm": 0.872,
+        "blend": 0.8507,
+        "gbm_calibrated": 0.8619
+      },
+      {
+        "as_of": "2025-08-01",
+        "n": 2116,
+        "actual": 0.8388,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8896,
+        "logistic": 0.8228,
+        "gbm": 0.874,
+        "blend": 0.8484,
+        "gbm_calibrated": 0.8633
+      },
+      {
+        "as_of": "2025-08-15",
+        "n": 2070,
+        "actual": 0.8493,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8801,
+        "logistic": 0.8264,
+        "gbm": 0.8752,
+        "blend": 0.8508,
+        "gbm_calibrated": 0.8641
+      },
+      {
+        "as_of": "2025-08-29",
+        "n": 2046,
+        "actual": 0.8553,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8773,
+        "logistic": 0.8301,
+        "gbm": 0.8754,
+        "blend": 0.8528,
+        "gbm_calibrated": 0.8704
+      },
+      {
+        "as_of": "2025-09-12",
+        "n": 2331,
+        "actual": 0.8541,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8834,
+        "logistic": 0.8414,
+        "gbm": 0.8776,
+        "blend": 0.8595,
+        "gbm_calibrated": 0.8652
+      },
+      {
+        "as_of": "2025-09-26",
+        "n": 2347,
+        "actual": 0.8556,
+        "prior_rate": 0.8679,
+        "project_rate_rule": 0.8807,
+        "logistic": 0.8423,
+        "gbm": 0.8749,
+        "blend": 0.8586,
+        "gbm_calibrated": 0.8641
+      }
+    ],
+    "by_project": [
+      {
+        "Project_ID": "P038",
+        "District_ID": "D10",
+        "n": 1794,
+        "actual_unsold": 1637,
+        "actual_rate": 0.9125,
+        "expected": {
+          "prior_rate": 1557.02,
+          "project_rate_rule": 1712.68,
+          "logistic": 1668.75,
+          "gbm": 1651.79,
+          "blend": 1660.27,
+          "gbm_calibrated": 1627.08
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9547,
+          "logistic": 0.9302,
+          "gbm": 0.9207,
+          "blend": 0.9255,
+          "gbm_calibrated": 0.907
+        }
+      },
+      {
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "n": 1418,
+        "actual_unsold": 1308,
+        "actual_rate": 0.9224,
+        "expected": {
+          "prior_rate": 1230.68,
+          "project_rate_rule": 1303.07,
+          "logistic": 1300.5,
+          "gbm": 1329.94,
+          "blend": 1315.22,
+          "gbm_calibrated": 1321.47
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9189,
+          "logistic": 0.9171,
+          "gbm": 0.9379,
+          "blend": 0.9275,
+          "gbm_calibrated": 0.9319
+        }
+      },
+      {
+        "Project_ID": "P033",
+        "District_ID": "D09",
+        "n": 1293,
+        "actual_unsold": 1187,
+        "actual_rate": 0.918,
+        "expected": {
+          "prior_rate": 1122.2,
+          "project_rate_rule": 1208.52,
+          "logistic": 1187.81,
+          "gbm": 1214.35,
+          "blend": 1201.08,
+          "gbm_calibrated": 1205.66
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9347,
+          "logistic": 0.9186,
+          "gbm": 0.9392,
+          "blend": 0.9289,
+          "gbm_calibrated": 0.9325
+        }
+      },
+      {
+        "Project_ID": "P039",
+        "District_ID": "D10",
+        "n": 1173,
+        "actual_unsold": 1089,
+        "actual_rate": 0.9284,
+        "expected": {
+          "prior_rate": 1018.05,
+          "project_rate_rule": 1098.94,
+          "logistic": 1047.11,
+          "gbm": 1090.23,
+          "blend": 1068.67,
+          "gbm_calibrated": 1083.11
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9369,
+          "logistic": 0.8927,
+          "gbm": 0.9294,
+          "blend": 0.9111,
+          "gbm_calibrated": 0.9234
+        }
+      },
+      {
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "n": 1146,
+        "actual_unsold": 1096,
+        "actual_rate": 0.9564,
+        "expected": {
+          "prior_rate": 994.62,
+          "project_rate_rule": 1111.03,
+          "logistic": 1057.03,
+          "gbm": 1065.98,
+          "blend": 1061.5,
+          "gbm_calibrated": 1071.14
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9695,
+          "logistic": 0.9224,
+          "gbm": 0.9302,
+          "blend": 0.9263,
+          "gbm_calibrated": 0.9347
+        }
+      },
+      {
+        "Project_ID": "P036",
+        "District_ID": "D09",
+        "n": 1020,
+        "actual_unsold": 931,
+        "actual_rate": 0.9127,
+        "expected": {
+          "prior_rate": 885.26,
+          "project_rate_rule": 946.23,
+          "logistic": 923.66,
+          "gbm": 953.73,
+          "blend": 938.7,
+          "gbm_calibrated": 955.21
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9277,
+          "logistic": 0.9056,
+          "gbm": 0.935,
+          "blend": 0.9203,
+          "gbm_calibrated": 0.9365
+        }
+      },
+      {
+        "Project_ID": "P034",
+        "District_ID": "D09",
+        "n": 970,
+        "actual_unsold": 913,
+        "actual_rate": 0.9412,
+        "expected": {
+          "prior_rate": 841.86,
+          "project_rate_rule": 934.26,
+          "logistic": 904.22,
+          "gbm": 917.77,
+          "blend": 910.99,
+          "gbm_calibrated": 913.3
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9632,
+          "logistic": 0.9322,
+          "gbm": 0.9462,
+          "blend": 0.9392,
+          "gbm_calibrated": 0.9415
+        }
+      },
+      {
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "n": 968,
+        "actual_unsold": 928,
+        "actual_rate": 0.9587,
+        "expected": {
+          "prior_rate": 840.13,
+          "project_rate_rule": 915.79,
+          "logistic": 893.07,
+          "gbm": 913.82,
+          "blend": 903.44,
+          "gbm_calibrated": 914.58
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9461,
+          "logistic": 0.9226,
+          "gbm": 0.944,
+          "blend": 0.9333,
+          "gbm_calibrated": 0.9448
+        }
+      },
+      {
+        "Project_ID": "P019",
+        "District_ID": "D05",
+        "n": 733,
+        "actual_unsold": 598,
+        "actual_rate": 0.8158,
+        "expected": {
+          "prior_rate": 636.17,
+          "project_rate_rule": 627.71,
+          "logistic": 615.46,
+          "gbm": 635.1,
+          "blend": 625.28,
+          "gbm_calibrated": 599.65
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8564,
+          "logistic": 0.8397,
+          "gbm": 0.8664,
+          "blend": 0.853,
+          "gbm_calibrated": 0.8181
+        }
+      },
+      {
+        "Project_ID": "P027",
+        "District_ID": "D07",
+        "n": 715,
+        "actual_unsold": 553,
+        "actual_rate": 0.7734,
+        "expected": {
+          "prior_rate": 620.55,
+          "project_rate_rule": 599.53,
+          "logistic": 542.85,
+          "gbm": 560.02,
+          "blend": 551.44,
+          "gbm_calibrated": 564.87
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8385,
+          "logistic": 0.7592,
+          "gbm": 0.7832,
+          "blend": 0.7712,
+          "gbm_calibrated": 0.79
+        }
+      },
+      {
+        "Project_ID": "P031",
+        "District_ID": "D08",
+        "n": 621,
+        "actual_unsold": 488,
+        "actual_rate": 0.7858,
+        "expected": {
+          "prior_rate": 538.97,
+          "project_rate_rule": 503.0,
+          "logistic": 476.98,
+          "gbm": 513.91,
+          "blend": 495.44,
+          "gbm_calibrated": 503.14
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.81,
+          "logistic": 0.7681,
+          "gbm": 0.8275,
+          "blend": 0.7978,
+          "gbm_calibrated": 0.8102
+        }
+      },
+      {
+        "Project_ID": "P026",
+        "District_ID": "D07",
+        "n": 594,
+        "actual_unsold": 482,
+        "actual_rate": 0.8114,
+        "expected": {
+          "prior_rate": 515.53,
+          "project_rate_rule": 488.91,
+          "logistic": 448.85,
+          "gbm": 476.97,
+          "blend": 462.91,
+          "gbm_calibrated": 471.94
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8231,
+          "logistic": 0.7556,
+          "gbm": 0.803,
+          "blend": 0.7793,
+          "gbm_calibrated": 0.7945
+        }
+      },
+      {
+        "Project_ID": "P029",
+        "District_ID": "D08",
+        "n": 588,
+        "actual_unsold": 458,
+        "actual_rate": 0.7789,
+        "expected": {
+          "prior_rate": 510.33,
+          "project_rate_rule": 493.79,
+          "logistic": 443.46,
+          "gbm": 479.0,
+          "blend": 461.23,
+          "gbm_calibrated": 470.14
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8398,
+          "logistic": 0.7542,
+          "gbm": 0.8146,
+          "blend": 0.7844,
+          "gbm_calibrated": 0.7996
+        }
+      },
+      {
+        "Project_ID": "P025",
+        "District_ID": "D07",
+        "n": 520,
+        "actual_unsold": 390,
+        "actual_rate": 0.75,
+        "expected": {
+          "prior_rate": 451.31,
+          "project_rate_rule": 407.16,
+          "logistic": 384.4,
+          "gbm": 430.02,
+          "blend": 407.21,
+          "gbm_calibrated": 409.09
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.783,
+          "logistic": 0.7392,
+          "gbm": 0.827,
+          "blend": 0.7831,
+          "gbm_calibrated": 0.7867
+        }
+      },
+      {
+        "Project_ID": "P030",
+        "District_ID": "D08",
+        "n": 503,
+        "actual_unsold": 439,
+        "actual_rate": 0.8728,
+        "expected": {
+          "prior_rate": 436.55,
+          "project_rate_rule": 418.36,
+          "logistic": 389.59,
+          "gbm": 411.0,
+          "blend": 400.29,
+          "gbm_calibrated": 405.47
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8317,
+          "logistic": 0.7745,
+          "gbm": 0.8171,
+          "blend": 0.7958,
+          "gbm_calibrated": 0.8061
+        }
+      },
+      {
+        "Project_ID": "P023",
+        "District_ID": "D06",
+        "n": 493,
+        "actual_unsold": 378,
+        "actual_rate": 0.7667,
+        "expected": {
+          "prior_rate": 427.88,
+          "project_rate_rule": 399.02,
+          "logistic": 356.77,
+          "gbm": 404.43,
+          "blend": 380.6,
+          "gbm_calibrated": 400.54
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8094,
+          "logistic": 0.7237,
+          "gbm": 0.8204,
+          "blend": 0.772,
+          "gbm_calibrated": 0.8125
+        }
+      },
+      {
+        "Project_ID": "P024",
+        "District_ID": "D06",
+        "n": 484,
+        "actual_unsold": 329,
+        "actual_rate": 0.6798,
+        "expected": {
+          "prior_rate": 420.06,
+          "project_rate_rule": 382.54,
+          "logistic": 336.38,
+          "gbm": 371.24,
+          "blend": 353.81,
+          "gbm_calibrated": 384.22
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.7904,
+          "logistic": 0.695,
+          "gbm": 0.767,
+          "blend": 0.731,
+          "gbm_calibrated": 0.7938
+        }
+      },
+      {
+        "Project_ID": "P017",
+        "District_ID": "D05",
+        "n": 476,
+        "actual_unsold": 319,
+        "actual_rate": 0.6702,
+        "expected": {
+          "prior_rate": 413.12,
+          "project_rate_rule": 396.86,
+          "logistic": 347.73,
+          "gbm": 382.62,
+          "blend": 365.17,
+          "gbm_calibrated": 369.72
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8337,
+          "logistic": 0.7305,
+          "gbm": 0.8038,
+          "blend": 0.7672,
+          "gbm_calibrated": 0.7767
+        }
+      },
+      {
+        "Project_ID": "P032",
+        "District_ID": "D08",
+        "n": 463,
+        "actual_unsold": 367,
+        "actual_rate": 0.7927,
+        "expected": {
+          "prior_rate": 401.84,
+          "project_rate_rule": 374.26,
+          "logistic": 310.05,
+          "gbm": 366.55,
+          "blend": 338.3,
+          "gbm_calibrated": 351.3
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8083,
+          "logistic": 0.6697,
+          "gbm": 0.7917,
+          "blend": 0.7307,
+          "gbm_calibrated": 0.7587
+        }
+      },
+      {
+        "Project_ID": "P020",
+        "District_ID": "D05",
+        "n": 406,
+        "actual_unsold": 287,
+        "actual_rate": 0.7069,
+        "expected": {
+          "prior_rate": 352.37,
+          "project_rate_rule": 329.83,
+          "logistic": 303.73,
+          "gbm": 319.9,
+          "blend": 311.82,
+          "gbm_calibrated": 318.51
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8124,
+          "logistic": 0.7481,
+          "gbm": 0.7879,
+          "blend": 0.768,
+          "gbm_calibrated": 0.7845
+        }
+      },
+      {
+        "Project_ID": "P028",
+        "District_ID": "D07",
+        "n": 395,
+        "actual_unsold": 352,
+        "actual_rate": 0.8911,
+        "expected": {
+          "prior_rate": 342.82,
+          "project_rate_rule": 324.33,
+          "logistic": 291.93,
+          "gbm": 312.37,
+          "blend": 302.15,
+          "gbm_calibrated": 305.14
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8211,
+          "logistic": 0.7391,
+          "gbm": 0.7908,
+          "blend": 0.7649,
+          "gbm_calibrated": 0.7725
+        }
+      },
+      {
+        "Project_ID": "P021",
+        "District_ID": "D06",
+        "n": 371,
+        "actual_unsold": 253,
+        "actual_rate": 0.6819,
+        "expected": {
+          "prior_rate": 321.99,
+          "project_rate_rule": 281.63,
+          "logistic": 246.51,
+          "gbm": 285.46,
+          "blend": 265.99,
+          "gbm_calibrated": 281.08
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.7591,
+          "logistic": 0.6645,
+          "gbm": 0.7694,
+          "blend": 0.7169,
+          "gbm_calibrated": 0.7576
+        }
+      },
+      {
+        "Project_ID": "P022",
+        "District_ID": "D06",
+        "n": 342,
+        "actual_unsold": 213,
+        "actual_rate": 0.6228,
+        "expected": {
+          "prior_rate": 296.82,
+          "project_rate_rule": 290.16,
+          "logistic": 223.41,
+          "gbm": 252.52,
+          "blend": 237.96,
+          "gbm_calibrated": 255.13
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8484,
+          "logistic": 0.6532,
+          "gbm": 0.7384,
+          "blend": 0.6958,
+          "gbm_calibrated": 0.746
+        }
+      },
+      {
+        "Project_ID": "P014",
+        "District_ID": "D04",
+        "n": 293,
+        "actual_unsold": 218,
+        "actual_rate": 0.744,
+        "expected": {
+          "prior_rate": 254.3,
+          "project_rate_rule": 258.25,
+          "logistic": 225.49,
+          "gbm": 241.57,
+          "blend": 233.53,
+          "gbm_calibrated": 236.12
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8814,
+          "logistic": 0.7696,
+          "gbm": 0.8245,
+          "blend": 0.797,
+          "gbm_calibrated": 0.8059
+        }
+      },
+      {
+        "Project_ID": "P018",
+        "District_ID": "D05",
+        "n": 242,
+        "actual_unsold": 166,
+        "actual_rate": 0.686,
+        "expected": {
+          "prior_rate": 210.03,
+          "project_rate_rule": 179.7,
+          "logistic": 164.0,
+          "gbm": 177.82,
+          "blend": 170.91,
+          "gbm_calibrated": 178.14
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.7426,
+          "logistic": 0.6777,
+          "gbm": 0.7348,
+          "blend": 0.7063,
+          "gbm_calibrated": 0.7361
+        }
+      },
+      {
+        "Project_ID": "P016",
+        "District_ID": "D04",
+        "n": 206,
+        "actual_unsold": 151,
+        "actual_rate": 0.733,
+        "expected": {
+          "prior_rate": 178.79,
+          "project_rate_rule": 175.13,
+          "logistic": 160.51,
+          "gbm": 179.5,
+          "blend": 170.01,
+          "gbm_calibrated": 174.34
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8501,
+          "logistic": 0.7792,
+          "gbm": 0.8714,
+          "blend": 0.8253,
+          "gbm_calibrated": 0.8463
+        }
+      },
+      {
+        "Project_ID": "P015",
+        "District_ID": "D04",
+        "n": 174,
+        "actual_unsold": 145,
+        "actual_rate": 0.8333,
+        "expected": {
+          "prior_rate": 151.01,
+          "project_rate_rule": 148.65,
+          "logistic": 129.17,
+          "gbm": 139.9,
+          "blend": 134.53,
+          "gbm_calibrated": 129.84
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8543,
+          "logistic": 0.7424,
+          "gbm": 0.804,
+          "blend": 0.7732,
+          "gbm_calibrated": 0.7462
+        }
+      },
+      {
+        "Project_ID": "P011",
+        "District_ID": "D03",
+        "n": 159,
+        "actual_unsold": 120,
+        "actual_rate": 0.7547,
+        "expected": {
+          "prior_rate": 138.0,
+          "project_rate_rule": 137.03,
+          "logistic": 120.47,
+          "gbm": 138.4,
+          "blend": 129.43,
+          "gbm_calibrated": 132.08
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8618,
+          "logistic": 0.7577,
+          "gbm": 0.8704,
+          "blend": 0.8141,
+          "gbm_calibrated": 0.8307
+        }
+      },
+      {
+        "Project_ID": "P012",
+        "District_ID": "D03",
+        "n": 146,
+        "actual_unsold": 101,
+        "actual_rate": 0.6918,
+        "expected": {
+          "prior_rate": 126.71,
+          "project_rate_rule": 122.69,
+          "logistic": 116.33,
+          "gbm": 128.32,
+          "blend": 122.32,
+          "gbm_calibrated": 126.71
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8403,
+          "logistic": 0.7968,
+          "gbm": 0.8789,
+          "blend": 0.8378,
+          "gbm_calibrated": 0.8679
+        }
+      },
+      {
+        "Project_ID": "P010",
+        "District_ID": "D03",
+        "n": 144,
+        "actual_unsold": 113,
+        "actual_rate": 0.7847,
+        "expected": {
+          "prior_rate": 124.98,
+          "project_rate_rule": 118.66,
+          "logistic": 101.65,
+          "gbm": 122.37,
+          "blend": 112.01,
+          "gbm_calibrated": 120.76
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8241,
+          "logistic": 0.7059,
+          "gbm": 0.8498,
+          "blend": 0.7778,
+          "gbm_calibrated": 0.8386
+        }
+      },
+      {
+        "Project_ID": "P008",
+        "District_ID": "D02",
+        "n": 139,
+        "actual_unsold": 133,
+        "actual_rate": 0.9568,
+        "expected": {
+          "prior_rate": 120.64,
+          "project_rate_rule": 133.82,
+          "logistic": 117.35,
+          "gbm": 135.25,
+          "blend": 126.3,
+          "gbm_calibrated": 127.79
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9627,
+          "logistic": 0.8442,
+          "gbm": 0.9731,
+          "blend": 0.9086,
+          "gbm_calibrated": 0.9193
+        }
+      },
+      {
+        "Project_ID": "P002",
+        "District_ID": "D01",
+        "n": 128,
+        "actual_unsold": 113,
+        "actual_rate": 0.8828,
+        "expected": {
+          "prior_rate": 111.09,
+          "project_rate_rule": 121.41,
+          "logistic": 106.99,
+          "gbm": 125.01,
+          "blend": 116.0,
+          "gbm_calibrated": 115.75
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9485,
+          "logistic": 0.8359,
+          "gbm": 0.9767,
+          "blend": 0.9063,
+          "gbm_calibrated": 0.9043
+        }
+      },
+      {
+        "Project_ID": "P013",
+        "District_ID": "D04",
+        "n": 126,
+        "actual_unsold": 96,
+        "actual_rate": 0.7619,
+        "expected": {
+          "prior_rate": 109.36,
+          "project_rate_rule": 109.38,
+          "logistic": 97.39,
+          "gbm": 107.6,
+          "blend": 102.49,
+          "gbm_calibrated": 105.83
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8681,
+          "logistic": 0.7729,
+          "gbm": 0.854,
+          "blend": 0.8135,
+          "gbm_calibrated": 0.8399
+        }
+      },
+      {
+        "Project_ID": "P009",
+        "District_ID": "D03",
+        "n": 112,
+        "actual_unsold": 91,
+        "actual_rate": 0.8125,
+        "expected": {
+          "prior_rate": 97.21,
+          "project_rate_rule": 97.71,
+          "logistic": 89.18,
+          "gbm": 101.37,
+          "blend": 95.27,
+          "gbm_calibrated": 96.74
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8724,
+          "logistic": 0.7962,
+          "gbm": 0.9051,
+          "blend": 0.8507,
+          "gbm_calibrated": 0.8637
+        }
+      },
+      {
+        "Project_ID": "P005",
+        "District_ID": "D02",
+        "n": 66,
+        "actual_unsold": 56,
+        "actual_rate": 0.8485,
+        "expected": {
+          "prior_rate": 57.28,
+          "project_rate_rule": 60.06,
+          "logistic": 54.57,
+          "gbm": 62.94,
+          "blend": 58.76,
+          "gbm_calibrated": 59.64
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.9101,
+          "logistic": 0.8268,
+          "gbm": 0.9537,
+          "blend": 0.8902,
+          "gbm_calibrated": 0.9036
+        }
+      },
+      {
+        "Project_ID": "P003",
+        "District_ID": "D01",
+        "n": 45,
+        "actual_unsold": 40,
+        "actual_rate": 0.8889,
+        "expected": {
+          "prior_rate": 39.06,
+          "project_rate_rule": 44.55,
+          "logistic": 38.37,
+          "gbm": 43.81,
+          "blend": 41.09,
+          "gbm_calibrated": 41.12
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.99,
+          "logistic": 0.8528,
+          "gbm": 0.9735,
+          "blend": 0.9131,
+          "gbm_calibrated": 0.9137
+        }
+      },
+      {
+        "Project_ID": "P001",
+        "District_ID": "D01",
+        "n": 36,
+        "actual_unsold": 36,
+        "actual_rate": 1.0,
+        "expected": {
+          "prior_rate": 31.24,
+          "project_rate_rule": 35.64,
+          "logistic": 28.9,
+          "gbm": 34.87,
+          "blend": 31.89,
+          "gbm_calibrated": 32.58
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.99,
+          "logistic": 0.8027,
+          "gbm": 0.9687,
+          "blend": 0.8857,
+          "gbm_calibrated": 0.9049
+        }
+      },
+      {
+        "Project_ID": "P004",
+        "District_ID": "D01",
+        "n": 23,
+        "actual_unsold": 18,
+        "actual_rate": 0.7826,
+        "expected": {
+          "prior_rate": 19.96,
+          "project_rate_rule": 20.58,
+          "logistic": 18.93,
+          "gbm": 22.15,
+          "blend": 20.54,
+          "gbm_calibrated": 20.67
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8949,
+          "logistic": 0.8228,
+          "gbm": 0.9632,
+          "blend": 0.893,
+          "gbm_calibrated": 0.8987
+        }
+      },
+      {
+        "Project_ID": "P007",
+        "District_ID": "D02",
+        "n": 14,
+        "actual_unsold": 9,
+        "actual_rate": 0.6429,
+        "expected": {
+          "prior_rate": 12.15,
+          "project_rate_rule": 11.78,
+          "logistic": 9.81,
+          "gbm": 12.98,
+          "blend": 11.4,
+          "gbm_calibrated": 11.3
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.8414,
+          "logistic": 0.7005,
+          "gbm": 0.9274,
+          "blend": 0.814,
+          "gbm_calibrated": 0.8071
+        }
+      },
+      {
+        "Project_ID": "P006",
+        "District_ID": "D02",
+        "n": 8,
+        "actual_unsold": 2,
+        "actual_rate": 0.25,
+        "expected": {
+          "prior_rate": 6.94,
+          "project_rate_rule": 7.92,
+          "logistic": 6.32,
+          "gbm": 7.72,
+          "blend": 7.02,
+          "gbm_calibrated": 7.16
+        },
+        "predicted_rate": {
+          "prior_rate": 0.8679,
+          "project_rate_rule": 0.99,
+          "logistic": 0.7905,
+          "gbm": 0.9652,
+          "blend": 0.8779,
+          "gbm_calibrated": 0.8953
+        }
+      }
+    ],
+    "totals": [
+      {
+        "model": "prior_rate",
+        "expected_unsold": 16964.9,
+        "actual_unsold": 16603,
+        "error_pct": 2.18,
+        "project_rate_corr": null,
+        "project_mae_pp": 10.99
+      },
+      {
+        "model": "project_rate_rule",
+        "expected_unsold": 17330.6,
+        "actual_unsold": 16603,
+        "error_pct": 4.38,
+        "project_rate_corr": 0.3771,
+        "project_mae_pp": 8.27
+      },
+      {
+        "model": "logistic",
+        "expected_unsold": 16285.7,
+        "actual_unsold": 16603,
+        "error_pct": -1.91,
+        "project_rate_corr": 0.5965,
+        "project_mae_pp": 5.78
+      },
+      {
+        "model": "gbm",
+        "expected_unsold": 17120.3,
+        "actual_unsold": 16603,
+        "error_pct": 3.12,
+        "project_rate_corr": 0.3624,
+        "project_mae_pp": 8.54
+      },
+      {
+        "model": "blend",
+        "expected_unsold": 16703.0,
+        "actual_unsold": 16603,
+        "error_pct": 0.6,
+        "project_rate_corr": 0.5132,
+        "project_mae_pp": 6.28
+      },
+      {
+        "model": "gbm_calibrated",
+        "expected_unsold": 16898.1,
+        "actual_unsold": 16603,
+        "error_pct": 1.78,
+        "project_rate_corr": 0.4739,
+        "project_mae_pp": 7.2
+      }
+    ],
+    "n_projects": 40,
+    "n_test_obs": 19547,
+    "test_window": [
+      "2025-06-06",
+      "2025-09-26"
+    ],
+    "flag_share": 0.8679
+  },
+  "current_scores": {
+    "band_counts": {
+      "High": 898,
+      "Elevated": 871,
+      "Lower": 432
+    },
+    "top_units": [
+      {
+        "Unit_ID": "U08413",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9925,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08434",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9921,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08352",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9921,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09346",
+        "Project_ID": "P039",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9919,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08409",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9919,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U07862",
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9918,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09162",
+        "Project_ID": "P039",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9915,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08433",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9914,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08134",
+        "Project_ID": "P036",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9914,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09193",
+        "Project_ID": "P039",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9913,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08274",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9912,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U07948",
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9908,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08398",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9904,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08180",
+        "Project_ID": "P036",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9904,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U07729",
+        "Project_ID": "P034",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9903,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09703",
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9901,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U07882",
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9901,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08065",
+        "Project_ID": "P036",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9898,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09447",
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9895,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08494",
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9895,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09552",
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9895,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U09614",
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9893,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08530",
+        "Project_ID": "P038",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9893,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U08670",
+        "Project_ID": "P038",
+        "District_ID": "D10",
+        "p_unsold_90d": 0.9889,
+        "risk_band": "High"
+      },
+      {
+        "Unit_ID": "U07989",
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "p_unsold_90d": 0.9886,
+        "risk_band": "High"
+      }
+    ],
+    "mean_p_unsold": 0.871,
+    "expected_unsold": 1917.1
+  },
+  "projects": [
+    {
+      "Project_ID": "P038",
+      "District_ID": "D10",
+      "units_on_market": 394,
+      "expected_unsold_90d": 361.3028,
+      "mean_p_unsold": 0.917,
+      "expected_sold_90d": 32.6972
+    },
+    {
+      "Project_ID": "P040",
+      "District_ID": "D10",
+      "units_on_market": 150,
+      "expected_unsold_90d": 138.6625,
+      "mean_p_unsold": 0.9244,
+      "expected_sold_90d": 11.3375
+    },
+    {
+      "Project_ID": "P033",
+      "District_ID": "D09",
+      "units_on_market": 135,
+      "expected_unsold_90d": 125.9049,
+      "mean_p_unsold": 0.9326,
+      "expected_sold_90d": 9.0951
+    },
+    {
+      "Project_ID": "P039",
+      "District_ID": "D10",
+      "units_on_market": 122,
+      "expected_unsold_90d": 111.8903,
+      "mean_p_unsold": 0.9171,
+      "expected_sold_90d": 10.1097
+    },
+    {
+      "Project_ID": "P037",
+      "District_ID": "D10",
+      "units_on_market": 119,
+      "expected_unsold_90d": 111.2976,
+      "mean_p_unsold": 0.9353,
+      "expected_sold_90d": 7.7024
+    },
+    {
+      "Project_ID": "P035",
+      "District_ID": "D09",
+      "units_on_market": 106,
+      "expected_unsold_90d": 99.0246,
+      "mean_p_unsold": 0.9342,
+      "expected_sold_90d": 6.9754
+    },
+    {
+      "Project_ID": "P036",
+      "District_ID": "D09",
+      "units_on_market": 106,
+      "expected_unsold_90d": 97.1365,
+      "mean_p_unsold": 0.9164,
+      "expected_sold_90d": 8.8635
+    },
+    {
+      "Project_ID": "P034",
+      "District_ID": "D09",
+      "units_on_market": 101,
+      "expected_unsold_90d": 94.2372,
+      "mean_p_unsold": 0.933,
+      "expected_sold_90d": 6.7628
+    },
+    {
+      "Project_ID": "P019",
+      "District_ID": "D05",
+      "units_on_market": 75,
+      "expected_unsold_90d": 65.6357,
+      "mean_p_unsold": 0.8751,
+      "expected_sold_90d": 9.3643
+    },
+    {
+      "Project_ID": "P027",
+      "District_ID": "D07",
+      "units_on_market": 72,
+      "expected_unsold_90d": 58.677,
+      "mean_p_unsold": 0.815,
+      "expected_sold_90d": 13.323
+    },
+    {
+      "Project_ID": "P030",
+      "District_ID": "D08",
+      "units_on_market": 68,
+      "expected_unsold_90d": 57.2191,
+      "mean_p_unsold": 0.8415,
+      "expected_sold_90d": 10.7809
+    },
+    {
+      "Project_ID": "P031",
+      "District_ID": "D08",
+      "units_on_market": 63,
+      "expected_unsold_90d": 50.6699,
+      "mean_p_unsold": 0.8043,
+      "expected_sold_90d": 12.3301
+    },
+    {
+      "Project_ID": "P025",
+      "District_ID": "D07",
+      "units_on_market": 61,
+      "expected_unsold_90d": 48.7861,
+      "mean_p_unsold": 0.7998,
+      "expected_sold_90d": 12.2139
+    },
+    {
+      "Project_ID": "P029",
+      "District_ID": "D08",
+      "units_on_market": 59,
+      "expected_unsold_90d": 47.8335,
+      "mean_p_unsold": 0.8107,
+      "expected_sold_90d": 11.1665
+    },
+    {
+      "Project_ID": "P026",
+      "District_ID": "D07",
+      "units_on_market": 56,
+      "expected_unsold_90d": 45.0167,
+      "mean_p_unsold": 0.8039,
+      "expected_sold_90d": 10.9833
+    },
+    {
+      "Project_ID": "P023",
+      "District_ID": "D06",
+      "units_on_market": 50,
+      "expected_unsold_90d": 40.0802,
+      "mean_p_unsold": 0.8016,
+      "expected_sold_90d": 9.9198
+    },
+    {
+      "Project_ID": "P028",
+      "District_ID": "D07",
+      "units_on_market": 48,
+      "expected_unsold_90d": 38.9777,
+      "mean_p_unsold": 0.812,
+      "expected_sold_90d": 9.0223
+    },
+    {
+      "Project_ID": "P020",
+      "District_ID": "D05",
+      "units_on_market": 43,
+      "expected_unsold_90d": 33.3613,
+      "mean_p_unsold": 0.7758,
+      "expected_sold_90d": 9.6387
+    },
+    {
+      "Project_ID": "P024",
+      "District_ID": "D06",
+      "units_on_market": 43,
+      "expected_unsold_90d": 32.7696,
+      "mean_p_unsold": 0.7621,
+      "expected_sold_90d": 10.2304
+    },
+    {
+      "Project_ID": "P032",
+      "District_ID": "D08",
+      "units_on_market": 43,
+      "expected_unsold_90d": 32.388,
+      "mean_p_unsold": 0.7532,
+      "expected_sold_90d": 10.612
+    },
+    {
+      "Project_ID": "P017",
+      "District_ID": "D05",
+      "units_on_market": 38,
+      "expected_unsold_90d": 30.3114,
+      "mean_p_unsold": 0.7977,
+      "expected_sold_90d": 7.6886
+    },
+    {
+      "Project_ID": "P021",
+      "District_ID": "D06",
+      "units_on_market": 32,
+      "expected_unsold_90d": 23.2484,
+      "mean_p_unsold": 0.7265,
+      "expected_sold_90d": 8.7516
+    },
+    {
+      "Project_ID": "P018",
+      "District_ID": "D05",
+      "units_on_market": 26,
+      "expected_unsold_90d": 19.1912,
+      "mean_p_unsold": 0.7381,
+      "expected_sold_90d": 6.8088
+    },
+    {
+      "Project_ID": "P014",
+      "District_ID": "D04",
+      "units_on_market": 22,
+      "expected_unsold_90d": 18.1112,
+      "mean_p_unsold": 0.8232,
+      "expected_sold_90d": 3.8888
+    },
+    {
+      "Project_ID": "P022",
+      "District_ID": "D06",
+      "units_on_market": 26,
+      "expected_unsold_90d": 17.4281,
+      "mean_p_unsold": 0.6703,
+      "expected_sold_90d": 8.5719
+    },
+    {
+      "Project_ID": "P016",
+      "District_ID": "D04",
+      "units_on_market": 18,
+      "expected_unsold_90d": 15.054,
+      "mean_p_unsold": 0.8363,
+      "expected_sold_90d": 2.946
+    },
+    {
+      "Project_ID": "P015",
+      "District_ID": "D04",
+      "units_on_market": 17,
+      "expected_unsold_90d": 13.191,
+      "mean_p_unsold": 0.7759,
+      "expected_sold_90d": 3.809
+    },
+    {
+      "Project_ID": "P008",
+      "District_ID": "D02",
+      "units_on_market": 14,
+      "expected_unsold_90d": 12.6879,
+      "mean_p_unsold": 0.9063,
+      "expected_sold_90d": 1.3121
+    },
+    {
+      "Project_ID": "P012",
+      "District_ID": "D03",
+      "units_on_market": 15,
+      "expected_unsold_90d": 12.0453,
+      "mean_p_unsold": 0.803,
+      "expected_sold_90d": 2.9547
+    },
+    {
+      "Project_ID": "P010",
+      "District_ID": "D03",
+      "units_on_market": 15,
+      "expected_unsold_90d": 11.5148,
+      "mean_p_unsold": 0.7677,
+      "expected_sold_90d": 3.4852
+    },
+    {
+      "Project_ID": "P002",
+      "District_ID": "D01",
+      "units_on_market": 12,
+      "expected_unsold_90d": 10.9256,
+      "mean_p_unsold": 0.9105,
+      "expected_sold_90d": 1.0744
+    },
+    {
+      "Project_ID": "P009",
+      "District_ID": "D03",
+      "units_on_market": 13,
+      "expected_unsold_90d": 10.3087,
+      "mean_p_unsold": 0.793,
+      "expected_sold_90d": 2.6913
+    },
+    {
+      "Project_ID": "P011",
+      "District_ID": "D03",
+      "units_on_market": 13,
+      "expected_unsold_90d": 10.2633,
+      "mean_p_unsold": 0.7895,
+      "expected_sold_90d": 2.7367
+    },
+    {
+      "Project_ID": "P013",
+      "District_ID": "D04",
+      "units_on_market": 10,
+      "expected_unsold_90d": 7.9376,
+      "mean_p_unsold": 0.7938,
+      "expected_sold_90d": 2.0624
+    },
+    {
+      "Project_ID": "P005",
+      "District_ID": "D02",
+      "units_on_market": 5,
+      "expected_unsold_90d": 4.3847,
+      "mean_p_unsold": 0.8769,
+      "expected_sold_90d": 0.6153
+    },
+    {
+      "Project_ID": "P003",
+      "District_ID": "D01",
+      "units_on_market": 4,
+      "expected_unsold_90d": 3.6267,
+      "mean_p_unsold": 0.9067,
+      "expected_sold_90d": 0.3733
+    },
+    {
+      "Project_ID": "P001",
+      "District_ID": "D01",
+      "units_on_market": 4,
+      "expected_unsold_90d": 3.5888,
+      "mean_p_unsold": 0.8972,
+      "expected_sold_90d": 0.4112
+    },
+    {
+      "Project_ID": "P004",
+      "District_ID": "D01",
+      "units_on_market": 2,
+      "expected_unsold_90d": 1.6966,
+      "mean_p_unsold": 0.8483,
+      "expected_sold_90d": 0.3034
+    },
+    {
+      "Project_ID": "P007",
+      "District_ID": "D02",
+      "units_on_market": 1,
+      "expected_unsold_90d": 0.7487,
+      "mean_p_unsold": 0.7487,
+      "expected_sold_90d": 0.2513
+    }
+  ],
+  "districts": [
+    {
+      "District_ID": "D01",
+      "units": 22,
+      "mean_p": 0.9017,
+      "expected_unsold": 19.8377,
+      "high": 9
+    },
+    {
+      "District_ID": "D02",
+      "units": 20,
+      "mean_p": 0.8911,
+      "expected_unsold": 17.8213,
+      "high": 4
+    },
+    {
+      "District_ID": "D03",
+      "units": 56,
+      "mean_p": 0.7881,
+      "expected_unsold": 44.132,
+      "high": 6
+    },
+    {
+      "District_ID": "D04",
+      "units": 67,
+      "mean_p": 0.8104,
+      "expected_unsold": 54.2938,
+      "high": 11
+    },
+    {
+      "District_ID": "D05",
+      "units": 182,
+      "mean_p": 0.8159,
+      "expected_unsold": 148.4996,
+      "high": 28
+    },
+    {
+      "District_ID": "D06",
+      "units": 151,
+      "mean_p": 0.7518,
+      "expected_unsold": 113.5263,
+      "high": 18
+    },
+    {
+      "District_ID": "D07",
+      "units": 237,
+      "mean_p": 0.8078,
+      "expected_unsold": 191.4575,
+      "high": 43
+    },
+    {
+      "District_ID": "D08",
+      "units": 233,
+      "mean_p": 0.8073,
+      "expected_unsold": 188.1105,
+      "high": 42
+    },
+    {
+      "District_ID": "D09",
+      "units": 448,
+      "mean_p": 0.9292,
+      "expected_unsold": 416.3032,
+      "high": 304
+    },
+    {
+      "District_ID": "D10",
+      "units": 785,
+      "mean_p": 0.9212,
+      "expected_unsold": 723.1531,
+      "high": 433
+    }
+  ],
+  "artifacts": {
+    "logistic": "outputs\\retrained_models\\unsold_risk_logistic.joblib",
+    "gbm": "outputs\\retrained_models\\unsold_risk_gbm.joblib",
+    "gbm_calibrated": "outputs\\retrained_models\\unsold_risk_gbm_calibrated.joblib"
+  },
+  "model_directory": "C:\\Users\\Dell\\Downloads\\acud-prototype (1)\\acud-prototype\\outputs\\retrained_models",
+  "message": "90-day unsold-risk models evaluated on a chronological holdout with a 90-day purge gap."
+}

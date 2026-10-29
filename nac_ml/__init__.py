@@ -1,1 +1,1 @@
-"""NAC real-estate ML & forecasting toolkit (Person 2)."""
+"""ACUD machine-learning models."""

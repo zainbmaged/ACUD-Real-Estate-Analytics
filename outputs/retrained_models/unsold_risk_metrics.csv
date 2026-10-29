@@ -1,5 +1,7 @@
-model,n_train,n_test,unsold_rate_train,unsold_rate_test,ROC_AUC,PR_AUC,Brier,LogLoss,Precision@top20%
-prior_rate,64119,19547,0.8679,0.8494,0.5,0.8494,0.1283,0.4252,0.7594
-project_rate_rule,64119,19547,0.8679,0.8494,0.6572,0.9046,0.1244,0.4132,0.9318
-logistic,64119,19547,0.8679,0.8494,0.7207,0.9283,0.118,0.386,0.9549
-gbm,64119,19547,0.8679,0.8494,0.7047,0.9229,0.1198,0.397,0.9427
+model,n_train,n_test,unsold_rate_train,unsold_rate_test,ROC_AUC,PR_AUC,Brier,LogLoss,Precision@top20%,Brier_skill_vs_prior,ROC_AUC_lift_vs_rule,metrics_won,beats_baselines
+prior_rate,64119,19547,0.8679,0.8494,0.5,0.8494,0.1283,0.4252,0.7594,0.0,-0.1572,[],False
+project_rate_rule,64119,19547,0.8679,0.8494,0.6572,0.9046,0.1244,0.4132,0.9318,0.0304,0.0,[],False
+logistic,64119,19547,0.8679,0.8494,0.7207,0.9283,0.118,0.386,0.9549,0.0803,0.0635,"['ROC_AUC', 'PR_AUC', 'Precision@top20%', 'Brier', 'LogLoss']",True
+gbm,64119,19547,0.8679,0.8494,0.7047,0.9229,0.1198,0.397,0.9427,0.0663,0.0475,"['ROC_AUC', 'PR_AUC', 'Precision@top20%', 'Brier', 'LogLoss']",True
+blend,64119,19547,0.8679,0.8494,0.7202,0.9284,0.1176,0.3856,0.9551,0.0834,0.063,"['ROC_AUC', 'PR_AUC', 'Precision@top20%', 'Brier', 'LogLoss']",True
+gbm_calibrated,64119,19547,0.8679,0.8494,0.7114,0.924,0.1188,0.3903,0.9413,0.074,0.0542,"['ROC_AUC', 'PR_AUC', 'Precision@top20%', 'Brier', 'LogLoss']",True
