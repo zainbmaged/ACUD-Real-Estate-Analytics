@@ -1,0 +1,887 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-29T11:29:36.345418+00:00",
+  "completed_at": "2026-10-29T11:29:47.215400+00:00",
+  "data_timestamp": "2025-12-01T00:00:00",
+  "target_results": {
+    "units_sold": {
+      "label": "Units sold (new sales)",
+      "model": "Ridge trend + annual Fourier terms",
+      "artifact": "retrained_models\\forecast_units_sold.joblib",
+      "observations": 24,
+      "before_metrics": {
+        "MAE": 14.333333333333334,
+        "RMSE": 15.329709716755891,
+        "WAPE_pct": 10.513447432762836
+      },
+      "after_metrics": {
+        "MAE": 15.24500117115374,
+        "RMSE": 16.540984480640144,
+        "WAPE_pct": 11.182152448279028
+      },
+      "holdout": [
+        {
+          "Month": "2025-10",
+          "actual": 153.0,
+          "baseline": 146.0,
+          "retrained": 129.5536623094626
+        },
+        {
+          "Month": "2025-11",
+          "actual": 130.0,
+          "baseline": 146.0,
+          "retrained": 122.22385945126274
+        },
+        {
+          "Month": "2025-12",
+          "actual": 126.0,
+          "baseline": 146.0,
+          "retrained": 111.48747472581344
+        }
+      ],
+      "forecast": [
+        {
+          "Month": "2026-01",
+          "yhat": 107.05,
+          "lo": 91.8,
+          "hi": 122.29,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-02",
+          "yhat": 97.47,
+          "lo": 82.22,
+          "hi": 112.71,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-03",
+          "yhat": 91.83,
+          "lo": 76.59,
+          "hi": 107.08,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-04",
+          "yhat": 90.84,
+          "lo": 75.59,
+          "hi": 106.08,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-05",
+          "yhat": 94.46,
+          "lo": 79.22,
+          "hi": 109.71,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-06",
+          "yhat": 102.04,
+          "lo": 86.8,
+          "hi": 117.29,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-07",
+          "yhat": 111.97,
+          "lo": 96.73,
+          "hi": 127.22,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-08",
+          "yhat": 121.56,
+          "lo": 106.32,
+          "hi": 136.81,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-09",
+          "yhat": 127.54,
+          "lo": 112.3,
+          "hi": 142.79,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-10",
+          "yhat": 127.48,
+          "lo": 112.23,
+          "hi": 142.72,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-11",
+          "yhat": 121.21,
+          "lo": 105.96,
+          "hi": 136.45,
+          "target": "units_sold"
+        },
+        {
+          "Month": "2026-12",
+          "yhat": 110.95,
+          "lo": 95.7,
+          "hi": 126.19,
+          "target": "units_sold"
+        }
+      ]
+    },
+    "sales_value_egp": {
+      "label": "Contract value sold (EGP)",
+      "model": "Ridge trend + annual Fourier terms",
+      "artifact": "retrained_models\\forecast_sales_value_egp.joblib",
+      "observations": 24,
+      "before_metrics": {
+        "MAE": 158306254.66666666,
+        "RMSE": 174840451.3861342,
+        "WAPE_pct": 13.138966181503637
+      },
+      "after_metrics": {
+        "MAE": 82331540.88900292,
+        "RMSE": 87303688.18412697,
+        "WAPE_pct": 6.833282321595277
+      },
+      "holdout": [
+        {
+          "Month": "2025-10",
+          "actual": 1259060424.0,
+          "baseline": 1363167067.0,
+          "retrained": 1180682504.837746
+        },
+        {
+          "Month": "2025-11",
+          "actual": 1255602328.0,
+          "baseline": 1363167067.0,
+          "retrained": 1135889828.5453844
+        },
+        {
+          "Month": "2025-12",
+          "actual": 1099919685.0,
+          "baseline": 1363167067.0,
+          "retrained": 1051015480.9498609
+        }
+      ],
+      "forecast": [
+        {
+          "Month": "2026-01",
+          "yhat": 990673535.46,
+          "lo": 908341994.58,
+          "hi": 1073005076.35,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-02",
+          "yhat": 910475987.82,
+          "lo": 828144446.94,
+          "hi": 992807528.71,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-03",
+          "yhat": 867195760.11,
+          "lo": 784864219.22,
+          "hi": 949527301.0,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-04",
+          "yhat": 869913555.76,
+          "lo": 787582014.87,
+          "hi": 952245096.65,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-05",
+          "yhat": 921113878.21,
+          "lo": 838782337.32,
+          "hi": 1003445419.09,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-06",
+          "yhat": 1016964550.35,
+          "lo": 934633009.46,
+          "hi": 1099296091.24,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-07",
+          "yhat": 1143578188.52,
+          "lo": 1061246647.63,
+          "hi": 1225909729.41,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-08",
+          "yhat": 1273124484.66,
+          "lo": 1190792943.77,
+          "hi": 1355456025.55,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-09",
+          "yhat": 1367619118.44,
+          "lo": 1285287577.55,
+          "hi": 1449950659.33,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-10",
+          "yhat": 1394919523.64,
+          "lo": 1312587982.75,
+          "hi": 1477251064.53,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-11",
+          "yhat": 1347891292.07,
+          "lo": 1265559751.18,
+          "hi": 1430222832.96,
+          "target": "sales_value_egp"
+        },
+        {
+          "Month": "2026-12",
+          "yhat": 1249123333.6,
+          "lo": 1166791792.71,
+          "hi": 1331454874.49,
+          "target": "sales_value_egp"
+        }
+      ]
+    },
+    "collections_egp": {
+      "label": "Cash collected (EGP)",
+      "model": "Ridge trend + annual Fourier terms",
+      "artifact": "retrained_models\\forecast_collections_egp.joblib",
+      "observations": 24,
+      "before_metrics": {
+        "MAE": 32918638.333333332,
+        "RMSE": 35777136.12026995,
+        "WAPE_pct": 4.975151921988696
+      },
+      "after_metrics": {
+        "MAE": 53498592.87771014,
+        "RMSE": 55187491.09230825,
+        "WAPE_pct": 8.085499299335044
+      },
+      "holdout": [
+        {
+          "Month": "2025-10",
+          "actual": 680413069.0,
+          "baseline": 628742329.0,
+          "retrained": 608609439.3648446
+        },
+        {
+          "Month": "2025-11",
+          "actual": 657836411.0,
+          "baseline": 628742329.0,
+          "retrained": 608587906.3144245
+        },
+        {
+          "Month": "2025-12",
+          "actual": 646733422.0,
+          "baseline": 628742329.0,
+          "retrained": 607289777.6876005
+        }
+      ],
+      "forecast": [
+        {
+          "Month": "2026-01",
+          "yhat": 630912533.37,
+          "lo": 577413940.49,
+          "hi": 684411126.24,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-02",
+          "yhat": 633706127.27,
+          "lo": 580207534.39,
+          "hi": 687204720.15,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-03",
+          "yhat": 643093958.23,
+          "lo": 589595365.35,
+          "hi": 696592551.11,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-04",
+          "yhat": 660375748.46,
+          "lo": 606877155.58,
+          "hi": 713874341.34,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-05",
+          "yhat": 685055463.12,
+          "lo": 631556870.24,
+          "hi": 738554056.0,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-06",
+          "yhat": 714796259.24,
+          "lo": 661297666.36,
+          "hi": 768294852.11,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-07",
+          "yhat": 745742626.38,
+          "lo": 692244033.5,
+          "hi": 799241219.25,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-08",
+          "yhat": 773370176.51,
+          "lo": 719871583.63,
+          "hi": 826868769.39,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-09",
+          "yhat": 793812806.4,
+          "lo": 740314213.53,
+          "hi": 847311399.28,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-10",
+          "yhat": 805227536.97,
+          "lo": 751728944.09,
+          "hi": 858726129.84,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-11",
+          "yhat": 808539430.11,
+          "lo": 755040837.24,
+          "hi": 862038022.99,
+          "target": "collections_egp"
+        },
+        {
+          "Month": "2026-12",
+          "yhat": 807164161.68,
+          "lo": 753665568.81,
+          "hi": 860662754.56,
+          "target": "collections_egp"
+        }
+      ]
+    }
+  },
+  "risk_results": {
+    "as_of": "2025-12-31",
+    "trained_through_as_of": "2025-10-02",
+    "training_start": "2024-03-01",
+    "training_end": "2025-02-28",
+    "test_start": "2025-06-06",
+    "test_end": "2025-09-26",
+    "n_train": 64119,
+    "n_test": 19547,
+    "n_current_units": 2201,
+    "unsold_rate_test": 0.8494,
+    "metrics": [
+      {
+        "model": "prior_rate",
+        "n_train": 64119,
+        "n_test": 19547,
+        "unsold_rate_train": 0.8679,
+        "unsold_rate_test": 0.8494,
+        "ROC_AUC": 0.5,
+        "PR_AUC": 0.8494,
+        "Brier": 0.1283,
+        "LogLoss": 0.4252,
+        "Precision@top20%": 0.7594
+      },
+      {
+        "model": "project_rate_rule",
+        "n_train": 64119,
+        "n_test": 19547,
+        "unsold_rate_train": 0.8679,
+        "unsold_rate_test": 0.8494,
+        "ROC_AUC": 0.6572,
+        "PR_AUC": 0.9046,
+        "Brier": 0.1244,
+        "LogLoss": 0.4132,
+        "Precision@top20%": 0.9318
+      },
+      {
+        "model": "logistic",
+        "n_train": 64119,
+        "n_test": 19547,
+        "unsold_rate_train": 0.8679,
+        "unsold_rate_test": 0.8494,
+        "ROC_AUC": 0.7207,
+        "PR_AUC": 0.9283,
+        "Brier": 0.118,
+        "LogLoss": 0.386,
+        "Precision@top20%": 0.9549
+      },
+      {
+        "model": "gbm",
+        "n_train": 64119,
+        "n_test": 19547,
+        "unsold_rate_train": 0.8679,
+        "unsold_rate_test": 0.8494,
+        "ROC_AUC": 0.7047,
+        "PR_AUC": 0.9229,
+        "Brier": 0.1198,
+        "LogLoss": 0.397,
+        "Precision@top20%": 0.9427
+      }
+    ],
+    "calibration": [
+      {
+        "n": 1955,
+        "mean_pred": 0.5376,
+        "observed": 0.6225
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.6716,
+        "observed": 0.7187
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.7608,
+        "observed": 0.7932
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.8237,
+        "observed": 0.8317
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.8672,
+        "observed": 0.8793
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.8968,
+        "observed": 0.9089
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9154,
+        "observed": 0.9151
+      },
+      {
+        "n": 1954,
+        "mean_pred": 0.9328,
+        "observed": 0.9171
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.95,
+        "observed": 0.9478
+      },
+      {
+        "n": 1955,
+        "mean_pred": 0.9756,
+        "observed": 0.9596
+      }
+    ],
+    "projects": [
+      {
+        "Project_ID": "P038",
+        "District_ID": "D10",
+        "units_on_market": 394,
+        "expected_unsold_90d": 364.7853,
+        "mean_p_unsold": 0.9259,
+        "expected_sold_90d": 29.2147
+      },
+      {
+        "Project_ID": "P040",
+        "District_ID": "D10",
+        "units_on_market": 150,
+        "expected_unsold_90d": 138.448,
+        "mean_p_unsold": 0.923,
+        "expected_sold_90d": 11.552
+      },
+      {
+        "Project_ID": "P033",
+        "District_ID": "D09",
+        "units_on_market": 135,
+        "expected_unsold_90d": 124.4791,
+        "mean_p_unsold": 0.9221,
+        "expected_sold_90d": 10.5209
+      },
+      {
+        "Project_ID": "P037",
+        "District_ID": "D10",
+        "units_on_market": 119,
+        "expected_unsold_90d": 111.0735,
+        "mean_p_unsold": 0.9334,
+        "expected_sold_90d": 7.9265
+      },
+      {
+        "Project_ID": "P039",
+        "District_ID": "D10",
+        "units_on_market": 122,
+        "expected_unsold_90d": 110.6875,
+        "mean_p_unsold": 0.9073,
+        "expected_sold_90d": 11.3125
+      },
+      {
+        "Project_ID": "P035",
+        "District_ID": "D09",
+        "units_on_market": 106,
+        "expected_unsold_90d": 98.2027,
+        "mean_p_unsold": 0.9264,
+        "expected_sold_90d": 7.7973
+      },
+      {
+        "Project_ID": "P036",
+        "District_ID": "D09",
+        "units_on_market": 106,
+        "expected_unsold_90d": 95.9199,
+        "mean_p_unsold": 0.9049,
+        "expected_sold_90d": 10.0801
+      },
+      {
+        "Project_ID": "P034",
+        "District_ID": "D09",
+        "units_on_market": 101,
+        "expected_unsold_90d": 94.2626,
+        "mean_p_unsold": 0.9333,
+        "expected_sold_90d": 6.7374
+      },
+      {
+        "Project_ID": "P019",
+        "District_ID": "D05",
+        "units_on_market": 75,
+        "expected_unsold_90d": 66.3755,
+        "mean_p_unsold": 0.885,
+        "expected_sold_90d": 8.6245
+      },
+      {
+        "Project_ID": "P027",
+        "District_ID": "D07",
+        "units_on_market": 72,
+        "expected_unsold_90d": 58.0785,
+        "mean_p_unsold": 0.8066,
+        "expected_sold_90d": 13.9215
+      },
+      {
+        "Project_ID": "P030",
+        "District_ID": "D08",
+        "units_on_market": 68,
+        "expected_unsold_90d": 56.4957,
+        "mean_p_unsold": 0.8308,
+        "expected_sold_90d": 11.5043
+      },
+      {
+        "Project_ID": "P031",
+        "District_ID": "D08",
+        "units_on_market": 63,
+        "expected_unsold_90d": 50.2692,
+        "mean_p_unsold": 0.7979,
+        "expected_sold_90d": 12.7308
+      },
+      {
+        "Project_ID": "P025",
+        "District_ID": "D07",
+        "units_on_market": 61,
+        "expected_unsold_90d": 48.7956,
+        "mean_p_unsold": 0.7999,
+        "expected_sold_90d": 12.2044
+      },
+      {
+        "Project_ID": "P029",
+        "District_ID": "D08",
+        "units_on_market": 59,
+        "expected_unsold_90d": 47.3592,
+        "mean_p_unsold": 0.8027,
+        "expected_sold_90d": 11.6408
+      },
+      {
+        "Project_ID": "P026",
+        "District_ID": "D07",
+        "units_on_market": 56,
+        "expected_unsold_90d": 43.9911,
+        "mean_p_unsold": 0.7856,
+        "expected_sold_90d": 12.0089
+      },
+      {
+        "Project_ID": "P023",
+        "District_ID": "D06",
+        "units_on_market": 50,
+        "expected_unsold_90d": 38.944,
+        "mean_p_unsold": 0.7789,
+        "expected_sold_90d": 11.056
+      },
+      {
+        "Project_ID": "P028",
+        "District_ID": "D07",
+        "units_on_market": 48,
+        "expected_unsold_90d": 38.2817,
+        "mean_p_unsold": 0.7975,
+        "expected_sold_90d": 9.7183
+      },
+      {
+        "Project_ID": "P020",
+        "District_ID": "D05",
+        "units_on_market": 43,
+        "expected_unsold_90d": 33.1072,
+        "mean_p_unsold": 0.7699,
+        "expected_sold_90d": 9.8928
+      },
+      {
+        "Project_ID": "P024",
+        "District_ID": "D06",
+        "units_on_market": 43,
+        "expected_unsold_90d": 31.3499,
+        "mean_p_unsold": 0.7291,
+        "expected_sold_90d": 11.6501
+      },
+      {
+        "Project_ID": "P032",
+        "District_ID": "D08",
+        "units_on_market": 43,
+        "expected_unsold_90d": 30.4494,
+        "mean_p_unsold": 0.7081,
+        "expected_sold_90d": 12.5506
+      },
+      {
+        "Project_ID": "P017",
+        "District_ID": "D05",
+        "units_on_market": 38,
+        "expected_unsold_90d": 29.3583,
+        "mean_p_unsold": 0.7726,
+        "expected_sold_90d": 8.6417
+      },
+      {
+        "Project_ID": "P021",
+        "District_ID": "D06",
+        "units_on_market": 32,
+        "expected_unsold_90d": 21.9794,
+        "mean_p_unsold": 0.6869,
+        "expected_sold_90d": 10.0206
+      },
+      {
+        "Project_ID": "P018",
+        "District_ID": "D05",
+        "units_on_market": 26,
+        "expected_unsold_90d": 18.8914,
+        "mean_p_unsold": 0.7266,
+        "expected_sold_90d": 7.1086
+      },
+      {
+        "Project_ID": "P014",
+        "District_ID": "D04",
+        "units_on_market": 22,
+        "expected_unsold_90d": 17.3666,
+        "mean_p_unsold": 0.7894,
+        "expected_sold_90d": 4.6334
+      },
+      {
+        "Project_ID": "P022",
+        "District_ID": "D06",
+        "units_on_market": 26,
+        "expected_unsold_90d": 16.0111,
+        "mean_p_unsold": 0.6158,
+        "expected_sold_90d": 9.9889
+      },
+      {
+        "Project_ID": "P016",
+        "District_ID": "D04",
+        "units_on_market": 18,
+        "expected_unsold_90d": 14.4669,
+        "mean_p_unsold": 0.8037,
+        "expected_sold_90d": 3.5331
+      },
+      {
+        "Project_ID": "P015",
+        "District_ID": "D04",
+        "units_on_market": 17,
+        "expected_unsold_90d": 12.7525,
+        "mean_p_unsold": 0.7501,
+        "expected_sold_90d": 4.2475
+      },
+      {
+        "Project_ID": "P008",
+        "District_ID": "D02",
+        "units_on_market": 14,
+        "expected_unsold_90d": 12.2199,
+        "mean_p_unsold": 0.8728,
+        "expected_sold_90d": 1.7801
+      },
+      {
+        "Project_ID": "P012",
+        "District_ID": "D03",
+        "units_on_market": 15,
+        "expected_unsold_90d": 11.5489,
+        "mean_p_unsold": 0.7699,
+        "expected_sold_90d": 3.4511
+      },
+      {
+        "Project_ID": "P010",
+        "District_ID": "D03",
+        "units_on_market": 15,
+        "expected_unsold_90d": 10.6071,
+        "mean_p_unsold": 0.7071,
+        "expected_sold_90d": 4.3929
+      },
+      {
+        "Project_ID": "P002",
+        "District_ID": "D01",
+        "units_on_market": 12,
+        "expected_unsold_90d": 10.3677,
+        "mean_p_unsold": 0.864,
+        "expected_sold_90d": 1.6323
+      },
+      {
+        "Project_ID": "P009",
+        "District_ID": "D03",
+        "units_on_market": 13,
+        "expected_unsold_90d": 9.6643,
+        "mean_p_unsold": 0.7434,
+        "expected_sold_90d": 3.3357
+      },
+      {
+        "Project_ID": "P011",
+        "District_ID": "D03",
+        "units_on_market": 13,
+        "expected_unsold_90d": 9.4673,
+        "mean_p_unsold": 0.7283,
+        "expected_sold_90d": 3.5327
+      },
+      {
+        "Project_ID": "P013",
+        "District_ID": "D04",
+        "units_on_market": 10,
+        "expected_unsold_90d": 7.6034,
+        "mean_p_unsold": 0.7603,
+        "expected_sold_90d": 2.3966
+      },
+      {
+        "Project_ID": "P005",
+        "District_ID": "D02",
+        "units_on_market": 5,
+        "expected_unsold_90d": 4.1375,
+        "mean_p_unsold": 0.8275,
+        "expected_sold_90d": 0.8625
+      },
+      {
+        "Project_ID": "P003",
+        "District_ID": "D01",
+        "units_on_market": 4,
+        "expected_unsold_90d": 3.4813,
+        "mean_p_unsold": 0.8703,
+        "expected_sold_90d": 0.5187
+      },
+      {
+        "Project_ID": "P001",
+        "District_ID": "D01",
+        "units_on_market": 4,
+        "expected_unsold_90d": 3.3553,
+        "mean_p_unsold": 0.8388,
+        "expected_sold_90d": 0.6447
+      },
+      {
+        "Project_ID": "P004",
+        "District_ID": "D01",
+        "units_on_market": 2,
+        "expected_unsold_90d": 1.7511,
+        "mean_p_unsold": 0.8756,
+        "expected_sold_90d": 0.2489
+      },
+      {
+        "Project_ID": "P007",
+        "District_ID": "D02",
+        "units_on_market": 1,
+        "expected_unsold_90d": 0.7801,
+        "mean_p_unsold": 0.7801,
+        "expected_sold_90d": 0.2199
+      }
+    ],
+    "districts": [
+      {
+        "District_ID": "D01",
+        "units": 22,
+        "mean_p": 0.8616,
+        "expected_unsold": 18.9555,
+        "high": 2
+      },
+      {
+        "District_ID": "D02",
+        "units": 20,
+        "mean_p": 0.8569,
+        "expected_unsold": 17.1375,
+        "high": 3
+      },
+      {
+        "District_ID": "D03",
+        "units": 56,
+        "mean_p": 0.7373,
+        "expected_unsold": 41.2876,
+        "high": 3
+      },
+      {
+        "District_ID": "D04",
+        "units": 67,
+        "mean_p": 0.7789,
+        "expected_unsold": 52.1893,
+        "high": 10
+      },
+      {
+        "District_ID": "D05",
+        "units": 182,
+        "mean_p": 0.8117,
+        "expected_unsold": 147.7325,
+        "high": 40
+      },
+      {
+        "District_ID": "D06",
+        "units": 151,
+        "mean_p": 0.7171,
+        "expected_unsold": 108.2844,
+        "high": 15
+      },
+      {
+        "District_ID": "D07",
+        "units": 237,
+        "mean_p": 0.7981,
+        "expected_unsold": 189.1468,
+        "high": 42
+      },
+      {
+        "District_ID": "D08",
+        "units": 233,
+        "mean_p": 0.7922,
+        "expected_unsold": 184.5735,
+        "high": 40
+      },
+      {
+        "District_ID": "D09",
+        "units": 448,
+        "mean_p": 0.9216,
+        "expected_unsold": 412.8643,
+        "high": 265
+      },
+      {
+        "District_ID": "D10",
+        "units": 785,
+        "mean_p": 0.9236,
+        "expected_unsold": 724.9943,
+        "high": 457
+      }
+    ],
+    "artifacts": {
+      "logistic": "outputs\\retrained_models\\unsold_risk_logistic.joblib",
+      "gbm": "outputs\\retrained_models\\unsold_risk_gbm.joblib"
+    },
+    "model_directory": "C:\\Users\\Dell\\Downloads\\acud-prototype (1)\\acud-prototype\\outputs\\retrained_models",
+    "run_id": 2,
+    "run_timestamp": "2026-10-29T11:29:47.215400+00:00",
+    "data_timestamp": "2025-12-01T00:00:00",
+    "source": "postgresql"
+  },
+  "anomaly_count": 1,
+  "model_directory": "C:\\Users\\Dell\\Downloads\\acud-prototype (1)\\acud-prototype\\outputs\\retrained_models",
+  "source": "postgresql",
+  "run_id": 2
+}
