@@ -1,0 +1,1681 @@
+﻿Month,District_ID,Resident_Segment,Estimated_Household_Share_Pct,Preferred_Transport_Mode,Education_Need_Level,Healthcare_Need_Level,Recreation_Need_Level,Affordability_Pressure_Level,Sustainability_Preference_Share_Pct,Profile_Data_Status,Is_Synthetic
+2024-01-01,D01,Young professionals,12.091,Public transport,High,Low,Medium,Moderate,31.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Newly married couples,10.8,Private car,Medium,Low,High,High,25.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Families with children,10.163,Public transport,High,Medium,Low,Moderate,31.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Larger families,11.589,Mixed,Medium,Low,Medium,High,82.34,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Retirees,3.177,Mixed,Low,Medium,High,Moderate,41.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Budget-conscious households,36.467,Mixed,High,Medium,Medium,High,46.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D01,Premium housing seekers,15.713,Mixed,Medium,High,Medium,Moderate,79.83,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Young professionals,15.705,Mixed,High,Low,High,Moderate,80.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Newly married couples,8.465,Mixed,High,Medium,High,Moderate,64.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Families with children,31.708,Public transport,High,Medium,Medium,Low,82.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Larger families,16.921,Mixed,Medium,Medium,Low,Low,51.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Retirees,9.087,Mixed,Medium,Low,Medium,Moderate,79.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Budget-conscious households,3.049,Mixed,Medium,Medium,High,Moderate,72.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D01,Premium housing seekers,15.065,Mixed,High,Medium,Low,Low,42.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Young professionals,20.889,Private car,Low,Medium,High,Low,52.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Newly married couples,8.708,Private car,Medium,Medium,Medium,Moderate,78.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Families with children,33.78,Private car,High,High,High,Moderate,82.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Larger families,23.673,Mixed,Medium,Medium,Low,High,57.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Retirees,1.219,Public transport,Medium,Medium,Medium,Low,80.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Budget-conscious households,9.246,Mixed,High,Low,Medium,High,41.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D01,Premium housing seekers,2.484,Private car,Low,High,High,High,53.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Young professionals,3.907,Private car,High,High,Medium,Moderate,61.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Newly married couples,42.809,Public transport,High,Medium,High,Moderate,72.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Families with children,30.661,Mixed,Medium,High,High,Moderate,58.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Larger families,6.034,Mixed,Low,Low,High,Moderate,59.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Retirees,1.024,Walking,High,Low,Medium,High,84.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Budget-conscious households,8.279,Private car,High,Medium,Medium,Moderate,63.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D01,Premium housing seekers,7.286,Walking,Medium,Medium,Low,Moderate,66.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Young professionals,9.46,Walking,Medium,Medium,Low,Moderate,41.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Newly married couples,11.593,Walking,Medium,High,High,Moderate,25.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Families with children,9.111,Mixed,High,High,Medium,Low,69.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Larger families,12.432,Private car,Medium,Medium,Low,Low,41.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Retirees,30.458,Public transport,Medium,Medium,Low,Low,25.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Budget-conscious households,23.481,Private car,Low,Low,Medium,Low,64.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D01,Premium housing seekers,3.466,Private car,High,Medium,Medium,Moderate,72.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Young professionals,34.56,Private car,Medium,Low,High,Low,59.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Newly married couples,6.062,Mixed,Medium,High,High,Low,76.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Families with children,10.192,Private car,High,High,Medium,Moderate,25.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Larger families,5.518,Mixed,Low,High,Medium,High,70.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Retirees,21.608,Walking,High,Medium,Low,High,61.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Budget-conscious households,14.896,Public transport,High,High,Low,Moderate,77.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D01,Premium housing seekers,7.165,Mixed,Low,Medium,High,Moderate,45.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Young professionals,2.632,Mixed,High,Medium,Medium,High,28.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Newly married couples,22.768,Private car,High,High,High,Moderate,75.05,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Families with children,37.317,Private car,High,Medium,High,Low,59.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Larger families,12.43,Mixed,High,Medium,High,Moderate,39.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Retirees,1.424,Walking,High,Medium,Low,Moderate,62.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Budget-conscious households,12.724,Public transport,High,Medium,Medium,Low,60.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D01,Premium housing seekers,10.705,Private car,High,Low,High,High,33.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Young professionals,3.205,Public transport,Medium,Low,Low,Moderate,43.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Newly married couples,22.16,Walking,High,Medium,Medium,High,70.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Families with children,23.879,Private car,High,Low,High,Moderate,33.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Larger families,16.969,Mixed,Medium,Medium,Low,Low,45.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Retirees,10.359,Mixed,Low,Medium,Medium,High,77.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Budget-conscious households,9.201,Private car,High,Medium,Low,Moderate,55.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D01,Premium housing seekers,14.227,Walking,High,High,Low,Low,46.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Young professionals,37.934,Private car,Low,Low,Medium,Moderate,48.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Newly married couples,19.865,Walking,Medium,High,High,Moderate,32.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Families with children,13.693,Walking,Medium,Medium,Medium,Moderate,83.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Larger families,1.052,Public transport,Medium,Medium,Medium,Moderate,78.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Retirees,15.581,Private car,Medium,Medium,High,Low,66.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Budget-conscious households,9.35,Private car,High,Medium,Medium,High,74.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D01,Premium housing seekers,2.524,Mixed,High,Medium,High,High,71.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Young professionals,33.422,Walking,Low,High,Medium,Low,60.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Newly married couples,15.504,Private car,High,Medium,Medium,Moderate,27.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Families with children,10.192,Private car,Medium,Medium,Low,Low,58.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Larger families,15.211,Walking,Medium,High,High,Moderate,57.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Retirees,3.21,Mixed,Medium,Medium,Medium,Moderate,55.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Budget-conscious households,16.692,Private car,High,Medium,Low,Moderate,84.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D01,Premium housing seekers,5.768,Public transport,Medium,Low,High,High,54.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Young professionals,23.626,Private car,High,Medium,High,Moderate,48.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Newly married couples,6.453,Public transport,Medium,Medium,Low,Moderate,60.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Families with children,48.141,Mixed,Low,Medium,Medium,High,82.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Larger families,0.803,Mixed,Medium,Medium,Medium,High,47.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Retirees,0.042,Private car,Medium,Medium,High,Low,31.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Budget-conscious households,11.743,Mixed,High,Medium,Medium,Low,34.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D01,Premium housing seekers,9.192,Public transport,Medium,High,Low,Moderate,37.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Young professionals,25.887,Mixed,High,Low,High,Moderate,40.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Newly married couples,2.221,Private car,Medium,Medium,Medium,High,48.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Families with children,32.396,Public transport,High,Medium,Medium,Low,53.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Larger families,7.395,Mixed,Medium,Low,Medium,Low,65.36,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Retirees,4.046,Mixed,Low,Medium,Low,High,34.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Budget-conscious households,23.703,Mixed,Medium,Medium,High,Low,48.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D01,Premium housing seekers,4.352,Mixed,High,Medium,Medium,Moderate,74.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Young professionals,5.169,Private car,Medium,Medium,Low,High,49.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Newly married couples,26.328,Public transport,High,Medium,Medium,High,41.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Families with children,14.164,Private car,Medium,High,High,Low,32.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Larger families,7.506,Mixed,Medium,Low,High,Moderate,39.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Retirees,13.569,Public transport,Medium,Medium,High,High,33.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Budget-conscious households,29.153,Mixed,Low,High,Low,Low,49.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D01,Premium housing seekers,4.11,Private car,High,Medium,Medium,Low,83.26,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Young professionals,0.691,Private car,Low,Medium,Medium,High,83.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Newly married couples,0.758,Walking,Medium,Medium,High,High,54.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Families with children,58.092,Private car,Low,Medium,Low,Moderate,67.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Larger families,3.437,Mixed,Low,Medium,Medium,Moderate,47.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Retirees,17.901,Mixed,Low,Low,High,Moderate,39.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Budget-conscious households,9.627,Mixed,High,High,Low,High,56.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D01,Premium housing seekers,9.494,Private car,High,Low,Low,Low,75.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Young professionals,25.329,Walking,Medium,Low,Medium,Moderate,35.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Newly married couples,18.792,Private car,Medium,Medium,Medium,High,74.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Families with children,27.02,Mixed,High,Medium,Low,Moderate,48.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Larger families,5.942,Mixed,Medium,Low,High,Moderate,50.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Retirees,6.996,Mixed,High,Medium,Medium,Moderate,36.25,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Budget-conscious households,4.295,Mixed,Low,Medium,Medium,Low,36.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D01,Premium housing seekers,11.627,Mixed,Medium,High,Medium,Moderate,30.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Young professionals,13.4,Private car,High,High,High,Low,38.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Newly married couples,28.219,Mixed,High,Low,High,Moderate,38.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Families with children,40.829,Private car,Medium,Medium,Medium,Moderate,80.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Larger families,3.71,Mixed,High,Medium,Low,High,25.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Retirees,6.192,Walking,High,High,Low,High,35.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Budget-conscious households,5.822,Private car,High,Medium,Medium,Moderate,36.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D01,Premium housing seekers,1.828,Mixed,High,Medium,High,Moderate,56.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Young professionals,7.131,Public transport,Medium,Low,High,Moderate,80.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Newly married couples,19.095,Mixed,Medium,Medium,Low,Moderate,75.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Families with children,17.153,Mixed,Medium,High,High,Moderate,76.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Larger families,1.023,Public transport,Medium,Medium,Medium,High,74.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Retirees,0.036,Private car,High,High,Medium,Low,53.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Budget-conscious households,49.22,Mixed,Medium,Medium,High,Moderate,30.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D01,Premium housing seekers,6.342,Mixed,Low,Medium,High,Moderate,25.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Young professionals,11.799,Mixed,Medium,Medium,Medium,High,50.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Newly married couples,2.962,Mixed,High,Medium,Medium,Moderate,45.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Families with children,20.564,Mixed,High,High,Low,Moderate,51.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Larger families,22.341,Public transport,High,Medium,High,Moderate,55.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Retirees,1.673,Public transport,High,Medium,Low,Low,53.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Budget-conscious households,15.706,Mixed,Medium,High,Low,Moderate,67.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D01,Premium housing seekers,24.955,Private car,Medium,Medium,Low,Moderate,75.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Young professionals,5.886,Mixed,High,Low,Low,High,36.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Newly married couples,3.448,Mixed,High,Medium,High,Low,45.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Families with children,51.963,Private car,High,High,Medium,Moderate,70.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Larger families,12.003,Public transport,Medium,High,Medium,Moderate,34.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Retirees,4.936,Walking,High,Medium,Low,Low,77.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Budget-conscious households,16.593,Mixed,Low,Medium,Medium,Moderate,35.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D01,Premium housing seekers,5.17,Mixed,High,Low,Medium,Low,39.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Young professionals,20.028,Walking,Medium,High,Low,High,39.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Newly married couples,0.574,Private car,Medium,Medium,Medium,Low,41.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Families with children,24.408,Walking,Medium,Medium,High,Low,43.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Larger families,1.213,Mixed,High,Medium,Medium,Moderate,84.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Retirees,21.301,Private car,Low,Medium,Medium,Moderate,39.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Budget-conscious households,32.303,Mixed,Medium,High,High,Low,36.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D01,Premium housing seekers,0.173,Mixed,Medium,Medium,High,Low,68.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Young professionals,30.124,Public transport,Medium,Medium,Low,Low,50.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Newly married couples,7.877,Mixed,Medium,Low,Medium,Moderate,42.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Families with children,21.533,Private car,Medium,Medium,High,High,68.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Larger families,1.206,Private car,Medium,Low,Low,Moderate,76.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Retirees,2.409,Mixed,High,Low,Medium,Moderate,66.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Budget-conscious households,33.264,Private car,Medium,High,Low,High,82.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D01,Premium housing seekers,3.586,Private car,High,High,Low,Moderate,31.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Young professionals,24.947,Mixed,High,High,Medium,Moderate,58.78,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Newly married couples,19.352,Private car,High,Medium,Low,Low,28.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Families with children,18.739,Public transport,High,High,High,High,74.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Larger families,18.775,Private car,High,High,Medium,High,47.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Retirees,4.383,Mixed,High,Medium,Medium,Low,50.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Budget-conscious households,13.793,Private car,High,Medium,Medium,Moderate,65.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D01,Premium housing seekers,0.011,Public transport,Low,Medium,High,Low,53.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Young professionals,22.116,Private car,High,High,Low,Low,64.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Newly married couples,17.339,Mixed,Low,Medium,Medium,Moderate,37.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Families with children,13.52,Public transport,Low,Low,High,Moderate,81.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Larger families,4.313,Private car,Low,Medium,Medium,Moderate,25.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Retirees,2.993,Public transport,Low,Medium,Low,Moderate,77.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Budget-conscious households,27.183,Public transport,High,Medium,High,High,59.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D01,Premium housing seekers,12.536,Private car,Medium,High,High,High,37.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Young professionals,10.443,Private car,Medium,Medium,Medium,Moderate,68.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Newly married couples,18.135,Mixed,High,Medium,Medium,Moderate,71.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Families with children,30.134,Mixed,High,Low,Low,Moderate,29.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Larger families,18.123,Private car,Medium,Medium,Medium,High,38.77,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Retirees,1.55,Mixed,Medium,Low,Low,Low,53.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Budget-conscious households,13.763,Private car,Low,Medium,Medium,Moderate,63.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D01,Premium housing seekers,7.852,Private car,High,Medium,Medium,High,80.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Young professionals,6.334,Private car,Medium,High,Medium,Moderate,32.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Newly married couples,8.221,Private car,Medium,High,High,Moderate,53.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Families with children,36.987,Mixed,High,High,Medium,Low,57.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Larger families,9.832,Private car,High,Medium,High,Moderate,30.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Retirees,13.762,Private car,Medium,Medium,Low,Moderate,38.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Budget-conscious households,2.772,Public transport,Low,Medium,High,Low,33.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D02,Premium housing seekers,22.093,Mixed,High,Medium,Low,High,60.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Young professionals,19.253,Private car,Medium,Low,High,Moderate,29.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Newly married couples,12.281,Mixed,Low,High,High,Moderate,45.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Families with children,13.733,Mixed,Medium,Low,High,High,59.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Larger families,25.115,Mixed,Medium,High,Medium,Low,29.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Retirees,15.517,Mixed,High,Medium,Low,Moderate,31.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Budget-conscious households,9.154,Private car,High,Medium,Medium,Moderate,52.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D02,Premium housing seekers,4.948,Walking,High,Low,Low,High,59.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Young professionals,7.457,Walking,High,Medium,Medium,Low,75.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Newly married couples,15.198,Private car,High,High,Medium,Moderate,45.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Families with children,21.406,Mixed,Medium,Medium,Low,Moderate,36.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Larger families,5.582,Walking,High,High,Low,Moderate,61.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Retirees,12.532,Mixed,Medium,Low,Medium,Low,49.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Budget-conscious households,33.998,Mixed,Medium,High,Medium,Low,75.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D02,Premium housing seekers,3.827,Private car,Medium,Medium,Medium,Moderate,28.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Young professionals,5.181,Private car,High,Medium,Medium,Low,45.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Newly married couples,21.83,Private car,Medium,Medium,Medium,Moderate,32.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Families with children,16.14,Mixed,High,Medium,Medium,Moderate,78.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Larger families,8.598,Mixed,Medium,Low,High,Low,58.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Retirees,12.043,Public transport,Medium,Low,High,High,34.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Budget-conscious households,32.07,Walking,Low,Medium,High,Moderate,74.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D02,Premium housing seekers,4.137,Private car,Medium,Medium,Medium,High,28.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Young professionals,7.921,Mixed,Low,Low,Low,High,32.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Newly married couples,0.445,Private car,Low,Medium,High,Low,57.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Families with children,66.333,Private car,Medium,Medium,Medium,Moderate,63.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Larger families,0.548,Public transport,High,Medium,High,Moderate,45.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Retirees,0.39,Private car,High,Medium,Medium,Moderate,26.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Budget-conscious households,6.216,Private car,High,Low,High,High,43.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D02,Premium housing seekers,18.147,Public transport,High,Medium,High,Low,82.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Young professionals,14.344,Mixed,High,Medium,High,Low,66.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Newly married couples,4.077,Mixed,High,Low,High,Moderate,77.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Families with children,38.904,Mixed,High,Low,Medium,Low,36.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Larger families,6.226,Public transport,Medium,Medium,Low,Moderate,41.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Retirees,24.71,Walking,Medium,High,High,Moderate,65.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Budget-conscious households,6.663,Mixed,Low,High,Medium,Moderate,63.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D02,Premium housing seekers,5.077,Walking,Medium,High,Medium,Moderate,27.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Young professionals,10.311,Public transport,High,Medium,Medium,High,39.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Newly married couples,14.689,Walking,Medium,Medium,Medium,Moderate,77.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Families with children,10.279,Mixed,High,Low,High,High,56.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Larger families,21.046,Mixed,Low,High,Medium,Moderate,82.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Retirees,12.838,Mixed,Medium,Medium,High,Moderate,75.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Budget-conscious households,30.109,Private car,High,Medium,High,Low,37.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D02,Premium housing seekers,0.728,Private car,High,Medium,High,Moderate,26.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Young professionals,15.898,Mixed,Medium,Low,High,Low,75.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Newly married couples,11.642,Walking,High,Medium,Medium,Moderate,76.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Families with children,34.866,Public transport,High,Medium,Low,High,50.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Larger families,3.455,Private car,High,High,Medium,Low,41.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Retirees,0.46,Walking,High,Low,Medium,Moderate,25.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Budget-conscious households,27.454,Private car,Low,Medium,Medium,Moderate,29.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D02,Premium housing seekers,6.225,Walking,Medium,Low,High,Moderate,34.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Young professionals,21.954,Mixed,Medium,Low,Medium,Low,37.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Newly married couples,4.613,Walking,Medium,Medium,Low,Low,64.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Families with children,40.89,Private car,Medium,Medium,Medium,Low,63.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Larger families,1.615,Private car,Medium,Medium,High,Moderate,43.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Retirees,5.118,Private car,Low,Medium,Low,Moderate,42.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Budget-conscious households,21.08,Public transport,Low,Low,Low,Moderate,61.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D02,Premium housing seekers,4.729,Mixed,Medium,High,Medium,Moderate,25.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Young professionals,30.339,Private car,High,Medium,Medium,High,81.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Newly married couples,3.562,Private car,High,High,High,High,30.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Families with children,11.863,Public transport,High,High,High,Moderate,81.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Larger families,22.14,Public transport,Medium,Medium,High,Moderate,82.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Retirees,7.111,Private car,High,Medium,High,Moderate,82.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Budget-conscious households,15.229,Public transport,Low,Medium,Medium,Low,76.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D02,Premium housing seekers,9.756,Public transport,High,Low,High,Moderate,77.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Young professionals,13.377,Private car,Medium,Medium,Medium,Low,76.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Newly married couples,33.352,Mixed,High,High,Medium,High,52.91,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Families with children,27.476,Mixed,Medium,Low,High,Moderate,42.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Larger families,1.175,Public transport,Low,High,Medium,Low,59.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Retirees,1.677,Walking,Low,Low,Low,Moderate,76.36,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Budget-conscious households,18.255,Private car,High,Low,Medium,High,83.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D02,Premium housing seekers,4.689,Private car,Medium,High,High,Moderate,58.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Young professionals,3.863,Mixed,High,High,Medium,Moderate,64.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Newly married couples,20.527,Mixed,Medium,Low,High,Low,42.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Families with children,61.849,Public transport,Medium,Low,Medium,High,43.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Larger families,3.177,Public transport,Medium,Medium,High,Low,67.6,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Retirees,5.505,Public transport,Low,High,High,Moderate,77.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Budget-conscious households,4.398,Mixed,Medium,High,High,Moderate,74.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D02,Premium housing seekers,0.681,Mixed,High,Low,Medium,Moderate,77.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Young professionals,9.377,Mixed,Low,Medium,High,Moderate,70.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Newly married couples,41.592,Private car,Low,Medium,Medium,Low,56.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Families with children,18.734,Private car,High,Medium,Low,Moderate,41.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Larger families,1.579,Mixed,Medium,High,High,Low,51.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Retirees,8.356,Mixed,High,Medium,Medium,Moderate,46.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Budget-conscious households,17.669,Public transport,Medium,High,Medium,Moderate,64.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D02,Premium housing seekers,2.693,Mixed,Low,High,High,Moderate,46.25,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Young professionals,9.718,Mixed,High,Low,Medium,High,28.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Newly married couples,25.355,Private car,Low,Medium,High,Low,49.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Families with children,26.625,Mixed,Low,High,Medium,Moderate,65.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Larger families,18.442,Public transport,Medium,Medium,Medium,Moderate,56.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Retirees,0.449,Private car,High,Medium,Medium,High,38.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Budget-conscious households,11.506,Public transport,High,Medium,High,Moderate,50.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D02,Premium housing seekers,7.905,Walking,Medium,Medium,Low,Low,84.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Young professionals,3.302,Mixed,Low,Medium,Medium,High,52.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Newly married couples,9.888,Mixed,Medium,High,High,Low,40.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Families with children,55.245,Private car,Medium,Medium,Medium,Low,58.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Larger families,5.558,Private car,High,Medium,Medium,High,32.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Retirees,12.98,Private car,High,High,Low,High,33.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Budget-conscious households,2.891,Mixed,Medium,Medium,Low,Moderate,68.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D02,Premium housing seekers,10.136,Private car,High,High,Medium,Low,53.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Young professionals,14.588,Public transport,High,Low,Medium,Moderate,43.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Newly married couples,3.624,Private car,High,Low,Medium,High,76.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Families with children,35.632,Private car,Medium,Medium,Medium,High,58.03,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Larger families,25.641,Private car,Medium,Low,Medium,Moderate,67.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Retirees,7.852,Mixed,Low,Medium,High,High,35.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Budget-conscious households,11.41,Private car,Medium,High,Medium,Low,53.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D02,Premium housing seekers,1.253,Private car,High,High,High,High,41.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Young professionals,6.473,Mixed,High,Low,Low,Moderate,26.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Newly married couples,13.796,Public transport,Medium,Medium,Medium,Moderate,76.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Families with children,26.702,Mixed,High,Low,High,Moderate,29.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Larger families,19.164,Walking,Medium,Medium,Medium,High,57.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Retirees,11.382,Private car,Medium,Medium,Medium,High,70.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Budget-conscious households,10.676,Private car,Medium,Medium,Low,Low,54.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D02,Premium housing seekers,11.807,Walking,High,Medium,Medium,Low,68.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Young professionals,25.788,Private car,Low,Low,High,Moderate,71.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Newly married couples,4.513,Private car,Medium,Low,High,Low,51.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Families with children,24.523,Mixed,Medium,Low,Medium,High,55.93,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Larger families,15.905,Private car,Low,Medium,Medium,Low,50.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Retirees,17.844,Private car,Medium,Medium,High,Moderate,81.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Budget-conscious households,5.086,Private car,Low,Low,Medium,Moderate,52.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D02,Premium housing seekers,6.342,Mixed,Medium,Medium,Medium,Low,61.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Young professionals,9.957,Walking,High,High,Medium,Low,62.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Newly married couples,29.523,Walking,High,High,Medium,High,79.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Families with children,37.8,Public transport,Low,Low,Medium,Moderate,29.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Larger families,6.389,Private car,Medium,Medium,High,High,55.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Retirees,0.612,Mixed,Medium,Medium,Low,Low,42.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Budget-conscious households,13.822,Public transport,Low,High,High,Moderate,61.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D02,Premium housing seekers,1.898,Public transport,High,High,Low,Low,62.26,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Young professionals,18.16,Private car,Low,High,Low,Moderate,63.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Newly married couples,10.138,Public transport,High,Medium,High,Low,29.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Families with children,12.769,Mixed,Low,Medium,Medium,Low,37.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Larger families,12.751,Mixed,Low,Medium,Medium,Moderate,31.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Retirees,1.708,Private car,Medium,Low,Medium,High,47.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Budget-conscious households,40.377,Private car,Medium,High,Medium,High,64.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D02,Premium housing seekers,4.096,Mixed,Low,Medium,Low,Moderate,71.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Young professionals,4.583,Public transport,High,Low,Medium,Low,48.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Newly married couples,12.83,Mixed,High,Medium,Low,Low,70.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Families with children,30.195,Public transport,Low,High,High,Moderate,49.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Larger families,7.861,Private car,High,Low,Medium,Moderate,36.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Retirees,9.294,Mixed,High,Low,Medium,High,64.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Budget-conscious households,31.134,Public transport,Medium,Low,High,High,66.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D02,Premium housing seekers,4.103,Mixed,Low,Low,Medium,Low,28.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Young professionals,9.477,Walking,Medium,Low,High,Low,48.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Newly married couples,21.73,Public transport,High,Low,High,Moderate,66.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Families with children,24.825,Private car,High,Medium,Medium,Low,39.47,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Larger families,1.593,Mixed,Low,High,Low,High,44.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Retirees,13.993,Mixed,High,High,Medium,Moderate,28.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Budget-conscious households,25.931,Mixed,Medium,Medium,Medium,Low,83.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D02,Premium housing seekers,2.451,Public transport,High,Medium,Medium,Moderate,72.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Young professionals,8.334,Private car,Low,Low,High,Low,48.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Newly married couples,5.455,Private car,Medium,Low,Medium,Moderate,60.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Families with children,21.178,Walking,Medium,Low,Medium,Moderate,68.77,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Larger families,9.536,Public transport,Medium,High,Low,Moderate,75.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Retirees,9.255,Private car,Medium,Medium,Medium,Low,74.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Budget-conscious households,13.093,Public transport,Medium,Medium,Low,High,34.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D02,Premium housing seekers,33.148,Mixed,High,High,Low,High,53.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Young professionals,15.438,Mixed,High,Low,Medium,Moderate,50.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Newly married couples,10.427,Private car,Medium,High,Medium,Moderate,67.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Families with children,8.621,Walking,Medium,High,Medium,Low,44.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Larger families,6.565,Public transport,Medium,Low,Medium,Moderate,52.65,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Retirees,46.708,Mixed,High,Medium,High,Low,65.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Budget-conscious households,5.3,Private car,Medium,Medium,Medium,High,74.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D02,Premium housing seekers,6.941,Walking,High,Medium,Medium,Low,58.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Young professionals,13.727,Private car,Low,Low,Medium,High,76.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Newly married couples,21.472,Mixed,High,High,Medium,High,26.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Families with children,26.408,Private car,Medium,Medium,Medium,Moderate,52.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Larger families,8.904,Mixed,High,Low,Low,Moderate,61.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Retirees,1.52,Public transport,High,Low,Medium,Low,68.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Budget-conscious households,26.227,Public transport,Medium,Medium,Medium,Moderate,29.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D03,Premium housing seekers,1.742,Private car,Low,High,High,Moderate,60.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Young professionals,8.939,Walking,High,High,High,High,29.03,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Newly married couples,0.981,Walking,High,High,Medium,Moderate,29.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Families with children,50.372,Public transport,High,Low,Low,High,69.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Larger families,7.543,Private car,High,Medium,Medium,Low,43.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Retirees,11.372,Mixed,High,Medium,Low,High,44.97,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Budget-conscious households,20.682,Private car,Medium,Medium,Medium,Moderate,41.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D03,Premium housing seekers,0.112,Mixed,Medium,Low,Low,Moderate,43.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Young professionals,0.94,Walking,Medium,Medium,High,High,46.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Newly married couples,2.912,Mixed,High,High,Medium,Moderate,45.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Families with children,37.929,Private car,High,Low,High,Low,55.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Larger families,6.985,Mixed,Medium,Medium,Low,Moderate,63.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Retirees,1.818,Mixed,Low,Medium,High,Low,80.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Budget-conscious households,10.587,Private car,Low,Low,Medium,Moderate,80.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D03,Premium housing seekers,38.83,Private car,Medium,High,High,Low,44.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Young professionals,7.919,Walking,Medium,Medium,High,Low,37.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Newly married couples,17.168,Mixed,High,Medium,High,Moderate,62.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Families with children,18.475,Public transport,High,Medium,Medium,Low,35.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Larger families,25.328,Private car,Medium,High,Medium,Low,75.75,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Retirees,3.415,Private car,High,Medium,Medium,Moderate,56.6,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Budget-conscious households,22.264,Mixed,High,Medium,Medium,Low,74.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D03,Premium housing seekers,5.431,Private car,Low,High,Medium,Low,31.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Young professionals,12.346,Mixed,High,Low,High,Moderate,33.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Newly married couples,4.176,Private car,Medium,Low,Medium,Moderate,40.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Families with children,68.467,Public transport,Medium,Medium,Medium,Moderate,43.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Larger families,3.51,Private car,High,Low,High,Moderate,55.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Retirees,1.465,Private car,Medium,Low,Medium,High,56.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Budget-conscious households,9.494,Mixed,High,High,High,Moderate,33.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D03,Premium housing seekers,0.543,Private car,High,High,Medium,Moderate,78.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Young professionals,9.644,Walking,High,Medium,Medium,Moderate,49.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Newly married couples,22.082,Public transport,Low,Medium,Medium,High,82.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Families with children,17.572,Mixed,Medium,High,High,Low,51.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Larger families,5.135,Mixed,Medium,Medium,High,High,74.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Retirees,13.024,Public transport,Medium,Medium,Medium,Low,56.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Budget-conscious households,23.151,Mixed,High,High,Low,Low,66.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D03,Premium housing seekers,9.391,Public transport,High,High,High,Moderate,72.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Young professionals,43.813,Public transport,Medium,High,High,Moderate,65.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Newly married couples,4.734,Mixed,Medium,High,Medium,Moderate,75.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Families with children,11.733,Mixed,Medium,Medium,High,High,83.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Larger families,2.962,Private car,High,Medium,High,Moderate,82.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Retirees,12.636,Mixed,Medium,Medium,Medium,High,57.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Budget-conscious households,21.314,Mixed,Medium,High,Medium,Moderate,70.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D03,Premium housing seekers,2.808,Walking,High,Low,Medium,Moderate,42.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Young professionals,3.56,Private car,Medium,Low,Medium,Moderate,73.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Newly married couples,12.876,Private car,Medium,Medium,High,High,38.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Families with children,49.317,Walking,High,Low,Low,Moderate,32.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Larger families,21.37,Mixed,High,High,High,Low,60.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Retirees,0.171,Mixed,High,Medium,Low,Low,77.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Budget-conscious households,9.583,Walking,Medium,Medium,Low,Low,32.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D03,Premium housing seekers,3.123,Public transport,High,Low,Medium,High,46.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Young professionals,5.66,Mixed,Low,Low,Medium,High,25.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Newly married couples,14.054,Private car,Medium,Medium,High,Moderate,38.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Families with children,35.812,Private car,Low,Low,High,Moderate,66.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Larger families,9.424,Public transport,Medium,Medium,Low,High,33.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Retirees,6.216,Public transport,Medium,Low,High,Low,55.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Budget-conscious households,17.593,Mixed,Medium,High,Medium,Moderate,29.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D03,Premium housing seekers,11.241,Private car,Medium,Medium,Medium,Moderate,51.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Young professionals,40.411,Walking,High,Medium,Medium,High,40.82,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Newly married couples,5.765,Private car,Medium,Medium,Low,Moderate,51.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Families with children,32.763,Private car,Medium,Medium,High,Moderate,42.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Larger families,8.823,Walking,Medium,Medium,Low,Moderate,69.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Retirees,0.758,Mixed,Low,Medium,Medium,Low,41.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Budget-conscious households,3.911,Public transport,High,Medium,Low,Moderate,57.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D03,Premium housing seekers,7.569,Public transport,High,Medium,High,Moderate,82.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Young professionals,4.351,Mixed,Medium,Medium,Medium,Moderate,45.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Newly married couples,1.478,Mixed,Medium,High,High,Moderate,54.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Families with children,59.443,Mixed,Medium,High,Medium,Moderate,71.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Larger families,12.774,Private car,High,High,High,Moderate,47.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Retirees,3.661,Public transport,High,High,Medium,High,70.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Budget-conscious households,17.491,Mixed,High,Medium,Medium,Moderate,31.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D03,Premium housing seekers,0.802,Private car,Medium,Medium,Low,High,44.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Young professionals,48.468,Private car,Low,Medium,Medium,Moderate,36.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Newly married couples,1.68,Private car,Low,Medium,Medium,Moderate,53.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Families with children,23.522,Walking,Low,Medium,Low,Moderate,65.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Larger families,4.356,Private car,Medium,Medium,High,Moderate,25.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Retirees,3.175,Mixed,Medium,Medium,Medium,High,79.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Budget-conscious households,12.532,Private car,Medium,Medium,Low,High,47.41,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D03,Premium housing seekers,6.269,Mixed,High,Medium,Low,High,78.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Young professionals,22.424,Walking,Low,Medium,Medium,Moderate,54.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Newly married couples,3.569,Private car,High,Medium,High,Moderate,42.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Families with children,36.267,Walking,Medium,High,Medium,Moderate,68.26,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Larger families,5.301,Private car,High,Medium,Medium,Moderate,66.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Retirees,15.217,Public transport,High,Medium,Medium,Low,81.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Budget-conscious households,16.693,Private car,Low,Low,High,Moderate,79.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D03,Premium housing seekers,0.53,Walking,Low,Low,High,High,66.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Young professionals,0.513,Private car,High,High,High,Moderate,27.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Newly married couples,11.272,Mixed,Medium,Medium,Medium,Moderate,39.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Families with children,41.349,Walking,Medium,Medium,Low,Moderate,60.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Larger families,6.452,Public transport,High,High,Low,Moderate,25.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Retirees,0.235,Private car,Medium,Low,Medium,High,78.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Budget-conscious households,21.625,Private car,High,Low,Low,Moderate,62.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D03,Premium housing seekers,18.553,Mixed,Low,Medium,High,Moderate,26.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Young professionals,8.247,Private car,Low,Low,Medium,Moderate,52.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Newly married couples,20.45,Mixed,Medium,Medium,High,Moderate,46.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Families with children,29.763,Private car,Low,High,Low,Low,82.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Larger families,0.716,Public transport,Medium,High,Medium,Moderate,39.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Retirees,3.499,Private car,Low,Medium,Medium,Moderate,71.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Budget-conscious households,28.274,Mixed,Low,High,High,Moderate,67.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D03,Premium housing seekers,9.052,Private car,Low,Medium,High,Moderate,55.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Young professionals,7.289,Public transport,Medium,Medium,Medium,Low,25.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Newly married couples,3.36,Walking,Medium,High,Medium,Low,73.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Families with children,16.26,Mixed,Low,High,Medium,High,39.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Larger families,9.535,Walking,High,Low,Medium,Moderate,74.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Retirees,19.294,Public transport,Medium,High,High,Low,45.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Budget-conscious households,42.371,Private car,Low,Medium,High,Moderate,49.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D03,Premium housing seekers,1.892,Public transport,Medium,Medium,Medium,Moderate,30.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Young professionals,1.135,Mixed,Medium,Medium,Medium,Moderate,82.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Newly married couples,3.108,Mixed,Medium,Medium,Medium,Moderate,71.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Families with children,37.458,Private car,Medium,Medium,High,Moderate,28.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Larger families,21.819,Walking,Medium,High,High,High,36.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Retirees,3.178,Public transport,High,High,Medium,Low,31.3,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Budget-conscious households,30.773,Private car,Medium,Low,Low,Moderate,37.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D03,Premium housing seekers,2.53,Private car,High,Low,Low,Moderate,31.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Young professionals,19.858,Private car,Medium,High,Medium,Low,67.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Newly married couples,10.183,Mixed,High,Low,Medium,Moderate,66.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Families with children,23.424,Public transport,High,Medium,High,Moderate,68.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Larger families,11.907,Private car,Medium,High,Low,Moderate,80.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Retirees,6.175,Private car,High,High,Medium,Low,29.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Budget-conscious households,12.162,Mixed,High,Low,Low,Low,32.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D03,Premium housing seekers,16.29,Mixed,Medium,High,Medium,Low,65.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Young professionals,3.959,Walking,Medium,Low,High,High,58.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Newly married couples,7.943,Public transport,Low,Low,High,High,38.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Families with children,39.766,Public transport,High,Low,High,Moderate,27.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Larger families,7.417,Walking,High,High,High,Moderate,41.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Retirees,1.884,Private car,Low,Medium,Medium,Moderate,47.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Budget-conscious households,35.069,Private car,Medium,Medium,High,Low,76.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D03,Premium housing seekers,3.963,Mixed,Medium,Medium,High,Moderate,63.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Young professionals,33.464,Public transport,Low,High,Low,Moderate,27.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Newly married couples,1.458,Mixed,Medium,Low,Low,Moderate,75.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Families with children,39.997,Private car,High,Low,Low,Moderate,72.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Larger families,3.47,Private car,Medium,Medium,Low,Moderate,71.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Retirees,3.748,Public transport,High,Medium,Medium,Low,73.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Budget-conscious households,9.86,Private car,High,Low,Medium,Moderate,29.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D03,Premium housing seekers,8.003,Mixed,High,Medium,High,Moderate,45.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Young professionals,14.615,Public transport,High,Low,Medium,Moderate,74.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Newly married couples,8.12,Public transport,Low,High,Medium,High,56.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Families with children,30.469,Private car,High,High,Medium,Moderate,72.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Larger families,12.447,Mixed,Medium,Medium,High,Moderate,34.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Retirees,10.297,Private car,Medium,Medium,High,Moderate,30.47,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Budget-conscious households,22.566,Mixed,High,Medium,High,High,66.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D03,Premium housing seekers,1.487,Mixed,Medium,Low,Medium,High,42.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Young professionals,63.467,Public transport,High,Medium,High,High,84.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Newly married couples,5.708,Private car,Medium,Medium,Medium,Moderate,57.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Families with children,8.26,Walking,Medium,Medium,High,Moderate,76.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Larger families,9.654,Mixed,Medium,Medium,Low,Moderate,72.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Retirees,0.586,Walking,Medium,Medium,Low,High,39.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Budget-conscious households,6.802,Mixed,Medium,High,Medium,Low,71.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D03,Premium housing seekers,5.525,Public transport,Medium,High,Medium,Moderate,57.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Young professionals,13.142,Mixed,Medium,Low,Medium,Moderate,65.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Newly married couples,4.275,Private car,Medium,Medium,Low,Low,64.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Families with children,34.298,Private car,High,Low,High,Moderate,52.93,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Larger families,2.94,Private car,High,Medium,Medium,Low,57.58,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Retirees,35.257,Private car,High,Medium,Low,Moderate,78.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Budget-conscious households,7.874,Walking,Medium,Medium,Low,Moderate,84.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D03,Premium housing seekers,2.213,Public transport,High,Low,High,High,71.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Young professionals,15.835,Mixed,High,Medium,Medium,Moderate,75.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Newly married couples,4.351,Public transport,High,Medium,Medium,Low,43.05,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Families with children,27.071,Public transport,High,Medium,High,Moderate,65.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Larger families,28.159,Private car,Medium,Medium,Medium,High,75.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Retirees,5.305,Private car,Medium,High,High,High,71.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Budget-conscious households,12.639,Walking,High,High,Medium,Moderate,75.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D03,Premium housing seekers,6.64,Private car,High,Low,High,Moderate,67.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Young professionals,21.527,Private car,High,High,Medium,Moderate,38.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Newly married couples,16.523,Walking,Medium,Low,Medium,High,36.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Families with children,30.086,Mixed,Medium,High,Medium,Moderate,67.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Larger families,8.007,Mixed,Medium,Medium,Medium,Moderate,57.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Retirees,7.003,Public transport,Medium,Medium,Medium,Moderate,38.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Budget-conscious households,13.904,Private car,Low,Medium,Medium,Moderate,46.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D04,Premium housing seekers,2.948,Mixed,Low,Low,Medium,Moderate,83.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Young professionals,7.476,Public transport,Medium,Medium,High,High,45.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Newly married couples,28.054,Mixed,Medium,Low,Medium,Low,51.6,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Families with children,25.528,Walking,Medium,Medium,High,Moderate,48.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Larger families,3.639,Public transport,Medium,Medium,Low,Moderate,81.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Retirees,0.884,Walking,Medium,High,Medium,Moderate,69.83,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Budget-conscious households,18.171,Mixed,Low,Medium,Low,Moderate,73.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D04,Premium housing seekers,16.249,Private car,Medium,Medium,Medium,Moderate,27.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Young professionals,10.089,Public transport,High,Medium,High,Moderate,30.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Newly married couples,32.833,Private car,Low,High,Medium,Moderate,42.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Families with children,19.166,Public transport,Medium,Low,Low,Low,28.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Larger families,4.643,Private car,Low,Medium,Medium,High,38.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Retirees,12.969,Private car,High,Low,High,Low,46.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Budget-conscious households,13.848,Walking,Low,High,Low,Low,84.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D04,Premium housing seekers,6.452,Mixed,Medium,Medium,Medium,Low,75.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Young professionals,8.494,Mixed,High,High,Medium,Moderate,51.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Newly married couples,33.137,Private car,Low,Low,High,Moderate,39.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Families with children,8.563,Public transport,High,Low,High,Low,25.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Larger families,24.499,Private car,High,Medium,Medium,Moderate,74.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Retirees,0.856,Walking,High,Medium,High,Moderate,68.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Budget-conscious households,3.195,Public transport,High,Medium,High,Low,25.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D04,Premium housing seekers,21.255,Public transport,Low,High,Medium,Moderate,48.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Young professionals,14.874,Mixed,Medium,Medium,Medium,Moderate,43.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Newly married couples,2.604,Public transport,Low,Low,Low,Moderate,38.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Families with children,28.825,Walking,Medium,Medium,Low,Low,69.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Larger families,12.354,Mixed,Medium,Medium,Medium,High,33.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Retirees,10.385,Public transport,Medium,Low,High,Moderate,67.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Budget-conscious households,27.906,Private car,Medium,Medium,Medium,High,46.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D04,Premium housing seekers,3.053,Mixed,Medium,Medium,High,Moderate,49.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Young professionals,29.353,Private car,High,High,Low,Moderate,54.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Newly married couples,13.843,Private car,High,Low,High,Moderate,46.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Families with children,13.394,Walking,High,Medium,Medium,Low,60.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Larger families,11.925,Mixed,High,Medium,Medium,High,25.53,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Retirees,1.426,Public transport,Medium,Medium,Medium,Moderate,82.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Budget-conscious households,9.341,Mixed,High,Medium,High,High,60.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D04,Premium housing seekers,20.718,Walking,Medium,High,Low,Moderate,84.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Young professionals,2.499,Private car,Low,Medium,High,Low,40.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Newly married couples,13.435,Mixed,Low,Medium,Medium,Moderate,48.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Families with children,5.154,Public transport,Medium,Low,Medium,Moderate,35.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Larger families,3.083,Mixed,Low,Medium,High,Moderate,61.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Retirees,45.48,Mixed,Low,Medium,Low,High,25.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Budget-conscious households,10.985,Walking,Low,Medium,Medium,Moderate,40.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D04,Premium housing seekers,19.364,Public transport,Medium,Medium,Medium,Moderate,77.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Young professionals,25.318,Walking,Low,Low,Medium,Moderate,75.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Newly married couples,6.705,Private car,Low,Medium,Medium,High,36.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Families with children,27.789,Private car,Medium,Low,High,High,76.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Larger families,11.244,Private car,High,Medium,Low,High,37.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Retirees,5.248,Mixed,Medium,Medium,High,Low,81.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Budget-conscious households,10.46,Mixed,High,Medium,High,High,59.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D04,Premium housing seekers,13.235,Walking,Medium,Low,High,Moderate,84.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Young professionals,6.959,Mixed,Medium,High,Low,Moderate,66.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Newly married couples,2.136,Walking,Medium,Low,Medium,Low,61.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Families with children,28.852,Private car,Medium,Medium,High,Moderate,63.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Larger families,9.14,Public transport,Medium,Medium,Medium,Moderate,30.41,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Retirees,0.01,Private car,High,High,Medium,Moderate,84.55,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Budget-conscious households,44.914,Walking,Low,Medium,Medium,Moderate,50.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D04,Premium housing seekers,7.989,Private car,High,Medium,High,Moderate,79.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Young professionals,7.063,Private car,High,Medium,High,Moderate,72.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Newly married couples,20.152,Private car,High,Low,High,Moderate,49.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Families with children,33.335,Private car,Medium,High,Medium,High,32.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Larger families,15.897,Private car,High,Medium,Low,Moderate,64.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Retirees,11.589,Mixed,High,Medium,Low,High,43.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Budget-conscious households,6.248,Private car,Low,High,Medium,High,49.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D04,Premium housing seekers,5.715,Mixed,Low,Medium,Low,Moderate,38.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Young professionals,38.669,Walking,High,High,Low,Low,44.34,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Newly married couples,1.208,Mixed,Medium,Medium,Low,Moderate,65.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Families with children,23.326,Walking,Medium,Medium,Low,Moderate,61.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Larger families,0.141,Private car,Low,High,Medium,High,59.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Retirees,2.529,Private car,Medium,Medium,Medium,Moderate,37.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Budget-conscious households,20.579,Private car,High,Low,High,Moderate,40.53,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D04,Premium housing seekers,13.548,Private car,High,High,Medium,Moderate,72.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Young professionals,32.917,Public transport,Low,High,High,Moderate,61.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Newly married couples,25.448,Private car,High,Medium,High,Low,59.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Families with children,19.66,Walking,Low,High,Low,Low,61.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Larger families,10.478,Walking,Medium,High,High,Moderate,36.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Retirees,4.24,Walking,High,Low,High,Moderate,69.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Budget-conscious households,6.433,Mixed,Medium,High,Medium,Moderate,48.36,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D04,Premium housing seekers,0.823,Mixed,Medium,High,High,Moderate,60.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Young professionals,14.534,Mixed,High,Medium,Low,Moderate,56.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Newly married couples,0.924,Public transport,Medium,Medium,Medium,Moderate,31.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Families with children,16.897,Public transport,High,Medium,Medium,Moderate,61.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Larger families,7.189,Private car,Medium,Low,High,Low,50.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Retirees,7.642,Mixed,High,Medium,Medium,Moderate,28.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Budget-conscious households,34.537,Mixed,Low,Medium,Medium,Moderate,53.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D04,Premium housing seekers,18.277,Private car,Medium,Medium,Medium,Moderate,33.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Young professionals,16.908,Private car,Medium,Medium,Low,Moderate,62.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Newly married couples,33.655,Private car,High,Low,High,Low,83.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Families with children,12.051,Private car,High,High,High,Low,38.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Larger families,5.79,Walking,Medium,High,Low,High,38.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Retirees,8.67,Mixed,High,High,Medium,Moderate,62.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Budget-conscious households,20.465,Private car,Low,High,High,Moderate,43.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D04,Premium housing seekers,2.46,Private car,Low,Low,Low,Moderate,26.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Young professionals,17.725,Private car,Low,Medium,Medium,Moderate,78.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Newly married couples,16.217,Private car,Medium,Medium,Medium,Moderate,47.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Families with children,19.038,Public transport,Medium,Medium,Low,Moderate,50.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Larger families,41.379,Mixed,Medium,Medium,Medium,Low,66.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Retirees,0.789,Public transport,High,Low,Medium,Moderate,31.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Budget-conscious households,4.028,Walking,High,Medium,Low,Moderate,38.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D04,Premium housing seekers,0.824,Mixed,Medium,High,Medium,Low,28.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Young professionals,11.917,Mixed,Low,Medium,High,Moderate,84.25,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Newly married couples,9.161,Walking,High,Medium,High,Moderate,52.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Families with children,38.472,Public transport,High,Low,Medium,Moderate,27.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Larger families,5.417,Public transport,High,Low,Low,High,72.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Retirees,3.813,Public transport,Medium,Medium,Low,Low,54.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Budget-conscious households,8.438,Mixed,High,Medium,Low,Low,67.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D04,Premium housing seekers,22.782,Private car,High,High,Low,Moderate,66.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Young professionals,3.718,Mixed,High,Medium,Medium,Moderate,31.08,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Newly married couples,18.834,Public transport,High,High,High,Low,56.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Families with children,35.397,Private car,Medium,Medium,High,Low,28.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Larger families,12.62,Private car,Low,Medium,Medium,Low,29.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Retirees,8.295,Mixed,Low,High,Medium,Moderate,63.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Budget-conscious households,20.571,Mixed,Medium,Medium,Low,Low,80.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D04,Premium housing seekers,0.565,Mixed,High,Medium,Medium,Moderate,47.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Young professionals,37.825,Public transport,Medium,Medium,Medium,Moderate,45.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Newly married couples,15.948,Private car,High,Low,High,Moderate,67.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Families with children,25.724,Private car,High,Medium,Low,Moderate,63.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Larger families,8.19,Public transport,High,High,Medium,Moderate,28.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Retirees,0.173,Private car,High,Medium,Medium,Moderate,64.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Budget-conscious households,2.077,Public transport,High,Low,High,Moderate,83.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D04,Premium housing seekers,10.062,Private car,Low,Medium,Low,High,79.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Young professionals,14.802,Private car,High,Low,Medium,Moderate,63.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Newly married couples,2.713,Public transport,High,Low,Medium,Moderate,25.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Families with children,35.824,Walking,Low,Medium,Medium,Moderate,33.05,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Larger families,9.292,Mixed,High,High,High,Moderate,69.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Retirees,7.327,Mixed,High,High,High,Low,75.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Budget-conscious households,24.322,Public transport,High,High,Medium,Moderate,65.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D04,Premium housing seekers,5.72,Mixed,High,Medium,Low,Low,77.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Young professionals,4.923,Public transport,High,High,Medium,High,32.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Newly married couples,12.646,Mixed,Low,Low,Low,Moderate,28.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Families with children,39.427,Mixed,Low,Low,Medium,Moderate,52.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Larger families,2.111,Walking,Low,Low,High,High,64.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Retirees,1.853,Private car,Medium,High,Medium,Moderate,71.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Budget-conscious households,29.133,Walking,Medium,Medium,High,Moderate,52.08,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D04,Premium housing seekers,9.908,Private car,High,Medium,High,Moderate,34.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Young professionals,14.672,Mixed,Medium,High,High,High,53.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Newly married couples,6.633,Walking,High,Medium,High,Moderate,77.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Families with children,46.566,Private car,Medium,Medium,Medium,Moderate,67.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Larger families,1.104,Public transport,Medium,Medium,High,Moderate,35.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Retirees,2.419,Public transport,High,Medium,High,Moderate,65.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Budget-conscious households,28.471,Private car,Medium,Medium,Medium,High,30.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D04,Premium housing seekers,0.135,Walking,High,Medium,High,Low,25.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Young professionals,5.616,Walking,High,High,High,High,68.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Newly married couples,18.09,Mixed,High,High,High,Low,59.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Families with children,32.623,Private car,Low,Medium,High,High,31.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Larger families,15.717,Private car,Medium,High,High,Moderate,33.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Retirees,7.947,Private car,Medium,Low,High,Moderate,82.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Budget-conscious households,10.895,Private car,Medium,High,Medium,High,59.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D04,Premium housing seekers,9.112,Private car,Medium,Low,High,High,64.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Young professionals,18.078,Mixed,High,Medium,Medium,Moderate,35.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Newly married couples,43.736,Private car,High,Medium,High,Moderate,66.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Families with children,19.999,Mixed,Medium,Medium,Medium,High,77.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Larger families,9.336,Walking,High,Medium,Low,High,44.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Retirees,5.235,Public transport,Medium,Medium,Medium,High,46.08,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Budget-conscious households,3.577,Public transport,Low,Medium,Low,High,26.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D04,Premium housing seekers,0.04,Mixed,Medium,Low,Medium,High,79.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Young professionals,12.668,Mixed,Medium,Medium,Medium,Moderate,65.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Newly married couples,12.962,Public transport,Medium,Medium,High,Moderate,40.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Families with children,34.826,Walking,High,High,Medium,Low,58.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Larger families,4.032,Public transport,High,Low,Low,High,46.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Retirees,8.339,Private car,Medium,Medium,High,Moderate,40.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Budget-conscious households,9.06,Private car,High,Low,High,High,65.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D04,Premium housing seekers,18.112,Public transport,Medium,High,Medium,Moderate,57.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Young professionals,11.832,Mixed,Medium,Low,Medium,High,65.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Newly married couples,10.568,Private car,Medium,High,High,Low,76.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Families with children,25.037,Mixed,Low,Medium,High,Moderate,72.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Larger families,28.636,Private car,Low,Medium,High,Low,51.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Retirees,7.502,Public transport,Medium,Medium,Medium,Moderate,60.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Budget-conscious households,4.445,Private car,High,Low,High,Low,41.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D05,Premium housing seekers,11.981,Mixed,High,Low,High,High,68.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Young professionals,20.498,Private car,Low,Low,Medium,High,56.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Newly married couples,16.552,Private car,Medium,Medium,Low,Low,45.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Families with children,31.681,Mixed,Low,Low,Medium,Moderate,25.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Larger families,1.918,Public transport,Medium,Low,High,Moderate,50.55,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Retirees,6.714,Mixed,Medium,Medium,High,High,28.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Budget-conscious households,18.473,Mixed,High,Medium,Medium,Moderate,50.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D05,Premium housing seekers,4.165,Mixed,High,Low,High,Low,32.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Young professionals,24.951,Private car,High,High,Medium,High,27.55,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Newly married couples,3.027,Private car,Medium,High,High,Low,71.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Families with children,13.8,Mixed,Low,High,Medium,Moderate,78.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Larger families,14.725,Mixed,High,Medium,High,Moderate,40.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Retirees,4.659,Walking,High,High,Low,Moderate,32.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Budget-conscious households,28.543,Mixed,High,Medium,Medium,Low,56.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D05,Premium housing seekers,10.294,Mixed,Medium,Medium,High,Moderate,28.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Young professionals,4.399,Mixed,High,Low,High,Moderate,43.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Newly married couples,31.052,Private car,High,Low,Medium,Moderate,53.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Families with children,31.838,Private car,Low,Medium,High,Moderate,80.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Larger families,18.288,Mixed,High,Low,High,High,66.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Retirees,0.227,Walking,Medium,High,Medium,Moderate,74.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Budget-conscious households,6.282,Private car,Medium,High,High,High,51.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D05,Premium housing seekers,7.914,Walking,Medium,Medium,Low,Moderate,71.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Young professionals,10.912,Mixed,Medium,Medium,High,High,83.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Newly married couples,0.157,Private car,Medium,Medium,High,Low,33.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Families with children,35.266,Private car,Medium,High,Medium,Low,33.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Larger families,13.587,Private car,Low,Low,Low,Moderate,41.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Retirees,3.473,Mixed,Medium,Medium,Medium,Moderate,79.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Budget-conscious households,31.266,Public transport,High,Medium,Medium,Moderate,63.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D05,Premium housing seekers,5.34,Mixed,Low,Low,High,High,42.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Young professionals,8.109,Mixed,Medium,Low,High,Moderate,35.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Newly married couples,8.306,Mixed,High,High,High,High,83.05,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Families with children,28.346,Private car,Low,Medium,Medium,High,62.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Larger families,16.832,Mixed,Medium,Medium,High,Low,34.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Retirees,4.318,Public transport,High,Medium,Medium,Low,41.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Budget-conscious households,27.227,Mixed,Medium,Medium,Medium,High,57.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D05,Premium housing seekers,6.862,Private car,High,Low,High,Moderate,81.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Young professionals,9.46,Private car,Low,High,Medium,Moderate,64.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Newly married couples,12.787,Private car,Medium,Medium,Medium,High,49.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Families with children,35.009,Private car,Low,Medium,Low,Moderate,54.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Larger families,16.411,Private car,High,Low,Low,High,28.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Retirees,6.266,Private car,High,High,Medium,Low,71.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Budget-conscious households,16.756,Public transport,Low,Low,Medium,Moderate,82.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D05,Premium housing seekers,3.311,Public transport,Low,High,High,Low,34.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Young professionals,11.931,Private car,Low,Medium,Medium,Low,64.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Newly married couples,32.624,Public transport,Medium,High,High,Moderate,62.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Families with children,26.745,Mixed,Low,Medium,Low,Moderate,71.25,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Larger families,5.62,Mixed,Low,Medium,Low,Moderate,29.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Retirees,4.439,Mixed,High,Medium,Medium,Moderate,58.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Budget-conscious households,17.982,Public transport,Medium,Medium,High,High,74.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D05,Premium housing seekers,0.658,Walking,Low,Medium,Medium,Moderate,34.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Young professionals,9.624,Private car,Low,High,Low,Low,47.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Newly married couples,3.37,Private car,Medium,Medium,Medium,Moderate,61.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Families with children,22.615,Walking,Low,Medium,Medium,High,80.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Larger families,7.712,Private car,High,Medium,Medium,Low,62.55,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Retirees,25.744,Private car,Medium,Medium,Medium,Low,56.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Budget-conscious households,5.438,Walking,Medium,Medium,Medium,Moderate,83.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D05,Premium housing seekers,25.496,Mixed,High,Medium,High,Moderate,27.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Young professionals,1.873,Public transport,High,High,Medium,Moderate,80.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Newly married couples,11.717,Mixed,High,Medium,Medium,High,33.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Families with children,41.566,Private car,Low,Low,Low,High,59.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Larger families,16.709,Mixed,Medium,Medium,Medium,Moderate,46.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Retirees,2.556,Mixed,High,High,Low,Moderate,34.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Budget-conscious households,14.143,Mixed,High,Medium,Medium,Low,75.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D05,Premium housing seekers,11.436,Public transport,Low,Medium,Medium,Moderate,81.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Young professionals,18.722,Public transport,Low,Low,Low,High,27.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Newly married couples,10.639,Mixed,Medium,High,Low,High,75.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Families with children,20.032,Private car,High,Low,Medium,Moderate,39.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Larger families,3.125,Private car,Medium,Medium,Medium,High,76.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Retirees,5.569,Private car,High,Medium,Low,Moderate,80.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Budget-conscious households,24.022,Mixed,Medium,Low,Medium,High,66.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D05,Premium housing seekers,17.891,Public transport,High,Medium,Medium,Low,33.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Young professionals,5.096,Private car,Low,Medium,High,Moderate,46.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Newly married couples,23.421,Mixed,High,Medium,High,Moderate,52.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Families with children,18.896,Private car,Low,High,High,Moderate,84.99,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Larger families,8.372,Private car,Medium,Medium,Medium,Moderate,80.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Retirees,1.499,Private car,Low,Medium,Medium,Low,57.05,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Budget-conscious households,19.427,Mixed,Medium,Low,Medium,Moderate,61.34,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D05,Premium housing seekers,23.288,Mixed,Low,Medium,Medium,Low,60.93,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Young professionals,0.483,Private car,High,High,Low,Moderate,36.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Newly married couples,6.693,Public transport,Medium,Low,High,Moderate,57.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Families with children,10.414,Walking,Medium,High,Low,Moderate,75.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Larger families,6.856,Private car,Medium,Medium,Medium,Moderate,28.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Retirees,38.206,Public transport,Medium,Medium,High,Low,82.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Budget-conscious households,33.883,Mixed,Medium,High,High,High,73.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D05,Premium housing seekers,3.465,Walking,High,Low,Low,Moderate,53.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Young professionals,3.04,Private car,Medium,Medium,Medium,Low,28.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Newly married couples,24.425,Mixed,High,Low,Medium,Low,46.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Families with children,49.612,Public transport,Medium,Low,Low,Low,59.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Larger families,8.956,Public transport,High,Medium,Medium,High,81.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Retirees,4.542,Mixed,Medium,Low,High,Moderate,32.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Budget-conscious households,4.428,Mixed,High,Medium,High,Moderate,62.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D05,Premium housing seekers,4.997,Private car,Medium,Medium,Medium,High,33.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Young professionals,19.806,Mixed,High,High,High,Moderate,61.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Newly married couples,5.522,Private car,Low,Low,High,High,65.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Families with children,28.539,Private car,Medium,Low,High,Moderate,29.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Larger families,4.466,Mixed,Medium,Medium,High,Moderate,31.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Retirees,2.395,Mixed,Medium,Low,Medium,High,81.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Budget-conscious households,28.974,Private car,Low,Medium,High,Moderate,47.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D05,Premium housing seekers,10.299,Walking,High,Medium,Medium,Moderate,40.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Young professionals,14.704,Private car,High,Medium,High,High,61.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Newly married couples,6.047,Walking,Medium,Low,Medium,Moderate,74.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Families with children,29.046,Private car,High,Medium,Low,Moderate,31.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Larger families,3.632,Mixed,Medium,High,Medium,High,29.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Retirees,11.786,Private car,Medium,High,Low,Low,28.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Budget-conscious households,30.457,Private car,Medium,Medium,Low,Low,53.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D05,Premium housing seekers,4.328,Mixed,High,Medium,High,High,55.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Young professionals,28.848,Private car,Medium,Medium,Medium,Moderate,43.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Newly married couples,22.491,Public transport,Medium,High,Medium,Low,32.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Families with children,6.225,Public transport,Low,Medium,High,Moderate,60.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Larger families,11.968,Walking,Low,Medium,Medium,Moderate,69.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Retirees,3.64,Private car,Medium,Medium,High,High,40.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Budget-conscious households,7.176,Mixed,Medium,Medium,High,High,46.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D05,Premium housing seekers,19.652,Private car,High,Low,High,Moderate,31.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Young professionals,1.398,Walking,High,Medium,High,Low,35.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Newly married couples,13.497,Private car,Medium,Low,Low,Low,41.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Families with children,42.124,Public transport,High,Low,Medium,Moderate,52.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Larger families,6.499,Mixed,High,Medium,High,Moderate,54.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Retirees,0.171,Private car,Low,Medium,High,Moderate,48.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Budget-conscious households,13.655,Mixed,Low,Medium,Medium,Low,75.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D05,Premium housing seekers,22.655,Public transport,Low,Medium,High,Moderate,34.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Young professionals,43.422,Private car,Medium,Low,Medium,High,32.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Newly married couples,2.985,Mixed,Medium,Medium,High,High,33.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Families with children,28.595,Mixed,Medium,High,Medium,High,80.58,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Larger families,5.671,Mixed,High,Low,Medium,High,64.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Retirees,3.234,Walking,High,Medium,High,Moderate,46.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Budget-conscious households,14.527,Private car,Medium,Low,High,High,52.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D05,Premium housing seekers,1.566,Private car,Medium,Medium,Low,Moderate,68.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Young professionals,9.785,Mixed,Medium,Medium,High,High,25.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Newly married couples,1.497,Mixed,High,Low,Medium,Low,59.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Families with children,42.259,Mixed,High,Medium,High,High,54.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Larger families,13.529,Private car,Medium,Medium,High,Low,53.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Retirees,13.027,Private car,High,Low,High,Moderate,61.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Budget-conscious households,18.041,Private car,Low,High,Medium,Moderate,45.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D05,Premium housing seekers,1.862,Public transport,Low,High,Medium,Low,82.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Young professionals,12.025,Private car,High,High,Medium,Low,58.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Newly married couples,3.086,Mixed,Medium,High,High,Moderate,29.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Families with children,23.123,Private car,High,Medium,Medium,Moderate,44.65,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Larger families,9.642,Mixed,High,High,Low,Moderate,45.05,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Retirees,7.126,Private car,High,Low,High,Moderate,54.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Budget-conscious households,38.452,Private car,Low,Medium,Medium,Low,28.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D05,Premium housing seekers,6.547,Mixed,Low,Medium,High,High,84.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Young professionals,21.375,Mixed,Medium,High,Medium,High,31.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Newly married couples,3.185,Private car,High,High,High,Moderate,63.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Families with children,24.442,Mixed,Low,High,High,Low,39.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Larger families,15.79,Private car,Medium,Medium,Medium,High,58.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Retirees,3.255,Private car,Medium,High,Low,High,37.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Budget-conscious households,31.662,Private car,Medium,High,Low,Low,57.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D05,Premium housing seekers,0.292,Private car,Medium,Low,High,Moderate,40.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Young professionals,11.233,Walking,High,Low,Medium,Low,71.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Newly married couples,18.372,Mixed,Medium,Medium,Low,Moderate,26.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Families with children,32.126,Walking,High,Medium,High,High,46.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Larger families,12.937,Private car,Low,High,Medium,Low,33.78,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Retirees,3.101,Private car,High,High,Medium,Low,28.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Budget-conscious households,20.957,Public transport,Medium,Medium,Medium,Low,30.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D05,Premium housing seekers,1.274,Public transport,High,Medium,Medium,Moderate,55.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Young professionals,5.62,Public transport,Medium,Medium,Medium,Moderate,73.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Newly married couples,3.559,Mixed,Medium,Low,Medium,Moderate,54.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Families with children,18.818,Public transport,High,High,Medium,High,44.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Larger families,38.181,Private car,High,High,Medium,High,74.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Retirees,7.318,Public transport,Medium,Medium,High,Moderate,27.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Budget-conscious households,22.289,Public transport,High,Medium,Medium,Moderate,49.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D05,Premium housing seekers,4.216,Public transport,Low,Medium,Medium,High,62.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Young professionals,6.383,Private car,Medium,Medium,High,Moderate,61.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Newly married couples,16.736,Mixed,High,Low,High,Moderate,49.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Families with children,36.643,Mixed,High,Medium,Medium,Moderate,36.74,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Larger families,6.782,Public transport,Medium,Medium,Medium,Low,51.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Retirees,7.956,Private car,High,Low,High,Moderate,33.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Budget-conscious households,24.398,Mixed,Medium,High,High,Moderate,72.82,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D06,Premium housing seekers,1.102,Private car,High,High,High,Moderate,58.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Young professionals,9.553,Private car,Medium,Medium,High,High,25.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Newly married couples,9.935,Private car,Medium,High,Low,Low,36.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Families with children,42.572,Mixed,High,Medium,Medium,Low,31.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Larger families,20.463,Public transport,Medium,Low,Medium,Moderate,31.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Retirees,3.707,Public transport,Medium,Medium,High,Moderate,65.41,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Budget-conscious households,9.079,Mixed,Medium,Low,Medium,High,49.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D06,Premium housing seekers,4.69,Private car,Medium,High,Medium,Moderate,25.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Young professionals,22.869,Private car,High,Low,Medium,Moderate,84.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Newly married couples,7.704,Walking,High,Medium,Medium,Moderate,61.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Families with children,29.897,Private car,High,Medium,Medium,Moderate,78.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Larger families,12.65,Private car,Medium,Medium,High,High,42.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Retirees,8.043,Private car,Low,High,Medium,Moderate,26.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Budget-conscious households,3.489,Walking,High,High,Low,Moderate,84.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D06,Premium housing seekers,15.348,Public transport,Low,Medium,Medium,Moderate,80.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Young professionals,6.282,Private car,High,Low,Medium,Low,44.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Newly married couples,4.485,Mixed,High,Medium,High,Low,26.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Families with children,34.232,Private car,Low,Medium,Low,Moderate,30.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Larger families,1.183,Private car,Medium,High,Low,Low,43.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Retirees,21.158,Public transport,Medium,Low,High,High,49.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Budget-conscious households,30.258,Mixed,Medium,Medium,High,Moderate,41.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D06,Premium housing seekers,2.402,Walking,Low,Medium,Medium,High,30.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Young professionals,9.146,Private car,High,Medium,High,Moderate,35.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Newly married couples,11.001,Public transport,High,Medium,Low,Moderate,46.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Families with children,36.995,Private car,Medium,Low,High,Moderate,56.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Larger families,11.206,Mixed,High,Medium,High,Moderate,26.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Retirees,3.509,Private car,High,Medium,Medium,Low,38.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Budget-conscious households,22.828,Mixed,High,Low,High,Moderate,70.99,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D06,Premium housing seekers,5.315,Private car,High,Medium,Medium,Moderate,78.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Young professionals,14.776,Mixed,Medium,Medium,Medium,High,78.25,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Newly married couples,15.431,Mixed,High,High,High,Moderate,65.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Families with children,39.458,Public transport,High,Low,Low,Moderate,31.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Larger families,19.12,Public transport,High,High,Medium,High,69.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Retirees,1.978,Mixed,High,Medium,High,High,44.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Budget-conscious households,8.099,Private car,High,Medium,Low,High,42.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D06,Premium housing seekers,1.138,Public transport,Low,Medium,High,Low,30.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Young professionals,6.081,Mixed,High,High,Medium,Moderate,44.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Newly married couples,3.514,Private car,Medium,High,Medium,High,76.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Families with children,9.891,Private car,Medium,Medium,High,Moderate,60.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Larger families,10.161,Private car,Medium,Medium,Low,Moderate,34.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Retirees,12.207,Mixed,High,Low,Medium,Moderate,56.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Budget-conscious households,28.16,Private car,High,Medium,Medium,Low,79.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D06,Premium housing seekers,29.986,Private car,High,High,Low,Low,43.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Young professionals,1.369,Mixed,Low,High,Low,Moderate,58.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Newly married couples,2.792,Private car,Medium,Medium,Medium,Moderate,61.25,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Families with children,21.243,Walking,High,Medium,High,Low,70.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Larger families,28.307,Public transport,Medium,High,Medium,Moderate,40.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Retirees,22.053,Private car,Medium,Medium,High,Moderate,49.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Budget-conscious households,23.812,Mixed,Medium,Low,Medium,Moderate,32.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D06,Premium housing seekers,0.424,Mixed,Medium,Low,Low,Moderate,27.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Young professionals,9.506,Mixed,High,High,High,Moderate,56.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Newly married couples,14.911,Private car,Medium,Medium,Medium,High,25.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Families with children,34.125,Private car,Low,Low,High,High,70.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Larger families,7.966,Walking,Low,Medium,Low,Low,72.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Retirees,1.32,Mixed,High,Medium,High,Moderate,31.41,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Budget-conscious households,12.503,Mixed,Medium,High,High,High,46.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D06,Premium housing seekers,19.669,Mixed,Medium,Low,High,Moderate,82.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Young professionals,12.274,Public transport,Medium,Medium,Medium,Moderate,26.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Newly married couples,27.127,Private car,Medium,High,High,Low,37.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Families with children,24.513,Mixed,Medium,Medium,High,Moderate,61.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Larger families,2.698,Mixed,High,Low,High,Moderate,28.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Retirees,0.362,Public transport,High,Low,Medium,Moderate,57.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Budget-conscious households,20.749,Private car,High,Medium,High,High,32.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D06,Premium housing seekers,12.277,Mixed,Medium,High,High,Moderate,30.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Young professionals,23.846,Mixed,High,Low,Low,High,29.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Newly married couples,17.816,Mixed,High,Low,High,Low,35.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Families with children,21.318,Mixed,Medium,Medium,Medium,High,83.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Larger families,7.876,Public transport,High,High,Medium,Low,50.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Retirees,3.483,Private car,Low,Low,Medium,High,73.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Budget-conscious households,19.28,Private car,Medium,Medium,High,Low,65.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D06,Premium housing seekers,6.381,Public transport,High,Medium,Medium,Low,59.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Young professionals,18.325,Public transport,Medium,Medium,Low,Moderate,33.41,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Newly married couples,8.132,Public transport,Low,Medium,Medium,Moderate,67.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Families with children,35.385,Mixed,Medium,Medium,High,High,72.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Larger families,1.715,Public transport,High,High,High,High,37.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Retirees,9.223,Mixed,High,Low,Medium,Moderate,42.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Budget-conscious households,18.793,Public transport,High,Medium,Low,Moderate,38.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D06,Premium housing seekers,8.428,Walking,Low,Low,Medium,High,60.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Young professionals,18.344,Private car,High,High,Medium,Moderate,75.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Newly married couples,12.267,Private car,Low,Low,Medium,High,78.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Families with children,24.068,Public transport,Medium,Medium,Medium,Moderate,60.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Larger families,2.265,Mixed,High,Medium,High,Moderate,53.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Retirees,2.543,Mixed,Medium,High,Low,Low,78.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Budget-conscious households,32.894,Public transport,Medium,Low,Medium,Moderate,45.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D06,Premium housing seekers,7.619,Private car,High,High,Low,High,77.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Young professionals,28.808,Mixed,Low,Medium,Medium,Low,80.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Newly married couples,16.677,Mixed,Medium,Medium,High,Moderate,40.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Families with children,35.991,Public transport,High,Low,Low,Moderate,65.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Larger families,0.114,Mixed,High,High,Medium,Low,61.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Retirees,0.58,Mixed,Low,Medium,Low,High,42.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Budget-conscious households,15.735,Mixed,High,Medium,Low,High,42.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D06,Premium housing seekers,2.095,Walking,High,Medium,Low,Moderate,57.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Young professionals,22.442,Walking,High,Medium,Medium,Moderate,41.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Newly married couples,9.561,Mixed,Medium,Medium,Low,Moderate,49.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Families with children,15.811,Mixed,Low,Low,Medium,Moderate,75.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Larger families,4.331,Private car,Medium,High,Low,Moderate,46.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Retirees,17.337,Mixed,Medium,Medium,Medium,Low,48.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Budget-conscious households,16.196,Walking,Medium,Low,Low,Low,72.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D06,Premium housing seekers,14.323,Walking,Medium,High,High,Moderate,79.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Young professionals,11.656,Walking,High,Medium,Low,Moderate,52.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Newly married couples,13.341,Public transport,High,Medium,High,High,66.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Families with children,15.829,Mixed,Medium,Medium,Medium,Moderate,61.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Larger families,48.877,Private car,High,Medium,Medium,Low,80.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Retirees,0.026,Private car,Medium,Low,Low,Moderate,29.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Budget-conscious households,7.284,Private car,Medium,High,Low,High,39.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D06,Premium housing seekers,2.986,Mixed,Medium,Low,High,Moderate,69.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Young professionals,13.018,Private car,High,High,Medium,Moderate,52.93,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Newly married couples,18.743,Private car,High,Medium,High,Low,30.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Families with children,18.404,Private car,High,Medium,High,High,72.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Larger families,9.989,Mixed,High,Low,Medium,Low,66.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Retirees,1.805,Mixed,High,Medium,Low,High,32.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Budget-conscious households,9.073,Walking,Medium,High,Medium,Moderate,54.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D06,Premium housing seekers,28.968,Mixed,Medium,Low,High,Moderate,67.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Young professionals,13.015,Private car,Medium,High,Medium,Low,31.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Newly married couples,1.211,Mixed,High,Low,High,Moderate,84.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Families with children,32.368,Private car,High,Low,Medium,Low,34.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Larger families,7.37,Public transport,Medium,Low,High,High,65.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Retirees,5.228,Mixed,High,Medium,High,Low,38.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Budget-conscious households,16.528,Walking,Low,High,High,Moderate,71.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D06,Premium housing seekers,24.282,Mixed,Medium,Low,Low,Moderate,44.58,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Young professionals,12.176,Public transport,High,Low,Medium,High,34.47,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Newly married couples,14.319,Mixed,Medium,Medium,Low,Moderate,37.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Families with children,50.061,Walking,High,Low,Medium,High,73.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Larger families,1.905,Private car,High,High,High,Moderate,63.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Retirees,2.382,Private car,Medium,High,Low,Moderate,35.3,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Budget-conscious households,18.841,Public transport,High,Medium,Medium,High,28.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D06,Premium housing seekers,0.315,Mixed,Low,High,High,Moderate,50.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Young professionals,9.362,Walking,High,Low,High,Low,47.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Newly married couples,14.686,Public transport,High,Low,Medium,Moderate,50.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Families with children,14.363,Mixed,Medium,Medium,Medium,High,66.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Larger families,36.124,Private car,Low,Low,Medium,Moderate,37.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Retirees,4.43,Private car,Low,Medium,Low,Moderate,70.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Budget-conscious households,18.311,Mixed,High,Medium,Medium,High,65.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D06,Premium housing seekers,2.724,Mixed,Medium,High,High,Low,80.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Young professionals,11.461,Mixed,High,Medium,Medium,Moderate,59.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Newly married couples,7.199,Mixed,Medium,High,Medium,High,52.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Families with children,27.696,Public transport,High,High,Medium,Low,44.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Larger families,18.131,Mixed,High,Low,Low,Moderate,60.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Retirees,25.666,Private car,High,Low,Medium,High,32.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Budget-conscious households,5.773,Mixed,Medium,Low,High,Low,32.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D06,Premium housing seekers,4.073,Private car,Medium,Medium,Low,High,33.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Young professionals,31.342,Mixed,High,Medium,High,Moderate,55.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Newly married couples,2.202,Private car,Low,Medium,Medium,High,72.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Families with children,29.162,Private car,Medium,Low,High,Low,78.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Larger families,9.335,Mixed,High,Medium,High,Moderate,53.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Retirees,4.094,Private car,Medium,High,Medium,High,50.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Budget-conscious households,5.494,Private car,Medium,Low,Medium,Low,71.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D06,Premium housing seekers,18.371,Private car,High,Medium,Medium,Moderate,57.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Young professionals,13.734,Private car,Medium,Medium,High,Moderate,46.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Newly married couples,23.399,Private car,Medium,High,High,Moderate,28.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Families with children,19.943,Walking,Medium,Medium,Medium,Low,67.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Larger families,0.395,Walking,Medium,Low,Low,Low,48.77,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Retirees,5.445,Mixed,High,High,Medium,Moderate,54.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Budget-conscious households,34.849,Public transport,Medium,Low,High,Moderate,84.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D06,Premium housing seekers,2.235,Mixed,High,Low,Medium,Moderate,64.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Young professionals,24.15,Mixed,High,Low,Medium,High,67.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Newly married couples,24.417,Public transport,High,High,Low,Low,59.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Families with children,28.39,Mixed,Low,Medium,High,High,55.26,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Larger families,5.44,Mixed,Low,Medium,High,Low,44.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Retirees,2.632,Public transport,High,High,High,Moderate,41.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Budget-conscious households,7.975,Mixed,Low,High,High,High,51.32,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D06,Premium housing seekers,6.995,Mixed,Medium,High,Medium,Moderate,29.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Young professionals,12.701,Mixed,High,High,Medium,Moderate,57.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Newly married couples,1.482,Private car,Medium,Low,Low,Low,68.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Families with children,51.364,Private car,Medium,Medium,Medium,Moderate,73.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Larger families,2.991,Mixed,Medium,Medium,Medium,Low,78.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Retirees,13.567,Private car,Low,Medium,Medium,Low,69.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Budget-conscious households,13.2,Private car,Medium,Low,Medium,High,42.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D07,Premium housing seekers,4.695,Mixed,High,Medium,Low,Moderate,60.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Young professionals,18.301,Walking,High,Medium,Medium,Low,84.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Newly married couples,4.993,Public transport,High,High,High,High,58.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Families with children,37.556,Walking,High,High,Medium,High,43.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Larger families,5.658,Public transport,Medium,High,High,Low,58.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Retirees,17.221,Private car,High,Low,Low,Moderate,76.75,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Budget-conscious households,12.257,Private car,High,Low,High,Low,35.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D07,Premium housing seekers,4.014,Private car,Medium,High,Medium,Low,38.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Young professionals,13.564,Private car,High,Medium,High,Moderate,44.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Newly married couples,2.019,Walking,High,High,High,High,57.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Families with children,6.53,Private car,Medium,Medium,High,High,30.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Larger families,8.551,Walking,Low,Low,Medium,High,38.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Retirees,23.027,Mixed,Low,Medium,High,High,51.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Budget-conscious households,22.093,Walking,Low,Medium,Low,High,44.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D07,Premium housing seekers,24.217,Mixed,Low,Medium,High,Moderate,57.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Young professionals,4.806,Walking,High,Medium,Medium,Low,48.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Newly married couples,22.557,Private car,Low,High,High,Moderate,65.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Families with children,32.717,Mixed,High,High,Medium,Moderate,66.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Larger families,4.72,Public transport,High,Medium,High,Moderate,26.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Retirees,9.349,Private car,Medium,Medium,Medium,Low,52.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Budget-conscious households,23.625,Mixed,Medium,Low,High,Moderate,25.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D07,Premium housing seekers,2.227,Mixed,High,Medium,Low,Moderate,73.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Young professionals,4.008,Private car,High,High,High,Low,30.03,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Newly married couples,5.841,Mixed,Medium,High,Low,High,58.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Families with children,73.328,Private car,High,Medium,High,Moderate,52.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Larger families,2.876,Private car,High,Medium,High,Moderate,83.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Retirees,0.298,Public transport,High,Medium,Medium,Low,45.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Budget-conscious households,5.08,Walking,High,High,High,Moderate,25.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D07,Premium housing seekers,8.568,Mixed,Medium,Low,High,Moderate,38.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Young professionals,11.751,Mixed,Medium,Medium,Medium,Moderate,57.82,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Newly married couples,10.313,Public transport,High,Medium,High,High,70.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Families with children,12.954,Private car,Low,Medium,High,Moderate,30.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Larger families,1.941,Public transport,Medium,Medium,Medium,High,66.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Retirees,4.945,Private car,High,High,Low,Low,55.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Budget-conscious households,51.968,Private car,High,Medium,Medium,Moderate,56.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D07,Premium housing seekers,6.128,Mixed,Medium,Low,Medium,Moderate,44.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Young professionals,4.531,Private car,Medium,Low,Medium,Moderate,50.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Newly married couples,17.944,Mixed,Medium,High,Medium,Moderate,33.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Families with children,54.552,Private car,High,Low,High,Moderate,62.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Larger families,2.805,Mixed,Low,Low,High,High,59.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Retirees,2.22,Mixed,High,Medium,Low,Low,82.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Budget-conscious households,16.426,Public transport,High,Medium,High,Moderate,47.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D07,Premium housing seekers,1.522,Private car,Medium,High,Medium,Moderate,80.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Young professionals,12.597,Private car,High,Medium,Low,High,43.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Newly married couples,17.795,Mixed,Low,Medium,High,High,26.83,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Families with children,43.579,Mixed,High,High,Medium,Moderate,26.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Larger families,2.269,Private car,High,High,Low,Moderate,40.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Retirees,0.109,Public transport,Medium,Medium,Medium,Low,56.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Budget-conscious households,6.993,Private car,High,Medium,High,Moderate,35.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D07,Premium housing seekers,16.658,Mixed,Medium,Medium,Low,Low,69.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Young professionals,19.197,Mixed,High,Medium,High,High,68.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Newly married couples,6.683,Public transport,Low,Medium,High,High,50.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Families with children,20.121,Public transport,Low,Medium,Medium,Moderate,69.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Larger families,5.857,Mixed,High,Medium,High,Low,40.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Retirees,15.017,Walking,High,High,High,High,71.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Budget-conscious households,24.004,Walking,Medium,High,Medium,Moderate,57.96,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D07,Premium housing seekers,9.121,Public transport,Medium,Low,Medium,Low,36.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Young professionals,2.005,Private car,Medium,High,High,Moderate,75.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Newly married couples,18.39,Private car,High,Medium,High,Moderate,40.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Families with children,46.885,Private car,High,Medium,High,Moderate,48.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Larger families,2.887,Mixed,High,Medium,Medium,Moderate,51.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Retirees,18.39,Mixed,Medium,Low,High,Moderate,61.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Budget-conscious households,6.421,Private car,High,Medium,Medium,Low,74.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D07,Premium housing seekers,5.022,Private car,High,Medium,Low,Moderate,63.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Young professionals,11.681,Private car,Medium,Medium,Medium,Moderate,44.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Newly married couples,12.813,Walking,Medium,Low,Medium,Low,50.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Families with children,26.487,Mixed,Medium,Low,Low,Low,64.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Larger families,15.764,Walking,High,High,Low,Moderate,36.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Retirees,0.086,Private car,Medium,Low,Medium,High,70.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Budget-conscious households,30.352,Private car,High,Low,High,Low,42.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D07,Premium housing seekers,2.816,Private car,Medium,High,Medium,Moderate,44.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Young professionals,11.543,Private car,Medium,Medium,Low,Moderate,52.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Newly married couples,16.469,Mixed,Medium,Low,Medium,Moderate,65.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Families with children,41.178,Private car,High,Medium,High,Moderate,64.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Larger families,11.458,Mixed,High,Medium,Medium,Moderate,75.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Retirees,11.076,Mixed,Medium,Low,Medium,Low,66.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Budget-conscious households,2.07,Public transport,High,Low,Medium,Moderate,36.14,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D07,Premium housing seekers,6.207,Private car,High,Low,Low,Low,60.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Young professionals,6.953,Public transport,High,Medium,High,Moderate,80.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Newly married couples,11.955,Mixed,Medium,Low,Medium,Moderate,46.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Families with children,23.733,Private car,Low,High,Medium,Moderate,45.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Larger families,1.85,Walking,High,High,Medium,Low,58.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Retirees,8.475,Private car,Medium,Medium,High,High,45.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Budget-conscious households,44.515,Public transport,High,Medium,Medium,Low,68.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D07,Premium housing seekers,2.521,Mixed,Low,Medium,High,Moderate,77.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Young professionals,14.74,Public transport,Medium,Medium,Low,Moderate,77.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Newly married couples,5.109,Private car,Low,High,Low,Low,81.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Families with children,50.934,Mixed,High,Medium,Medium,Moderate,25.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Larger families,8.866,Mixed,Medium,Medium,Medium,Moderate,41.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Retirees,3.293,Mixed,Medium,Low,Medium,High,69.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Budget-conscious households,4.353,Mixed,High,Low,High,High,54.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D07,Premium housing seekers,12.705,Walking,High,Medium,Medium,Moderate,66.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Young professionals,1.849,Public transport,Medium,Medium,Medium,Moderate,33.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Newly married couples,18.662,Walking,High,Medium,Medium,High,46.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Families with children,9.792,Mixed,High,High,Medium,Moderate,26.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Larger families,13.069,Private car,High,Low,High,Low,68.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Retirees,13.648,Private car,Medium,Medium,Medium,Moderate,32.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Budget-conscious households,19.996,Walking,High,Medium,High,Low,83.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D07,Premium housing seekers,22.985,Walking,High,Medium,Medium,Moderate,60.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Young professionals,26.412,Mixed,High,Low,Low,High,50.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Newly married couples,9.063,Private car,Medium,Medium,High,Moderate,51.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Families with children,32.456,Private car,High,High,Medium,Low,50.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Larger families,12.985,Private car,Medium,High,High,Moderate,74.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Retirees,6.34,Private car,High,Low,Medium,Moderate,34.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Budget-conscious households,9.007,Public transport,Low,Medium,Medium,Low,47.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D07,Premium housing seekers,3.737,Mixed,Low,Medium,Medium,Moderate,83.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Young professionals,12.949,Public transport,Low,Medium,Medium,Moderate,44.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Newly married couples,20.558,Public transport,High,High,Low,High,84.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Families with children,25.591,Mixed,Medium,Medium,Low,High,74.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Larger families,12.535,Private car,Medium,Low,Medium,Low,39.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Retirees,9.468,Walking,High,Low,High,Moderate,75.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Budget-conscious households,6.571,Public transport,Medium,Medium,Medium,Low,47.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D07,Premium housing seekers,12.327,Public transport,High,Low,High,Low,60.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Young professionals,20.414,Private car,Medium,Medium,Low,Low,65.32,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Newly married couples,6.492,Public transport,High,Low,High,Moderate,25.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Families with children,21.21,Mixed,High,Medium,High,Moderate,64.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Larger families,4.482,Public transport,High,Medium,Low,Moderate,56.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Retirees,26.968,Private car,Low,Low,Medium,Moderate,53.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Budget-conscious households,1.715,Private car,Medium,Low,High,Moderate,41.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D07,Premium housing seekers,18.719,Mixed,High,Low,Low,High,43.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Young professionals,19.222,Public transport,High,Low,Medium,High,25.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Newly married couples,24.4,Public transport,High,Medium,High,High,43.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Families with children,8.272,Walking,Low,High,Low,High,30.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Larger families,6.937,Public transport,Medium,Medium,Medium,Moderate,35.88,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Retirees,3.415,Mixed,Medium,Low,Medium,High,81.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Budget-conscious households,25.056,Private car,High,Medium,Medium,High,77.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D07,Premium housing seekers,12.699,Walking,Low,High,High,Low,56.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Young professionals,7.722,Private car,Low,High,Medium,Low,45.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Newly married couples,13.214,Mixed,High,High,High,Moderate,58.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Families with children,26.255,Mixed,High,Medium,Medium,Moderate,35.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Larger families,15.162,Private car,Medium,Medium,Medium,Moderate,82.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Retirees,1.751,Private car,High,Medium,Low,Moderate,55.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Budget-conscious households,32.087,Private car,Medium,Low,High,Moderate,69.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D07,Premium housing seekers,3.809,Public transport,Low,Low,High,Moderate,81.3,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Young professionals,20.12,Private car,High,Medium,High,Moderate,43.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Newly married couples,11.3,Public transport,Low,Low,Low,Moderate,47.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Families with children,22.438,Private car,High,Low,Low,Moderate,62.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Larger families,8.475,Private car,Low,High,Medium,Low,29.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Retirees,2.807,Walking,Low,Medium,Low,High,52.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Budget-conscious households,33.428,Mixed,Medium,Medium,Low,High,35.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D07,Premium housing seekers,1.432,Public transport,Low,Low,High,Moderate,34.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Young professionals,11.616,Public transport,Medium,Medium,High,Moderate,81.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Newly married couples,0.737,Private car,Low,Low,High,Moderate,39.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Families with children,23.784,Mixed,Medium,Medium,High,Moderate,41.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Larger families,18.112,Mixed,High,High,High,Low,52.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Retirees,18.916,Walking,Medium,Medium,High,Moderate,77.3,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Budget-conscious households,26.339,Mixed,Low,Medium,Medium,High,34.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D07,Premium housing seekers,0.496,Private car,High,Medium,Medium,Moderate,43.05,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Young professionals,18.978,Public transport,High,Low,Medium,Moderate,62.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Newly married couples,2.003,Private car,Low,High,High,Low,60.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Families with children,30.393,Walking,Low,Medium,High,Moderate,70.78,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Larger families,27.77,Mixed,Low,Medium,Medium,Moderate,73.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Retirees,4.953,Public transport,High,High,High,Moderate,57.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Budget-conscious households,11.107,Private car,Low,High,Medium,Low,65.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D07,Premium housing seekers,4.797,Walking,High,Medium,High,High,46.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Young professionals,14.41,Private car,Medium,High,Medium,Moderate,29.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Newly married couples,5.863,Private car,High,Low,Medium,Low,84.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Families with children,59.923,Mixed,High,Low,High,Moderate,53.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Larger families,0.562,Public transport,High,Medium,Low,Moderate,59.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Retirees,0.608,Mixed,High,High,High,Low,71.6,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Budget-conscious households,16.527,Private car,Medium,Low,Medium,Moderate,63.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D07,Premium housing seekers,2.107,Private car,High,High,High,High,52.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Young professionals,23.081,Mixed,High,Low,High,Moderate,38.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Newly married couples,4.384,Private car,Medium,High,Low,Moderate,71.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Families with children,25.232,Mixed,Low,Medium,High,Moderate,61.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Larger families,1.26,Mixed,Medium,Medium,Low,High,66.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Retirees,4.129,Public transport,High,High,Medium,High,40.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Budget-conscious households,31.014,Public transport,High,Medium,High,Moderate,31.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D08,Premium housing seekers,10.9,Public transport,High,Medium,High,Moderate,37.75,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Young professionals,7.731,Private car,Medium,Medium,High,Moderate,66.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Newly married couples,30.361,Mixed,High,Medium,Medium,Low,45.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Families with children,24.275,Private car,Medium,Low,Low,Moderate,61.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Larger families,31.915,Public transport,High,Low,Low,Moderate,46.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Retirees,1.567,Mixed,Medium,Medium,Medium,Moderate,27.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Budget-conscious households,4.072,Mixed,Medium,High,High,Moderate,55.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D08,Premium housing seekers,0.079,Mixed,Low,Medium,Medium,High,79.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Young professionals,6.746,Public transport,Medium,High,Medium,Moderate,70.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Newly married couples,32.52,Public transport,Low,Medium,Medium,Moderate,77.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Families with children,25.634,Mixed,Medium,Low,High,Moderate,73.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Larger families,5.951,Walking,High,Low,Medium,Low,69.53,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Retirees,14.977,Mixed,High,Medium,Medium,Moderate,33.57,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Budget-conscious households,10.325,Mixed,Medium,Low,Medium,Moderate,35.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D08,Premium housing seekers,3.848,Private car,Low,High,High,Low,61.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Young professionals,6.753,Mixed,High,Medium,High,Moderate,49.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Newly married couples,8.898,Walking,High,Low,High,Low,58.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Families with children,20.571,Private car,Low,Medium,High,Low,74.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Larger families,3.865,Mixed,Low,High,Medium,Moderate,75.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Retirees,24.156,Private car,Medium,Medium,Medium,Moderate,40.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Budget-conscious households,35.426,Walking,Low,High,Low,Low,48.99,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D08,Premium housing seekers,0.331,Public transport,High,Low,Low,Moderate,29.82,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Young professionals,8.762,Private car,Medium,Low,Medium,Moderate,27.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Newly married couples,29.515,Walking,High,Low,Medium,High,72.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Families with children,38.518,Mixed,High,High,Low,Moderate,49.34,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Larger families,4.986,Walking,Medium,High,High,Low,70.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Retirees,6.462,Mixed,Medium,Medium,High,Moderate,42.86,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Budget-conscious households,2.341,Mixed,High,Low,High,Moderate,63.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D08,Premium housing seekers,9.415,Private car,Medium,Medium,Medium,Moderate,74.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Young professionals,24.909,Mixed,Medium,Low,High,High,49.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Newly married couples,17.201,Public transport,High,Low,High,High,32.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Families with children,25.129,Mixed,Low,Medium,High,Low,61.91,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Larger families,7.354,Public transport,High,Medium,Medium,High,64.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Retirees,0.221,Private car,High,Medium,Low,Moderate,29.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Budget-conscious households,14.758,Public transport,High,Medium,Medium,Moderate,47.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D08,Premium housing seekers,10.427,Public transport,Medium,Medium,Medium,Moderate,39.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Young professionals,26.642,Mixed,Medium,High,Medium,High,62.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Newly married couples,14.759,Private car,High,High,Medium,Moderate,79.77,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Families with children,14.957,Private car,Medium,Medium,High,Low,44.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Larger families,7.575,Mixed,Medium,High,High,Moderate,76.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Retirees,1.038,Walking,Low,Medium,Medium,Low,74.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Budget-conscious households,33.769,Private car,Medium,Medium,Medium,High,62.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D08,Premium housing seekers,1.26,Mixed,Medium,Medium,High,Moderate,68.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Young professionals,6.575,Mixed,High,Medium,Low,Moderate,38.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Newly married couples,10.015,Mixed,Low,Medium,Medium,Moderate,58.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Families with children,9.591,Public transport,Low,Low,Medium,High,40.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Larger families,23.627,Mixed,Low,Low,Medium,High,50.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Retirees,0.465,Walking,High,Medium,Medium,High,48.36,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Budget-conscious households,24.32,Mixed,High,Low,Medium,Low,80.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D08,Premium housing seekers,25.406,Mixed,Medium,High,Medium,High,37.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Young professionals,24.903,Private car,Low,Medium,Medium,Moderate,33.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Newly married couples,7.626,Private car,High,Medium,Low,High,68.71,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Families with children,17.255,Private car,High,High,Medium,High,64.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Larger families,7.712,Private car,Medium,Low,High,Moderate,31.84,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Retirees,6.701,Walking,Medium,Medium,Medium,Moderate,78.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Budget-conscious households,23.618,Public transport,Low,High,High,Low,64.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D08,Premium housing seekers,12.185,Walking,High,High,Medium,High,62.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Young professionals,17.535,Private car,High,Medium,Medium,Moderate,51.97,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Newly married couples,2.547,Private car,High,High,Medium,Moderate,55.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Families with children,33.263,Private car,Medium,High,Low,Moderate,62.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Larger families,11.168,Public transport,Medium,High,High,Moderate,63.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Retirees,4.736,Private car,High,High,Medium,Moderate,38.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Budget-conscious households,26.115,Mixed,High,High,Medium,Moderate,27.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D08,Premium housing seekers,4.638,Private car,Medium,Medium,Low,Moderate,48.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Young professionals,4.042,Mixed,High,Medium,Medium,High,51.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Newly married couples,14.61,Mixed,Medium,High,Medium,High,27.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Families with children,9.685,Mixed,Low,High,Low,Low,81.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Larger families,8.046,Mixed,Medium,Medium,High,Moderate,53.24,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Retirees,11.442,Mixed,Low,Low,Medium,Low,83.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Budget-conscious households,5.255,Mixed,Low,High,Medium,Moderate,64.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D08,Premium housing seekers,46.92,Private car,Low,High,High,Low,44.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Young professionals,11.399,Mixed,Medium,Low,Low,Moderate,47.35,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Newly married couples,1.696,Mixed,Medium,Low,Low,Moderate,65.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Families with children,35.129,Private car,Medium,Medium,Medium,Low,83.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Larger families,9.904,Private car,Low,High,Medium,Moderate,25.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Retirees,12.479,Mixed,Medium,Low,High,Moderate,73.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Budget-conscious households,17.786,Public transport,Medium,Medium,High,High,62.09,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D08,Premium housing seekers,11.607,Walking,High,Medium,High,Moderate,30.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Young professionals,14.193,Walking,Medium,High,Medium,High,33.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Newly married couples,4.107,Mixed,Medium,Low,High,Moderate,62.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Families with children,15.688,Walking,Medium,Low,Medium,Moderate,59.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Larger families,17.367,Public transport,High,Medium,Medium,Moderate,73.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Retirees,22.712,Walking,High,Medium,Medium,Moderate,74.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Budget-conscious households,10.864,Mixed,Medium,High,High,Moderate,31.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D08,Premium housing seekers,15.069,Public transport,High,Low,High,High,84.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Young professionals,14.975,Public transport,Low,Low,High,Low,25.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Newly married couples,29.584,Mixed,Medium,High,High,High,78.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Families with children,30.085,Private car,High,Low,Medium,Moderate,58.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Larger families,14.413,Mixed,High,Medium,Low,Moderate,59.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Retirees,3.858,Public transport,Medium,High,High,Low,73.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Budget-conscious households,6.623,Public transport,Low,High,Low,Low,72.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D08,Premium housing seekers,0.463,Mixed,Medium,Medium,Medium,Moderate,52.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Young professionals,12.175,Private car,Medium,Medium,Medium,Low,47.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Newly married couples,8.457,Mixed,High,Medium,Medium,Moderate,56.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Families with children,43.729,Public transport,Medium,Medium,High,Moderate,30.29,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Larger families,7.687,Private car,Medium,Medium,Medium,Moderate,54.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Retirees,4.226,Mixed,Medium,Medium,Medium,Moderate,29.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Budget-conscious households,10.731,Walking,High,Medium,Low,Moderate,72.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D08,Premium housing seekers,12.995,Mixed,High,High,High,Moderate,71.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Young professionals,3.569,Public transport,Medium,High,High,Low,41.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Newly married couples,15.701,Private car,High,High,Medium,High,79.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Families with children,35.928,Mixed,High,Medium,Medium,Moderate,25.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Larger families,13.469,Private car,Medium,High,Medium,Moderate,69.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Retirees,4.61,Mixed,Medium,Low,Medium,Moderate,49.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Budget-conscious households,20.829,Mixed,Medium,Medium,High,High,62.25,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D08,Premium housing seekers,5.894,Private car,High,Medium,High,Low,39.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Young professionals,7.319,Public transport,Medium,Low,Medium,Moderate,50.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Newly married couples,17.875,Public transport,Low,Low,High,High,74.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Families with children,36.35,Public transport,Medium,Medium,Medium,Moderate,44.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Larger families,2.384,Public transport,High,Medium,Low,High,82.25,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Retirees,11.214,Mixed,Medium,High,High,Moderate,29.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Budget-conscious households,22.903,Mixed,High,Medium,Medium,Moderate,25.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D08,Premium housing seekers,1.955,Public transport,Medium,Medium,Medium,Low,39.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Young professionals,24.529,Mixed,High,Medium,High,Low,84.58,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Newly married couples,6.677,Private car,Low,High,Medium,High,76.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Families with children,24.487,Mixed,Low,High,Low,Moderate,73.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Larger families,23.174,Private car,Low,Medium,Low,Moderate,40.77,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Retirees,5.504,Private car,Low,Low,Medium,Low,63.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Budget-conscious households,3.014,Mixed,Low,High,High,Low,55.58,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D08,Premium housing seekers,12.615,Private car,Medium,Low,Medium,Low,27.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Young professionals,4.423,Private car,Medium,High,Medium,Moderate,76.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Newly married couples,6.971,Private car,Medium,Medium,High,Moderate,25.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Families with children,10.995,Private car,High,Medium,Low,Low,38.3,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Larger families,15.886,Mixed,Medium,Low,Medium,Low,62.06,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Retirees,3.29,Private car,High,High,Low,High,64.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Budget-conscious households,31.702,Mixed,Medium,Medium,Medium,High,72.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D08,Premium housing seekers,26.733,Public transport,Medium,High,High,High,40.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Young professionals,17.375,Private car,Low,Medium,High,Low,77.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Newly married couples,1.654,Private car,Low,High,Low,Moderate,70.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Families with children,44.247,Walking,Low,Low,High,Low,33.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Larger families,13.897,Public transport,Medium,Low,High,Low,63.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Retirees,16.446,Mixed,Medium,Low,Low,Low,43.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Budget-conscious households,4.17,Private car,Medium,Medium,Low,Moderate,58.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D08,Premium housing seekers,2.212,Public transport,Medium,High,High,Moderate,60.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Young professionals,9.0,Mixed,Medium,Low,Medium,High,28.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Newly married couples,34.846,Private car,High,Medium,Medium,Moderate,32.17,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Families with children,16.083,Walking,High,Low,Medium,Moderate,53.35,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Larger families,4.722,Mixed,High,Medium,Medium,High,76.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Retirees,5.184,Public transport,Low,High,High,Moderate,50.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Budget-conscious households,20.012,Mixed,Low,Low,Medium,Moderate,80.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D08,Premium housing seekers,10.153,Walking,High,Medium,Medium,Low,43.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Young professionals,5.146,Mixed,High,Medium,Medium,Moderate,55.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Newly married couples,18.137,Public transport,Medium,Low,Medium,Low,38.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Families with children,56.697,Mixed,High,Low,Low,Moderate,34.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Larger families,3.891,Mixed,Medium,High,High,Moderate,32.67,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Retirees,0.586,Private car,Medium,Medium,Low,Moderate,30.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Budget-conscious households,15.495,Mixed,High,Medium,High,Moderate,32.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D08,Premium housing seekers,0.048,Private car,Medium,High,Medium,Low,74.78,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Young professionals,6.669,Private car,High,Medium,High,Moderate,52.97,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Newly married couples,5.19,Walking,Medium,Low,Medium,Moderate,55.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Families with children,29.403,Private car,Medium,Medium,High,Moderate,74.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Larger families,0.868,Mixed,Low,Low,Medium,Moderate,34.64,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Retirees,1.967,Mixed,High,Medium,Medium,Moderate,50.32,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Budget-conscious households,54.179,Private car,High,High,Medium,Low,36.65,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D08,Premium housing seekers,1.723,Private car,Low,Medium,Medium,Moderate,56.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Young professionals,22.107,Mixed,Medium,Low,High,High,46.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Newly married couples,5.931,Public transport,Medium,High,Medium,High,52.77,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Families with children,25.289,Walking,High,Low,High,High,31.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Larger families,22.049,Mixed,Low,Medium,High,Low,30.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Retirees,0.415,Walking,High,Medium,High,High,50.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Budget-conscious households,16.984,Private car,Medium,Medium,Low,Moderate,43.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D08,Premium housing seekers,7.225,Mixed,Medium,Low,High,High,76.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Young professionals,12.285,Public transport,High,Medium,High,Moderate,28.56,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Newly married couples,10.83,Public transport,High,Low,Low,Low,34.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Families with children,34.436,Public transport,Low,Low,High,Moderate,74.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Larger families,9.2,Walking,Low,High,Medium,High,83.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Retirees,3.15,Mixed,Medium,Low,Medium,Moderate,62.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Budget-conscious households,27.681,Private car,Medium,Medium,Medium,Moderate,39.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D09,Premium housing seekers,2.418,Public transport,Low,Medium,High,High,44.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Young professionals,6.862,Private car,Medium,High,Low,Low,57.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Newly married couples,12.551,Public transport,High,High,Medium,High,42.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Families with children,14.193,Walking,Medium,High,High,Moderate,67.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Larger families,26.382,Walking,Medium,Low,Medium,High,63.46,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Retirees,4.186,Mixed,Medium,Medium,High,Low,42.83,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Budget-conscious households,8.687,Private car,Medium,Medium,High,Low,44.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D09,Premium housing seekers,27.139,Mixed,High,High,Medium,High,76.25,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Young professionals,4.672,Walking,Medium,Low,High,Moderate,50.0,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Newly married couples,10.791,Walking,High,Low,High,High,39.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Families with children,32.741,Mixed,Medium,Medium,Low,Moderate,46.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Larger families,17.324,Mixed,Medium,Medium,High,High,45.27,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Retirees,1.56,Mixed,Low,Medium,Low,Moderate,83.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Budget-conscious households,26.756,Mixed,Medium,Medium,High,High,70.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D09,Premium housing seekers,6.156,Public transport,Medium,Medium,High,High,76.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Young professionals,3.871,Public transport,High,Medium,High,Moderate,50.48,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Newly married couples,13.808,Public transport,Medium,Low,Medium,Moderate,66.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Families with children,60.789,Mixed,Medium,High,Low,Moderate,31.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Larger families,3.065,Public transport,Medium,High,Medium,Moderate,52.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Retirees,9.852,Mixed,Low,Medium,Medium,High,77.97,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Budget-conscious households,4.097,Mixed,High,Medium,High,Low,41.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D09,Premium housing seekers,4.518,Mixed,Medium,Medium,Medium,Moderate,41.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Young professionals,16.834,Mixed,Low,Medium,Low,Moderate,72.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Newly married couples,15.147,Mixed,Medium,Medium,Medium,High,54.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Families with children,33.487,Private car,Low,Medium,High,High,80.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Larger families,17.26,Private car,Low,Medium,High,Moderate,58.87,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Retirees,2.252,Public transport,High,Medium,Medium,Low,38.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Budget-conscious households,11.062,Mixed,High,High,Low,Low,53.53,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D09,Premium housing seekers,3.958,Mixed,Low,Medium,Low,High,57.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Young professionals,7.801,Public transport,Low,Medium,Medium,Low,65.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Newly married couples,12.434,Mixed,Medium,Medium,High,Moderate,46.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Families with children,29.359,Private car,Medium,Medium,Medium,High,44.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Larger families,1.617,Mixed,Low,High,Low,Moderate,78.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Retirees,2.792,Private car,Medium,Low,Medium,Moderate,39.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Budget-conscious households,12.745,Walking,High,Medium,Medium,Moderate,57.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D09,Premium housing seekers,33.252,Private car,High,Low,Medium,High,82.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Young professionals,16.542,Public transport,Medium,High,Low,Moderate,31.69,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Newly married couples,20.733,Private car,Medium,High,Low,High,28.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Families with children,8.425,Public transport,High,Medium,Low,Moderate,31.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Larger families,22.667,Walking,High,Medium,Low,Low,68.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Retirees,10.337,Private car,Medium,Medium,Low,Low,53.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Budget-conscious households,18.235,Mixed,High,Medium,High,Moderate,82.66,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D09,Premium housing seekers,3.061,Mixed,High,High,Medium,Moderate,62.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Young professionals,12.174,Mixed,Medium,Medium,Medium,Low,28.16,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Newly married couples,26.284,Public transport,Low,Medium,High,Low,76.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Families with children,14.97,Private car,Low,Low,Medium,Moderate,63.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Larger families,1.991,Public transport,Medium,Low,Low,Moderate,70.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Retirees,1.054,Walking,Low,Medium,Medium,Moderate,74.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Budget-conscious households,38.215,Mixed,Medium,High,High,Moderate,39.51,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D09,Premium housing seekers,5.312,Mixed,Medium,Low,High,Moderate,28.04,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Young professionals,5.75,Public transport,Medium,High,Medium,Low,26.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Newly married couples,8.625,Mixed,Medium,Low,Medium,High,78.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Families with children,67.732,Mixed,High,High,Medium,Moderate,84.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Larger families,2.662,Private car,High,Low,Low,Moderate,74.92,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Retirees,1.82,Public transport,High,Medium,Low,Moderate,55.4,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Budget-conscious households,8.208,Private car,High,Medium,Low,Moderate,35.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D09,Premium housing seekers,5.203,Private car,High,Low,Low,Low,74.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Young professionals,7.05,Private car,Low,Low,Medium,Low,47.47,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Newly married couples,3.061,Mixed,Low,High,Low,High,46.83,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Families with children,28.556,Walking,Medium,Medium,Medium,Moderate,31.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Larger families,13.254,Mixed,High,Low,Low,Moderate,33.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Retirees,20.197,Mixed,Medium,High,High,Moderate,43.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Budget-conscious households,12.092,Mixed,High,Medium,Medium,Moderate,49.59,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D09,Premium housing seekers,15.79,Public transport,High,Medium,Medium,Moderate,32.29,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Young professionals,19.56,Public transport,High,Medium,High,Moderate,78.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Newly married couples,15.098,Private car,Medium,Medium,Low,Moderate,70.63,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Families with children,30.274,Private car,High,Medium,Low,Moderate,53.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Larger families,5.449,Private car,Medium,Medium,High,High,79.18,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Retirees,3.229,Mixed,High,High,High,Low,73.62,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Budget-conscious households,17.666,Public transport,Low,Medium,High,Low,74.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D09,Premium housing seekers,8.725,Mixed,High,High,Low,High,43.61,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Young professionals,7.715,Mixed,Low,High,High,High,58.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Newly married couples,3.217,Mixed,High,Medium,High,High,50.9,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Families with children,30.036,Private car,Low,Medium,Medium,Low,83.32,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Larger families,32.811,Public transport,Medium,High,Medium,High,27.25,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Retirees,11.452,Mixed,Medium,Medium,Medium,High,66.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Budget-conscious households,6.189,Public transport,High,High,Low,Low,78.05,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D09,Premium housing seekers,8.58,Walking,Medium,High,Medium,Moderate,28.61,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Young professionals,6.818,Public transport,High,High,High,Moderate,41.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Newly married couples,13.011,Walking,High,High,High,Moderate,77.08,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Families with children,18.097,Public transport,High,Medium,Medium,Moderate,45.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Larger families,6.512,Walking,Low,Medium,High,Low,36.92,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Retirees,2.969,Public transport,Medium,High,Low,High,51.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Budget-conscious households,38.236,Walking,Medium,Medium,High,Moderate,43.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D09,Premium housing seekers,14.356,Mixed,Medium,Medium,Medium,Moderate,80.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Young professionals,8.86,Public transport,Low,Medium,Medium,Moderate,35.87,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Newly married couples,1.586,Mixed,Medium,Low,Low,Low,53.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Families with children,17.582,Public transport,Medium,Medium,High,Moderate,73.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Larger families,0.147,Walking,High,Medium,Medium,Low,56.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Retirees,14.76,Private car,High,Medium,High,Moderate,58.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Budget-conscious households,52.896,Mixed,High,High,Medium,Moderate,66.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D09,Premium housing seekers,4.168,Public transport,High,Low,High,Moderate,50.54,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Young professionals,6.184,Walking,High,Low,High,Low,34.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Newly married couples,7.678,Private car,Low,Medium,Low,High,85.0,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Families with children,51.9,Public transport,Medium,High,Low,Moderate,41.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Larger families,4.838,Private car,Medium,Medium,Medium,Moderate,30.49,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Retirees,7.115,Public transport,High,High,Medium,High,44.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Budget-conscious households,8.312,Private car,Low,Low,High,Moderate,82.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D09,Premium housing seekers,13.972,Public transport,Medium,High,Medium,Moderate,48.66,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Young professionals,25.94,Mixed,Low,Medium,High,Moderate,50.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Newly married couples,8.824,Walking,Medium,Low,Low,High,26.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Families with children,20.206,Mixed,High,High,Low,Moderate,38.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Larger families,14.221,Mixed,Medium,Medium,High,Moderate,81.48,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Retirees,15.839,Mixed,Medium,High,Medium,Moderate,45.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Budget-conscious households,7.791,Public transport,Low,Medium,Low,High,74.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D09,Premium housing seekers,7.179,Private car,High,Medium,Medium,Moderate,82.56,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Young professionals,18.629,Walking,High,High,Medium,Moderate,78.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Newly married couples,8.488,Private car,Low,Low,High,High,26.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Families with children,41.422,Walking,High,High,Medium,Low,79.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Larger families,8.896,Private car,Medium,Medium,Low,Moderate,59.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Retirees,17.065,Walking,Low,Medium,Medium,Moderate,37.43,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Budget-conscious households,1.665,Mixed,Low,Low,High,Moderate,53.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D09,Premium housing seekers,3.834,Private car,Low,High,High,Moderate,66.21,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Young professionals,2.137,Mixed,Medium,High,Medium,Moderate,31.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Newly married couples,16.399,Walking,High,High,High,Moderate,84.03,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Families with children,28.491,Walking,High,High,Medium,Low,75.36,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Larger families,4.7,Public transport,High,Medium,Medium,Moderate,38.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Retirees,24.128,Mixed,High,Low,High,Moderate,63.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Budget-conscious households,5.259,Private car,Medium,Medium,Low,Low,51.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D09,Premium housing seekers,18.886,Private car,Medium,Low,High,Low,37.99,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Young professionals,10.223,Public transport,Medium,Medium,Low,Moderate,60.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Newly married couples,1.533,Private car,High,High,Medium,High,35.65,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Families with children,54.49,Mixed,Medium,Medium,High,Low,48.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Larger families,9.441,Private car,High,High,Low,Low,32.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Retirees,2.535,Private car,High,High,Medium,Low,37.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Budget-conscious households,13.274,Public transport,High,High,Medium,High,35.07,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D09,Premium housing seekers,8.505,Private car,Medium,High,High,Moderate,73.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Young professionals,13.775,Private car,Medium,Medium,High,Low,75.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Newly married couples,26.66,Private car,Medium,Medium,Medium,High,65.1,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Families with children,24.301,Private car,Low,Medium,Medium,Moderate,73.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Larger families,3.55,Public transport,Medium,High,High,Moderate,77.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Retirees,1.507,Private car,High,Medium,Medium,High,47.15,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Budget-conscious households,10.022,Public transport,High,Medium,High,Moderate,28.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D09,Premium housing seekers,20.185,Mixed,Medium,Medium,Low,Moderate,76.08,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Young professionals,7.776,Public transport,High,Medium,Low,Moderate,29.79,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Newly married couples,14.561,Public transport,High,Medium,Medium,Low,55.28,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Families with children,21.0,Private car,Medium,High,Low,Moderate,35.38,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Larger families,2.797,Walking,High,Medium,Medium,Low,81.09,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Retirees,14.685,Mixed,High,Medium,Medium,High,31.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Budget-conscious households,24.971,Mixed,Low,High,High,Low,37.94,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D09,Premium housing seekers,14.21,Private car,High,Low,Medium,High,31.39,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Young professionals,9.985,Public transport,Medium,High,Medium,Low,60.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Newly married couples,16.983,Mixed,Medium,High,Medium,Low,43.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Families with children,55.115,Public transport,Low,Low,Medium,High,31.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Larger families,4.018,Mixed,Medium,Low,Medium,Low,38.04,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Retirees,0.421,Public transport,Low,Medium,High,Low,51.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Budget-conscious households,6.557,Mixed,Medium,Medium,High,Moderate,63.53,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D09,Premium housing seekers,6.921,Walking,High,Medium,High,Low,50.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Young professionals,16.219,Private car,High,Medium,High,Low,38.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Newly married couples,15.015,Public transport,Medium,Medium,High,Low,56.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Families with children,14.823,Mixed,High,Medium,Low,Moderate,60.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Larger families,11.732,Public transport,High,Medium,Medium,High,76.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Retirees,1.822,Public transport,Medium,Medium,High,Low,74.63,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Budget-conscious households,22.967,Mixed,Low,Medium,Medium,High,25.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D09,Premium housing seekers,17.422,Walking,Medium,High,Medium,High,53.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Young professionals,5.179,Walking,Medium,High,High,Low,39.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Newly married couples,3.471,Private car,High,High,High,Moderate,35.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Families with children,40.898,Public transport,Medium,Medium,High,High,63.31,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Larger families,30.812,Public transport,High,High,Medium,Moderate,73.76,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Retirees,3.377,Walking,Medium,Medium,Medium,Moderate,33.78,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Budget-conscious households,13.249,Mixed,High,Medium,High,Low,54.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D09,Premium housing seekers,3.015,Public transport,High,Medium,High,Low,41.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Young professionals,7.735,Walking,Medium,Low,Low,Moderate,31.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Newly married couples,10.27,Mixed,Low,Medium,Medium,Moderate,30.22,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Families with children,36.35,Private car,High,High,Low,Low,72.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Larger families,14.283,Walking,Medium,Medium,Medium,Moderate,47.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Retirees,18.577,Mixed,Medium,Medium,High,Low,56.44,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Budget-conscious households,11.687,Private car,High,High,Medium,Moderate,36.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-01-01,D10,Premium housing seekers,1.097,Private car,Medium,Medium,High,Moderate,61.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Young professionals,16.177,Public transport,High,Medium,Medium,Low,26.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Newly married couples,6.552,Walking,Medium,High,Low,Moderate,45.07,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Families with children,32.536,Public transport,Medium,Low,Low,Low,40.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Larger families,10.953,Public transport,High,Low,Medium,Moderate,33.2,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Retirees,14.345,Mixed,Medium,Medium,Medium,Low,54.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Budget-conscious households,15.67,Public transport,Medium,Low,Medium,Low,63.78,SYNTHETIC_SEGMENT_MODEL,True
+2024-02-01,D10,Premium housing seekers,3.767,Public transport,Low,Medium,Medium,Low,63.68,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Young professionals,13.879,Private car,High,Low,High,Moderate,45.13,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Newly married couples,22.442,Walking,High,High,Medium,Low,70.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Families with children,33.591,Mixed,Low,Medium,Medium,Moderate,27.39,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Larger families,3.167,Mixed,Medium,Low,Medium,High,59.53,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Retirees,1.687,Public transport,Medium,Medium,Medium,High,35.3,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Budget-conscious households,23.298,Walking,High,Low,Medium,Moderate,43.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-03-01,D10,Premium housing seekers,1.936,Public transport,Medium,High,Medium,High,53.81,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Young professionals,14.456,Private car,High,Medium,Medium,Moderate,70.1,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Newly married couples,2.535,Private car,Low,Medium,Medium,Low,60.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Families with children,32.417,Private car,High,Medium,High,Low,29.33,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Larger families,22.748,Private car,High,Medium,High,Low,67.55,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Retirees,2.639,Public transport,High,Low,Medium,Moderate,64.36,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Budget-conscious households,24.837,Private car,Low,Low,Medium,Low,66.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-04-01,D10,Premium housing seekers,0.368,Mixed,Medium,Medium,High,High,42.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Young professionals,18.865,Private car,Medium,Low,Low,High,36.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Newly married couples,6.464,Public transport,Low,Low,Medium,Moderate,43.01,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Families with children,39.848,Private car,Medium,Low,High,Moderate,81.12,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Larger families,11.535,Mixed,High,Low,Low,Moderate,38.19,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Retirees,0.829,Mixed,High,High,High,Moderate,49.8,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Budget-conscious households,8.149,Mixed,High,High,High,Moderate,52.21,SYNTHETIC_SEGMENT_MODEL,True
+2024-05-01,D10,Premium housing seekers,14.309,Mixed,Low,Low,Medium,Moderate,73.72,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Young professionals,8.636,Public transport,Low,Medium,Medium,Moderate,37.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Newly married couples,1.249,Private car,High,High,High,Moderate,51.98,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Families with children,41.029,Mixed,Medium,Low,High,High,68.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Larger families,12.458,Public transport,High,Low,Medium,Moderate,65.76,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Retirees,7.658,Private car,Medium,Medium,High,High,50.64,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Budget-conscious households,13.761,Mixed,Medium,Medium,Medium,Low,53.82,SYNTHETIC_SEGMENT_MODEL,True
+2024-06-01,D10,Premium housing seekers,15.21,Private car,Medium,Medium,Low,Moderate,57.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Young professionals,8.015,Mixed,Low,Low,Medium,Moderate,65.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Newly married couples,18.316,Walking,High,Medium,Low,High,44.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Families with children,14.14,Private car,Low,Medium,Medium,High,47.23,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Larger families,17.586,Walking,Medium,Medium,High,Low,48.73,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Retirees,8.277,Public transport,High,Medium,Medium,Low,81.03,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Budget-conscious households,26.386,Mixed,Medium,Medium,Medium,Moderate,55.05,SYNTHETIC_SEGMENT_MODEL,True
+2024-07-01,D10,Premium housing seekers,7.28,Private car,Low,Medium,High,High,62.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Young professionals,18.217,Private car,Low,High,Medium,High,37.95,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Newly married couples,1.634,Walking,Medium,Medium,High,Low,58.11,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Families with children,44.867,Walking,Medium,Medium,High,High,27.52,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Larger families,4.305,Public transport,Low,High,Medium,Low,37.38,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Retirees,5.507,Private car,High,Medium,Medium,High,62.34,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Budget-conscious households,23.187,Mixed,High,Medium,Medium,Moderate,62.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-08-01,D10,Premium housing seekers,2.283,Walking,Medium,High,High,Moderate,69.65,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Young professionals,8.087,Private car,High,High,Medium,Low,73.89,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Newly married couples,3.514,Private car,High,Low,High,Moderate,79.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Families with children,10.459,Mixed,High,High,High,Moderate,49.02,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Larger families,39.235,Private car,Low,Medium,Medium,Moderate,36.5,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Retirees,11.585,Mixed,High,Medium,High,High,34.58,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Budget-conscious households,19.807,Private car,Low,Medium,Medium,Moderate,81.67,SYNTHETIC_SEGMENT_MODEL,True
+2024-09-01,D10,Premium housing seekers,7.312,Private car,High,Medium,Medium,High,29.94,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Young professionals,8.436,Mixed,High,Low,High,High,55.17,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Newly married couples,17.716,Private car,Medium,Medium,Low,Moderate,28.43,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Families with children,42.355,Private car,Medium,Medium,Medium,Low,42.93,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Larger families,7.065,Mixed,Low,Medium,Medium,Moderate,54.06,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Retirees,6.107,Private car,Low,Medium,Medium,Moderate,27.31,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Budget-conscious households,17.271,Private car,Medium,High,High,Moderate,50.7,SYNTHETIC_SEGMENT_MODEL,True
+2024-10-01,D10,Premium housing seekers,1.05,Mixed,High,Low,Low,Moderate,67.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Young professionals,6.255,Mixed,Medium,Medium,Low,Moderate,67.08,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Newly married couples,21.183,Mixed,High,High,Medium,High,42.88,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Families with children,20.049,Public transport,Medium,High,Low,Low,42.28,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Larger families,25.291,Private car,Medium,Medium,Medium,High,79.79,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Retirees,12.839,Public transport,High,Low,Medium,Moderate,45.42,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Budget-conscious households,7.903,Mixed,Medium,Medium,High,High,32.54,SYNTHETIC_SEGMENT_MODEL,True
+2024-11-01,D10,Premium housing seekers,6.48,Private car,Medium,Medium,Medium,Low,48.45,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Young professionals,13.124,Public transport,Low,Medium,Low,High,45.37,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Newly married couples,24.574,Private car,High,Medium,Low,High,47.97,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Families with children,21.817,Private car,Medium,Medium,Medium,Low,77.85,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Larger families,2.404,Private car,Low,Low,Medium,Moderate,83.26,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Retirees,10.739,Walking,Low,Medium,Medium,Moderate,48.49,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Budget-conscious households,23.877,Walking,Low,High,Low,Low,30.15,SYNTHETIC_SEGMENT_MODEL,True
+2024-12-01,D10,Premium housing seekers,3.464,Walking,Medium,Medium,Medium,Moderate,61.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Young professionals,7.262,Private car,High,Low,Low,Moderate,62.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Newly married couples,4.753,Public transport,High,High,Low,Moderate,69.65,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Families with children,57.651,Public transport,Medium,Medium,Low,High,82.4,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Larger families,9.43,Private car,High,Low,Medium,Moderate,40.9,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Retirees,0.263,Mixed,Medium,Medium,High,Moderate,66.11,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Budget-conscious households,15.467,Private car,High,High,Low,Moderate,65.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-01-01,D10,Premium housing seekers,5.173,Mixed,Medium,Low,Medium,Moderate,84.69,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Young professionals,6.614,Mixed,High,High,Low,High,63.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Newly married couples,9.627,Public transport,Medium,High,Low,Moderate,75.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Families with children,33.342,Mixed,Medium,High,High,Moderate,71.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Larger families,5.195,Walking,High,Low,Medium,Moderate,60.16,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Retirees,16.746,Mixed,High,High,High,Low,52.12,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Budget-conscious households,28.079,Mixed,High,Medium,Medium,Moderate,62.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-02-01,D10,Premium housing seekers,0.397,Private car,Medium,Medium,Medium,Low,33.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Young professionals,8.981,Public transport,Low,Low,High,Moderate,43.03,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Newly married couples,7.507,Mixed,Medium,High,Medium,Moderate,35.22,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Families with children,23.555,Mixed,Low,High,Low,Moderate,61.45,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Larger families,7.63,Private car,High,Medium,High,Moderate,40.91,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Retirees,7.541,Private car,Medium,Medium,High,Low,75.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Budget-conscious households,31.212,Private car,Medium,Medium,Medium,High,75.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-03-01,D10,Premium housing seekers,13.573,Private car,Medium,Low,Low,Moderate,44.85,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Young professionals,10.645,Mixed,Medium,Medium,High,Moderate,61.41,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Newly married couples,12.073,Public transport,Medium,High,Low,Low,58.5,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Families with children,30.479,Private car,Low,Low,High,Moderate,45.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Larger families,10.613,Mixed,High,High,Medium,Moderate,82.8,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Retirees,6.94,Private car,High,High,Medium,High,78.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Budget-conscious households,13.711,Mixed,High,Low,Medium,Moderate,68.59,SYNTHETIC_SEGMENT_MODEL,True
+2025-04-01,D10,Premium housing seekers,15.54,Mixed,High,Medium,Low,Moderate,52.47,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Young professionals,29.266,Private car,High,Medium,Medium,Moderate,57.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Newly married couples,2.175,Walking,Medium,High,Medium,Low,76.98,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Families with children,38.646,Private car,Medium,Low,Medium,High,28.93,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Larger families,9.287,Mixed,High,Low,Medium,Low,68.18,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Retirees,5.955,Mixed,Medium,Medium,High,Moderate,51.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Budget-conscious households,13.388,Public transport,High,Medium,High,Moderate,64.84,SYNTHETIC_SEGMENT_MODEL,True
+2025-05-01,D10,Premium housing seekers,1.283,Mixed,High,High,Medium,Moderate,25.83,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Young professionals,6.362,Mixed,Low,Medium,High,Moderate,70.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Newly married couples,15.699,Walking,High,Medium,Low,High,48.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Families with children,29.031,Mixed,High,High,High,Moderate,32.62,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Larger families,0.351,Mixed,High,Medium,High,High,26.52,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Retirees,16.058,Private car,High,Medium,Medium,High,63.2,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Budget-conscious households,23.873,Private car,Low,Medium,Low,High,39.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-06-01,D10,Premium housing seekers,8.625,Walking,Medium,Medium,Medium,Moderate,31.44,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Young professionals,20.168,Private car,High,Low,High,Moderate,84.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Newly married couples,4.961,Public transport,Low,High,Medium,Moderate,38.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Families with children,3.879,Private car,Medium,Medium,High,High,39.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Larger families,0.534,Mixed,High,High,High,Moderate,77.19,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Retirees,5.055,Mixed,Medium,High,High,Moderate,57.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Budget-conscious households,44.609,Walking,High,Low,Low,Low,27.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-07-01,D10,Premium housing seekers,20.795,Public transport,Low,Medium,High,Moderate,55.47,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Young professionals,25.332,Private car,High,Low,High,Moderate,83.75,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Newly married couples,16.351,Private car,Medium,Medium,Low,Low,30.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Families with children,4.951,Private car,Low,Medium,Low,High,42.14,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Larger families,1.862,Private car,Medium,Medium,High,High,57.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Retirees,19.909,Mixed,Low,Medium,Medium,Moderate,65.55,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Budget-conscious households,27.584,Public transport,High,Low,High,Low,70.81,SYNTHETIC_SEGMENT_MODEL,True
+2025-08-01,D10,Premium housing seekers,4.011,Mixed,Medium,High,High,Moderate,68.27,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Young professionals,8.104,Private car,Medium,Low,Medium,High,62.73,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Newly married couples,4.954,Walking,Low,High,High,High,43.82,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Families with children,10.175,Public transport,Medium,High,Medium,Moderate,27.24,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Larger families,17.728,Mixed,High,Medium,Medium,Moderate,62.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Retirees,0.688,Public transport,High,Medium,Medium,Moderate,40.42,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Budget-conscious households,44.33,Private car,Medium,Medium,Low,High,53.68,SYNTHETIC_SEGMENT_MODEL,True
+2025-09-01,D10,Premium housing seekers,14.021,Mixed,High,Medium,Medium,Moderate,79.51,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Young professionals,12.709,Public transport,Medium,Medium,Low,High,62.7,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Newly married couples,8.53,Public transport,Medium,Medium,High,High,84.96,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Families with children,55.664,Private car,High,Low,Medium,High,61.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Larger families,4.117,Mixed,High,High,High,Moderate,50.02,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Retirees,0.755,Private car,Medium,Medium,High,Moderate,55.71,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Budget-conscious households,11.433,Mixed,Low,Medium,Low,Moderate,55.34,SYNTHETIC_SEGMENT_MODEL,True
+2025-10-01,D10,Premium housing seekers,6.792,Public transport,High,High,Medium,Moderate,41.95,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Young professionals,2.424,Mixed,High,Medium,High,Moderate,30.13,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Newly married couples,27.261,Private car,Medium,Medium,High,Moderate,74.37,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Families with children,20.843,Walking,High,Medium,Medium,Moderate,71.23,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Larger families,9.775,Mixed,Medium,Low,Medium,Moderate,67.72,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Retirees,1.201,Mixed,Low,High,Medium,Moderate,44.57,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Budget-conscious households,17.339,Mixed,Medium,Medium,High,High,26.74,SYNTHETIC_SEGMENT_MODEL,True
+2025-11-01,D10,Premium housing seekers,21.156,Public transport,High,Medium,Medium,Low,55.01,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Young professionals,4.155,Private car,Medium,Medium,Medium,Low,40.86,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Newly married couples,7.349,Walking,High,Medium,High,High,35.33,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Families with children,38.29,Private car,Low,Medium,Medium,Moderate,39.03,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Larger families,21.786,Private car,High,High,Medium,High,37.89,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Retirees,2.837,Private car,High,High,Medium,Low,38.46,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Budget-conscious households,13.573,Private car,Medium,High,Low,Moderate,49.26,SYNTHETIC_SEGMENT_MODEL,True
+2025-12-01,D10,Premium housing seekers,12.01,Public transport,High,High,Medium,Moderate,55.24,SYNTHETIC_SEGMENT_MODEL,True

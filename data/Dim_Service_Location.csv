@@ -1,0 +1,401 @@
+﻿Service_Location_ID,Facility_Name,Facility_Type,Service_Category,District_ID,Area_ID,Latitude,Longitude,Location_Data_Status,Is_Synthetic,Opening_Date,Operational_Status,Planned_Opening_Date,Capacity,Capacity_Unit,Data_Status
+SVC00001,Synthetic Hospital D01-01,Hospital,Healthcare,D01,,30.041457,31.752574,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2570,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00002,Synthetic Clinic D01-01,Clinic,Healthcare,D01,,30.027327,31.69935,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5175,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00003,Synthetic Clinic D01-02,Clinic,Healthcare,D01,,29.972011,31.730056,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1815,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00004,Synthetic Clinic D01-03,Clinic,Healthcare,D01,,29.994001,31.704831,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2077,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00005,Synthetic Pharmacy D01-01,Pharmacy,Healthcare,D01,,30.02732,31.703033,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,89,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00006,Synthetic Pharmacy D01-02,Pharmacy,Healthcare,D01,,30.043425,31.71035,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1668,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00007,Synthetic Pharmacy D01-03,Pharmacy,Healthcare,D01,,30.009511,31.674661,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,497,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00008,Synthetic Pharmacy D01-04,Pharmacy,Healthcare,D01,,29.969213,31.69719,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1938,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00009,Synthetic Pharmacy D01-05,Pharmacy,Healthcare,D01,,30.02149,31.698955,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3386,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00010,Synthetic Pharmacy D01-06,Pharmacy,Healthcare,D01,,30.024163,31.693082,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5164,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00011,Synthetic Pharmacy D01-07,Pharmacy,Healthcare,D01,,29.955789,31.741307,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,783,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00012,Synthetic School D01-01,School,Education,D01,,30.039607,31.690629,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1113,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00013,Synthetic Nursery D01-01,Nursery,Education,D01,,29.972886,31.660414,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3226,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00014,Synthetic Nursery D01-02,Nursery,Education,D01,,29.966754,31.698542,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2667,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00015,Synthetic Nursery D01-03,Nursery,Education,D01,,29.984204,31.669446,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5400,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00016,Synthetic Nursery D01-04,Nursery,Education,D01,,29.968556,31.730846,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5986,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00017,Synthetic Nursery D01-05,Nursery,Education,D01,,29.997975,31.647641,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5541,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00018,Synthetic Transit Stop D01-01,Transit_Stop,Transport,D01,,30.031947,31.708634,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4135,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00019,Synthetic Transit Stop D01-02,Transit_Stop,Transport,D01,,30.00982,31.674369,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,355,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00020,Synthetic Transit Stop D01-03,Transit_Stop,Transport,D01,,29.978017,31.735512,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3882,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00021,Synthetic Transit Stop D01-04,Transit_Stop,Transport,D01,,29.989254,31.6691,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4795,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00022,Synthetic Transit Stop D01-05,Transit_Stop,Transport,D01,,30.024807,31.73546,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5392,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00023,Synthetic Transit Stop D01-06,Transit_Stop,Transport,D01,,29.962877,31.655308,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3721,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00024,Synthetic EV Charging Station D01-01,EV_Charging_Station,Mobility,D01,,29.968487,31.702012,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4162,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00025,Synthetic EV Charging Station D01-02,EV_Charging_Station,Mobility,D01,,30.043051,31.663028,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5708,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00026,Synthetic EV Charging Station D01-03,EV_Charging_Station,Mobility,D01,,30.035411,31.69136,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4319,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00027,Synthetic EV Charging Station D01-04,EV_Charging_Station,Mobility,D01,,29.975343,31.741017,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,193,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00028,Synthetic Petrol Station D01-01,Petrol_Station,Mobility,D01,,30.01781,31.67817,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5465,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00029,Synthetic Petrol Station D01-02,Petrol_Station,Mobility,D01,,30.008678,31.651721,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,417,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00030,Synthetic Supermarket D01-01,Supermarket,Retail,D01,,29.974158,31.745807,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5936,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00031,Synthetic Supermarket D01-02,Supermarket,Retail,D01,,29.965444,31.659036,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4290,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00032,Synthetic Supermarket D01-03,Supermarket,Retail,D01,,30.004619,31.649809,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,827,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00033,Synthetic Supermarket D01-04,Supermarket,Retail,D01,,30.016248,31.663636,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3034,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00034,Synthetic Supermarket D01-05,Supermarket,Retail,D01,,29.966965,31.744956,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4767,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00035,Synthetic Supermarket D01-06,Supermarket,Retail,D01,,29.955202,31.674797,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2742,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00036,Synthetic Park D01-01,Park,Recreation,D01,,30.008635,31.652205,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5523,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00037,Synthetic Park D01-02,Park,Recreation,D01,,29.983615,31.699093,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1100,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00038,Synthetic Park D01-03,Park,Recreation,D01,,29.965875,31.730673,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5935,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00039,Synthetic Club D01-01,Club,Recreation,D01,,29.973887,31.738765,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,655,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00040,Synthetic Club D01-02,Club,Recreation,D01,,30.020819,31.667466,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,608,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00041,Synthetic Club D01-03,Club,Recreation,D01,,29.966654,31.646431,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4845,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00042,Synthetic Hospital D02-01,Hospital,Healthcare,D02,,30.023291,31.686615,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2441,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00043,Synthetic Hospital D02-02,Hospital,Healthcare,D02,,30.031265,31.733535,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2241,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00044,Synthetic Clinic D02-01,Clinic,Healthcare,D02,,29.961215,31.659075,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1370,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00045,Synthetic Clinic D02-02,Clinic,Healthcare,D02,,29.976736,31.677178,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5445,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00046,Synthetic Clinic D02-03,Clinic,Healthcare,D02,,30.021438,31.683361,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4186,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00047,Synthetic Clinic D02-04,Clinic,Healthcare,D02,,29.983322,31.683631,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,584,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00048,Synthetic Clinic D02-05,Clinic,Healthcare,D02,,29.986975,31.746018,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2752,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00049,Synthetic Clinic D02-06,Clinic,Healthcare,D02,,29.982632,31.677573,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4629,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00050,Synthetic Clinic D02-07,Clinic,Healthcare,D02,,30.013029,31.748063,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2541,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00051,Synthetic Clinic D02-08,Clinic,Healthcare,D02,,29.997034,31.670214,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1605,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00052,Synthetic Pharmacy D02-01,Pharmacy,Healthcare,D02,,30.035052,31.65688,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5621,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00053,Synthetic Pharmacy D02-02,Pharmacy,Healthcare,D02,,30.028865,31.683797,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,422,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00054,Synthetic Pharmacy D02-03,Pharmacy,Healthcare,D02,,30.005528,31.689418,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1122,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00055,Synthetic Pharmacy D02-04,Pharmacy,Healthcare,D02,,30.010292,31.646733,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4377,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00056,Synthetic Pharmacy D02-05,Pharmacy,Healthcare,D02,,30.027432,31.69745,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,792,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00057,Synthetic Pharmacy D02-06,Pharmacy,Healthcare,D02,,30.004558,31.65109,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,653,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00058,Synthetic Pharmacy D02-07,Pharmacy,Healthcare,D02,,29.984238,31.696153,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2641,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00059,Synthetic School D02-01,School,Education,D02,,30.019698,31.72592,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5125,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00060,Synthetic School D02-02,School,Education,D02,,29.989691,31.749944,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3692,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00061,Synthetic School D02-03,School,Education,D02,,29.970803,31.682825,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,415,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00062,Synthetic School D02-04,School,Education,D02,,30.012784,31.70077,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3543,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00063,Synthetic School D02-05,School,Education,D02,,30.028698,31.673302,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4405,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00064,Synthetic Nursery D02-01,Nursery,Education,D02,,30.043803,31.647384,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,267,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00065,Synthetic Nursery D02-02,Nursery,Education,D02,,29.974086,31.686581,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2306,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00066,Synthetic Nursery D02-03,Nursery,Education,D02,,29.998525,31.696869,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3752,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00067,Synthetic University D02-01,University,Education,D02,,29.971886,31.75044,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2048,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00068,Synthetic Transit Stop D02-01,Transit_Stop,Transport,D02,,29.990548,31.673875,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,216,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00069,Synthetic Transit Stop D02-02,Transit_Stop,Transport,D02,,30.000007,31.680676,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,540,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00070,Synthetic Transit Stop D02-03,Transit_Stop,Transport,D02,,29.963778,31.648792,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4226,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00071,Synthetic Transit Stop D02-04,Transit_Stop,Transport,D02,,30.04435,31.714112,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3874,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00072,Synthetic Transit Stop D02-05,Transit_Stop,Transport,D02,,29.970793,31.751086,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2321,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00073,Synthetic Transit Stop D02-06,Transit_Stop,Transport,D02,,30.040929,31.710889,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5479,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00074,Synthetic Transit Stop D02-07,Transit_Stop,Transport,D02,,30.036122,31.654201,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2403,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00075,Synthetic Transit Stop D02-08,Transit_Stop,Transport,D02,,29.971862,31.679991,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3928,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00076,Synthetic Transit Stop D02-09,Transit_Stop,Transport,D02,,29.9712,31.689304,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,450,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00077,Synthetic EV Charging Station D02-01,EV_Charging_Station,Mobility,D02,,29.990963,31.661176,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2389,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00078,Synthetic EV Charging Station D02-02,EV_Charging_Station,Mobility,D02,,29.972351,31.701822,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1235,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00079,Synthetic EV Charging Station D02-03,EV_Charging_Station,Mobility,D02,,29.983825,31.688681,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4417,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00080,Synthetic EV Charging Station D02-04,EV_Charging_Station,Mobility,D02,,30.038826,31.737209,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4639,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00081,Synthetic Petrol Station D02-01,Petrol_Station,Mobility,D02,,30.013333,31.715357,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,934,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00082,Synthetic Petrol Station D02-02,Petrol_Station,Mobility,D02,,29.998555,31.689826,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3023,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00083,Synthetic Supermarket D02-01,Supermarket,Retail,D02,,30.005917,31.729781,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,474,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00084,Synthetic Park D02-01,Park,Recreation,D02,,29.964365,31.737118,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4661,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00085,Synthetic Club D02-01,Club,Recreation,D02,,30.001002,31.675322,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4811,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00086,Synthetic Club D02-02,Club,Recreation,D02,,29.984788,31.66197,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5200,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00087,Synthetic Club D02-03,Club,Recreation,D02,,30.042119,31.749498,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,642,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00088,Synthetic Hospital D03-01,Hospital,Healthcare,D03,,29.977232,31.68908,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1670,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00089,Synthetic Clinic D03-01,Clinic,Healthcare,D03,,30.040011,31.72546,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5429,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00090,Synthetic Clinic D03-02,Clinic,Healthcare,D03,,29.965635,31.64571,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4631,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00091,Synthetic Clinic D03-03,Clinic,Healthcare,D03,,29.984226,31.730509,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3662,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00092,Synthetic Clinic D03-04,Clinic,Healthcare,D03,,30.021868,31.704377,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1868,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00093,Synthetic Clinic D03-05,Clinic,Healthcare,D03,,30.01069,31.746871,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,165,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00094,Synthetic Clinic D03-06,Clinic,Healthcare,D03,,30.016909,31.650967,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3371,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00095,Synthetic Clinic D03-07,Clinic,Healthcare,D03,,30.043711,31.682018,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5968,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00096,Synthetic Pharmacy D03-01,Pharmacy,Healthcare,D03,,30.042366,31.676617,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5962,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00097,Synthetic Pharmacy D03-02,Pharmacy,Healthcare,D03,,29.974213,31.667828,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3193,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00098,Synthetic Pharmacy D03-03,Pharmacy,Healthcare,D03,,30.029278,31.651963,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,371,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00099,Synthetic Pharmacy D03-04,Pharmacy,Healthcare,D03,,29.992886,31.702124,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1061,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00100,Synthetic Pharmacy D03-05,Pharmacy,Healthcare,D03,,29.975208,31.662316,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,503,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00101,Synthetic Pharmacy D03-06,Pharmacy,Healthcare,D03,,30.035045,31.681105,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5563,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00102,Synthetic Pharmacy D03-07,Pharmacy,Healthcare,D03,,30.044423,31.674275,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,881,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00103,Synthetic School D03-01,School,Education,D03,,29.995061,31.650494,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4272,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00104,Synthetic School D03-02,School,Education,D03,,29.956376,31.743933,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1590,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00105,Synthetic School D03-03,School,Education,D03,,29.990545,31.645353,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3210,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00106,Synthetic School D03-04,School,Education,D03,,29.961652,31.746733,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5572,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00107,Synthetic Nursery D03-01,Nursery,Education,D03,,29.973214,31.652328,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1390,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00108,Synthetic Nursery D03-02,Nursery,Education,D03,,29.981484,31.670058,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3917,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00109,Synthetic University D03-01,University,Education,D03,,29.99652,31.754208,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5233,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00110,Synthetic University D03-02,University,Education,D03,,30.003129,31.716201,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5070,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00111,Synthetic Transit Stop D03-01,Transit_Stop,Transport,D03,,30.035171,31.71721,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5102,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00112,Synthetic Transit Stop D03-02,Transit_Stop,Transport,D03,,30.005959,31.739281,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5654,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00113,Synthetic Transit Stop D03-03,Transit_Stop,Transport,D03,,29.988843,31.654789,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5475,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00114,Synthetic Transit Stop D03-04,Transit_Stop,Transport,D03,,29.987466,31.691918,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4623,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00115,Synthetic Transit Stop D03-05,Transit_Stop,Transport,D03,,30.006071,31.654079,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1888,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00116,Synthetic Transit Stop D03-06,Transit_Stop,Transport,D03,,30.028489,31.73571,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1850,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00117,Synthetic Transit Stop D03-07,Transit_Stop,Transport,D03,,29.972946,31.651029,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4917,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00118,Synthetic Transit Stop D03-08,Transit_Stop,Transport,D03,,30.014985,31.715249,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3593,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00119,Synthetic Transit Stop D03-09,Transit_Stop,Transport,D03,,30.013844,31.682074,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2594,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00120,Synthetic Transit Stop D03-10,Transit_Stop,Transport,D03,,30.012923,31.661382,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5866,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00121,Synthetic Transit Stop D03-11,Transit_Stop,Transport,D03,,30.036486,31.751407,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1055,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00122,Synthetic EV Charging Station D03-01,EV_Charging_Station,Mobility,D03,,29.985084,31.713137,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,612,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00123,Synthetic EV Charging Station D03-02,EV_Charging_Station,Mobility,D03,,29.968294,31.73179,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,84,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00124,Synthetic EV Charging Station D03-03,EV_Charging_Station,Mobility,D03,,30.030946,31.666077,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1658,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00125,Synthetic EV Charging Station D03-04,EV_Charging_Station,Mobility,D03,,29.97409,31.739615,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1702,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00126,Synthetic Petrol Station D03-01,Petrol_Station,Mobility,D03,,29.976512,31.654023,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3686,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00127,Synthetic Petrol Station D03-02,Petrol_Station,Mobility,D03,,29.965714,31.740412,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2296,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00128,Synthetic Petrol Station D03-03,Petrol_Station,Mobility,D03,,30.025977,31.658015,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4574,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00129,Synthetic Supermarket D03-01,Supermarket,Retail,D03,,30.040314,31.741928,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5626,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00130,Synthetic Supermarket D03-02,Supermarket,Retail,D03,,29.987554,31.697535,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,137,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00131,Synthetic Park D03-01,Park,Recreation,D03,,29.999346,31.706364,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4570,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00132,Synthetic Park D03-02,Park,Recreation,D03,,30.02162,31.742857,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5477,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00133,Synthetic Park D03-03,Park,Recreation,D03,,29.966522,31.654897,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2624,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00134,Synthetic Park D03-04,Park,Recreation,D03,,30.023868,31.713002,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2395,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00135,Synthetic Park D03-05,Park,Recreation,D03,,30.008575,31.6591,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1362,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00136,Synthetic Hospital D04-01,Hospital,Healthcare,D04,,30.029885,31.695263,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3247,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00137,Synthetic Clinic D04-01,Clinic,Healthcare,D04,,30.03637,31.665412,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,487,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00138,Synthetic Clinic D04-02,Clinic,Healthcare,D04,,29.964939,31.646971,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1874,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00139,Synthetic Pharmacy D04-01,Pharmacy,Healthcare,D04,,30.025543,31.65038,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2839,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00140,Synthetic Pharmacy D04-02,Pharmacy,Healthcare,D04,,29.956776,31.727415,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4877,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00141,Synthetic Pharmacy D04-03,Pharmacy,Healthcare,D04,,29.979837,31.684417,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1608,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00142,Synthetic Pharmacy D04-04,Pharmacy,Healthcare,D04,,30.037762,31.744742,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2425,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00143,Synthetic Pharmacy D04-05,Pharmacy,Healthcare,D04,,29.955171,31.670174,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,559,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00144,Synthetic Pharmacy D04-06,Pharmacy,Healthcare,D04,,30.019427,31.669143,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4698,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00145,Synthetic School D04-01,School,Education,D04,,29.977209,31.728685,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2481,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00146,Synthetic Nursery D04-01,Nursery,Education,D04,,29.980809,31.672008,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4355,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00147,Synthetic Nursery D04-02,Nursery,Education,D04,,29.990869,31.707207,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4123,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00148,Synthetic Nursery D04-03,Nursery,Education,D04,,30.017023,31.723316,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2560,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00149,Synthetic Nursery D04-04,Nursery,Education,D04,,29.965721,31.715377,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1018,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00150,Synthetic University D04-01,University,Education,D04,,30.020275,31.646112,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,663,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00151,Synthetic University D04-02,University,Education,D04,,30.005963,31.681462,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2552,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00152,Synthetic Transit Stop D04-01,Transit_Stop,Transport,D04,,29.993183,31.690275,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2218,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00153,Synthetic Transit Stop D04-02,Transit_Stop,Transport,D04,,30.025166,31.748854,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3640,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00154,Synthetic Transit Stop D04-03,Transit_Stop,Transport,D04,,30.019602,31.689109,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,231,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00155,Synthetic Transit Stop D04-04,Transit_Stop,Transport,D04,,30.009938,31.679251,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3480,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00156,Synthetic EV Charging Station D04-01,EV_Charging_Station,Mobility,D04,,29.963115,31.695392,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,579,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00157,Synthetic EV Charging Station D04-02,EV_Charging_Station,Mobility,D04,,30.028208,31.705837,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3610,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00158,Synthetic EV Charging Station D04-03,EV_Charging_Station,Mobility,D04,,29.977372,31.720772,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2408,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00159,Synthetic Petrol Station D04-01,Petrol_Station,Mobility,D04,,30.021238,31.676017,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3967,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00160,Synthetic Petrol Station D04-02,Petrol_Station,Mobility,D04,,29.962602,31.683463,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4541,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00161,Synthetic Petrol Station D04-03,Petrol_Station,Mobility,D04,,29.969966,31.695428,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,819,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00162,Synthetic Supermarket D04-01,Supermarket,Retail,D04,,29.974398,31.660139,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,410,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00163,Synthetic Supermarket D04-02,Supermarket,Retail,D04,,30.006122,31.665549,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,844,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00164,Synthetic Park D04-01,Park,Recreation,D04,,30.013669,31.693836,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2224,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00165,Synthetic Park D04-02,Park,Recreation,D04,,29.996417,31.73192,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1661,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00166,Synthetic Park D04-03,Park,Recreation,D04,,29.988499,31.729115,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1965,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00167,Synthetic Park D04-04,Park,Recreation,D04,,29.98074,31.749752,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,362,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00168,Synthetic Park D04-05,Park,Recreation,D04,,29.984022,31.730103,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2175,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00169,Synthetic Club D04-01,Club,Recreation,D04,,30.005637,31.708681,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2287,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00170,Synthetic Hospital D05-01,Hospital,Healthcare,D05,,30.000096,31.658328,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3393,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00171,Synthetic Hospital D05-02,Hospital,Healthcare,D05,,30.022378,31.722218,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1749,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00172,Synthetic Clinic D05-01,Clinic,Healthcare,D05,,30.012792,31.741107,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,79,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00173,Synthetic Clinic D05-02,Clinic,Healthcare,D05,,30.004966,31.645686,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4465,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00174,Synthetic Clinic D05-03,Clinic,Healthcare,D05,,29.981994,31.749254,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4479,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00175,Synthetic Clinic D05-04,Clinic,Healthcare,D05,,29.997243,31.73832,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5635,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00176,Synthetic Clinic D05-05,Clinic,Healthcare,D05,,29.972521,31.703231,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1595,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00177,Synthetic Pharmacy D05-01,Pharmacy,Healthcare,D05,,30.01152,31.684186,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2483,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00178,Synthetic Pharmacy D05-02,Pharmacy,Healthcare,D05,,29.98303,31.731944,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1239,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00179,Synthetic Pharmacy D05-03,Pharmacy,Healthcare,D05,,30.025808,31.70234,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,377,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00180,Synthetic Pharmacy D05-04,Pharmacy,Healthcare,D05,,29.958133,31.739718,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3010,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00181,Synthetic Pharmacy D05-05,Pharmacy,Healthcare,D05,,30.019131,31.660589,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,107,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00182,Synthetic Pharmacy D05-06,Pharmacy,Healthcare,D05,,30.008762,31.71975,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1469,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00183,Synthetic Pharmacy D05-07,Pharmacy,Healthcare,D05,,29.970782,31.715912,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3912,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00184,Synthetic Pharmacy D05-08,Pharmacy,Healthcare,D05,,29.980863,31.718186,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1657,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00185,Synthetic Pharmacy D05-09,Pharmacy,Healthcare,D05,,29.957796,31.65988,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,205,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00186,Synthetic Pharmacy D05-10,Pharmacy,Healthcare,D05,,30.003155,31.656573,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1004,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00187,Synthetic School D05-01,School,Education,D05,,30.01302,31.658734,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5167,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00188,Synthetic School D05-02,School,Education,D05,,30.007302,31.748601,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5949,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00189,Synthetic Nursery D05-01,Nursery,Education,D05,,30.030944,31.70153,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1827,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00190,Synthetic Transit Stop D05-01,Transit_Stop,Transport,D05,,29.971657,31.653194,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2505,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00191,Synthetic Transit Stop D05-02,Transit_Stop,Transport,D05,,30.031049,31.686065,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5766,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00192,Synthetic Transit Stop D05-03,Transit_Stop,Transport,D05,,29.961952,31.736951,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5332,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00193,Synthetic Transit Stop D05-04,Transit_Stop,Transport,D05,,30.005074,31.712478,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4201,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00194,Synthetic Transit Stop D05-05,Transit_Stop,Transport,D05,,29.958355,31.700799,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,827,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00195,Synthetic Transit Stop D05-06,Transit_Stop,Transport,D05,,30.014186,31.64927,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2442,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00196,Synthetic EV Charging Station D05-01,EV_Charging_Station,Mobility,D05,,30.018408,31.743179,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1334,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00197,Synthetic EV Charging Station D05-02,EV_Charging_Station,Mobility,D05,,30.023362,31.736694,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,926,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00198,Synthetic EV Charging Station D05-03,EV_Charging_Station,Mobility,D05,,29.986806,31.706707,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1972,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00199,Synthetic EV Charging Station D05-04,EV_Charging_Station,Mobility,D05,,30.023024,31.747784,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2444,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00200,Synthetic Petrol Station D05-01,Petrol_Station,Mobility,D05,,30.001555,31.714472,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2762,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00201,Synthetic Supermarket D05-01,Supermarket,Retail,D05,,29.97017,31.69138,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3978,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00202,Synthetic Supermarket D05-02,Supermarket,Retail,D05,,30.035109,31.656323,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2190,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00203,Synthetic Supermarket D05-03,Supermarket,Retail,D05,,29.968445,31.663148,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3673,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00204,Synthetic Supermarket D05-04,Supermarket,Retail,D05,,30.015002,31.732567,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5574,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00205,Synthetic Supermarket D05-05,Supermarket,Retail,D05,,30.031193,31.745905,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2171,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00206,Synthetic Park D05-01,Park,Recreation,D05,,30.031564,31.687421,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2482,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00207,Synthetic Club D05-01,Club,Recreation,D05,,29.975102,31.750631,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1544,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00208,Synthetic Hospital D06-01,Hospital,Healthcare,D06,,30.007537,31.653294,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5638,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00209,Synthetic Hospital D06-02,Hospital,Healthcare,D06,,29.996894,31.738244,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4907,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00210,Synthetic Hospital D06-03,Hospital,Healthcare,D06,,30.008799,31.676722,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2219,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00211,Synthetic Clinic D06-01,Clinic,Healthcare,D06,,30.027338,31.673717,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,918,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00212,Synthetic Clinic D06-02,Clinic,Healthcare,D06,,30.014919,31.714902,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1649,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00213,Synthetic Clinic D06-03,Clinic,Healthcare,D06,,29.974768,31.737051,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3632,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00214,Synthetic Clinic D06-04,Clinic,Healthcare,D06,,29.978581,31.64813,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4023,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00215,Synthetic Clinic D06-05,Clinic,Healthcare,D06,,29.963094,31.727867,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,386,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00216,Synthetic Pharmacy D06-01,Pharmacy,Healthcare,D06,,29.993236,31.689046,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4387,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00217,Synthetic Pharmacy D06-02,Pharmacy,Healthcare,D06,,29.986004,31.729453,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3137,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00218,Synthetic Pharmacy D06-03,Pharmacy,Healthcare,D06,,29.955787,31.682753,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2731,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00219,Synthetic Pharmacy D06-04,Pharmacy,Healthcare,D06,,29.969998,31.754512,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2673,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00220,Synthetic Pharmacy D06-05,Pharmacy,Healthcare,D06,,29.988037,31.664495,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2883,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00221,Synthetic Pharmacy D06-06,Pharmacy,Healthcare,D06,,29.964641,31.729141,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1074,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00222,Synthetic Pharmacy D06-07,Pharmacy,Healthcare,D06,,30.014404,31.657321,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2357,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00223,Synthetic Pharmacy D06-08,Pharmacy,Healthcare,D06,,30.042699,31.719804,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,827,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00224,Synthetic Pharmacy D06-09,Pharmacy,Healthcare,D06,,29.955741,31.740266,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2836,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00225,Synthetic Pharmacy D06-10,Pharmacy,Healthcare,D06,,29.974176,31.657947,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1577,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00226,Synthetic Pharmacy D06-11,Pharmacy,Healthcare,D06,,30.029584,31.731968,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3215,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00227,Synthetic School D06-01,School,Education,D06,,30.025278,31.659369,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2518,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00228,Synthetic School D06-02,School,Education,D06,,29.998169,31.752265,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3410,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00229,Synthetic School D06-03,School,Education,D06,,30.030702,31.743809,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4970,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00230,Synthetic School D06-04,School,Education,D06,,29.959319,31.672953,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1051,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00231,Synthetic Nursery D06-01,Nursery,Education,D06,,29.959314,31.730585,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1763,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00232,Synthetic Nursery D06-02,Nursery,Education,D06,,30.024143,31.676158,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,641,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00233,Synthetic Nursery D06-03,Nursery,Education,D06,,29.995504,31.680175,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2424,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00234,Synthetic Nursery D06-04,Nursery,Education,D06,,30.026836,31.659655,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5231,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00235,Synthetic Nursery D06-05,Nursery,Education,D06,,29.976383,31.669539,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,566,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00236,Synthetic University D06-01,University,Education,D06,,29.962303,31.750782,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1367,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00237,Synthetic Transit Stop D06-01,Transit_Stop,Transport,D06,,30.038897,31.726116,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3859,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00238,Synthetic Transit Stop D06-02,Transit_Stop,Transport,D06,,30.03182,31.66756,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1557,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00239,Synthetic Transit Stop D06-03,Transit_Stop,Transport,D06,,30.036178,31.654092,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,592,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00240,Synthetic Transit Stop D06-04,Transit_Stop,Transport,D06,,29.981562,31.697594,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,215,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00241,Synthetic Transit Stop D06-05,Transit_Stop,Transport,D06,,29.961516,31.714387,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,45,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00242,Synthetic Transit Stop D06-06,Transit_Stop,Transport,D06,,30.007949,31.74426,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5101,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00243,Synthetic Transit Stop D06-07,Transit_Stop,Transport,D06,,29.983861,31.683288,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4724,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00244,Synthetic Transit Stop D06-08,Transit_Stop,Transport,D06,,30.043298,31.735589,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2764,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00245,Synthetic EV Charging Station D06-01,EV_Charging_Station,Mobility,D06,,29.957394,31.667939,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1935,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00246,Synthetic EV Charging Station D06-02,EV_Charging_Station,Mobility,D06,,30.029932,31.685716,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4158,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00247,Synthetic Petrol Station D06-01,Petrol_Station,Mobility,D06,,29.967766,31.717561,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3384,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00248,Synthetic Petrol Station D06-02,Petrol_Station,Mobility,D06,,30.005968,31.717464,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4897,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00249,Synthetic Petrol Station D06-03,Petrol_Station,Mobility,D06,,30.04159,31.754335,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4616,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00250,Synthetic Supermarket D06-01,Supermarket,Retail,D06,,30.0157,31.715963,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3496,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00251,Synthetic Supermarket D06-02,Supermarket,Retail,D06,,29.988058,31.717036,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1126,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00252,Synthetic Park D06-01,Park,Recreation,D06,,30.032871,31.668454,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,232,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00253,Synthetic Park D06-02,Park,Recreation,D06,,30.004521,31.663472,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2390,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00254,Synthetic Club D06-01,Club,Recreation,D06,,29.966715,31.707171,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2964,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00255,Synthetic Club D06-02,Club,Recreation,D06,,29.987633,31.747054,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5257,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00256,Synthetic Club D06-03,Club,Recreation,D06,,29.971182,31.741486,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4049,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00257,Synthetic Hospital D07-01,Hospital,Healthcare,D07,,30.000694,31.703679,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2030,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00258,Synthetic Hospital D07-02,Hospital,Healthcare,D07,,30.02857,31.719919,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3130,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00259,Synthetic Hospital D07-03,Hospital,Healthcare,D07,,29.999413,31.684949,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1456,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00260,Synthetic Clinic D07-01,Clinic,Healthcare,D07,,30.036668,31.688165,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4722,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00261,Synthetic Clinic D07-02,Clinic,Healthcare,D07,,29.980188,31.73342,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2458,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00262,Synthetic Clinic D07-03,Clinic,Healthcare,D07,,29.965076,31.687484,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1508,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00263,Synthetic Clinic D07-04,Clinic,Healthcare,D07,,30.002287,31.655274,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1953,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00264,Synthetic Clinic D07-05,Clinic,Healthcare,D07,,29.979603,31.69988,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3999,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00265,Synthetic Clinic D07-06,Clinic,Healthcare,D07,,30.020705,31.735245,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1297,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00266,Synthetic Clinic D07-07,Clinic,Healthcare,D07,,29.982896,31.661613,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,802,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00267,Synthetic Pharmacy D07-01,Pharmacy,Healthcare,D07,,30.009512,31.664232,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5077,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00268,Synthetic Pharmacy D07-02,Pharmacy,Healthcare,D07,,30.043851,31.683898,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2631,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00269,Synthetic Pharmacy D07-03,Pharmacy,Healthcare,D07,,29.967154,31.649141,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1442,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00270,Synthetic School D07-01,School,Education,D07,,29.98247,31.648691,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4852,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00271,Synthetic School D07-02,School,Education,D07,,30.016382,31.666209,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2859,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00272,Synthetic Nursery D07-01,Nursery,Education,D07,,29.999975,31.688049,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4051,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00273,Synthetic Nursery D07-02,Nursery,Education,D07,,30.011272,31.706901,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5032,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00274,Synthetic Nursery D07-03,Nursery,Education,D07,,29.970624,31.683136,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3002,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00275,Synthetic Nursery D07-04,Nursery,Education,D07,,30.029026,31.731089,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1620,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00276,Synthetic Nursery D07-05,Nursery,Education,D07,,30.024165,31.685023,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3399,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00277,Synthetic University D07-01,University,Education,D07,,30.018794,31.653861,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3075,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00278,Synthetic University D07-02,University,Education,D07,,29.962982,31.677666,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1281,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00279,Synthetic Transit Stop D07-01,Transit_Stop,Transport,D07,,29.985001,31.653305,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2956,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00280,Synthetic Transit Stop D07-02,Transit_Stop,Transport,D07,,30.029479,31.745318,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3832,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00281,Synthetic EV Charging Station D07-01,EV_Charging_Station,Mobility,D07,,30.024929,31.744792,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,328,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00282,Synthetic EV Charging Station D07-02,EV_Charging_Station,Mobility,D07,,30.01204,31.683997,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,787,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00283,Synthetic Petrol Station D07-01,Petrol_Station,Mobility,D07,,30.032131,31.689858,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5278,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00284,Synthetic Supermarket D07-01,Supermarket,Retail,D07,,30.011277,31.656006,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5880,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00285,Synthetic Supermarket D07-02,Supermarket,Retail,D07,,29.970474,31.664973,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2906,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00286,Synthetic Supermarket D07-03,Supermarket,Retail,D07,,29.97049,31.71291,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,596,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00287,Synthetic Park D07-01,Park,Recreation,D07,,30.041788,31.743328,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2016,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00288,Synthetic Park D07-02,Park,Recreation,D07,,29.976852,31.667856,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3015,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00289,Synthetic Park D07-03,Park,Recreation,D07,,29.974892,31.710684,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4817,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00290,Synthetic Park D07-04,Park,Recreation,D07,,30.022911,31.684091,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2673,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00291,Synthetic Club D07-01,Club,Recreation,D07,,30.01215,31.744916,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4952,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00292,Synthetic Club D07-02,Club,Recreation,D07,,30.031473,31.741802,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,961,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00293,Synthetic Hospital D08-01,Hospital,Healthcare,D08,,29.985866,31.72914,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5885,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00294,Synthetic Hospital D08-02,Hospital,Healthcare,D08,,29.991872,31.665764,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3886,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00295,Synthetic Hospital D08-03,Hospital,Healthcare,D08,,29.991059,31.697863,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2762,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00296,Synthetic Clinic D08-01,Clinic,Healthcare,D08,,29.97673,31.651164,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2364,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00297,Synthetic Clinic D08-02,Clinic,Healthcare,D08,,30.001659,31.690302,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4850,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00298,Synthetic Clinic D08-03,Clinic,Healthcare,D08,,30.001217,31.647453,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3115,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00299,Synthetic Clinic D08-04,Clinic,Healthcare,D08,,30.034131,31.652204,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5916,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00300,Synthetic Clinic D08-05,Clinic,Healthcare,D08,,29.962365,31.65378,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4119,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00301,Synthetic Clinic D08-06,Clinic,Healthcare,D08,,29.966625,31.665674,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2227,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00302,Synthetic Pharmacy D08-01,Pharmacy,Healthcare,D08,,29.971858,31.676622,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4946,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00303,Synthetic Pharmacy D08-02,Pharmacy,Healthcare,D08,,29.979442,31.698626,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5306,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00304,Synthetic Pharmacy D08-03,Pharmacy,Healthcare,D08,,29.960155,31.718417,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3825,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00305,Synthetic Pharmacy D08-04,Pharmacy,Healthcare,D08,,30.026234,31.686374,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1777,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00306,Synthetic Pharmacy D08-05,Pharmacy,Healthcare,D08,,29.963146,31.724414,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1234,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00307,Synthetic Pharmacy D08-06,Pharmacy,Healthcare,D08,,29.969831,31.731021,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2729,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00308,Synthetic Pharmacy D08-07,Pharmacy,Healthcare,D08,,29.97794,31.71264,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1674,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00309,Synthetic Pharmacy D08-08,Pharmacy,Healthcare,D08,,29.985259,31.726664,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,635,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00310,Synthetic School D08-01,School,Education,D08,,29.961023,31.727537,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4425,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00311,Synthetic School D08-02,School,Education,D08,,30.017388,31.690466,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4598,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00312,Synthetic Nursery D08-01,Nursery,Education,D08,,30.039099,31.719712,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2720,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00313,Synthetic Nursery D08-02,Nursery,Education,D08,,30.001096,31.699421,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4854,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00314,Synthetic Nursery D08-03,Nursery,Education,D08,,30.023731,31.711561,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4226,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00315,Synthetic Nursery D08-04,Nursery,Education,D08,,29.997622,31.751079,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2499,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00316,Synthetic Nursery D08-05,Nursery,Education,D08,,30.012015,31.706886,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,389,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00317,Synthetic University D08-01,University,Education,D08,,29.963084,31.730834,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1336,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00318,Synthetic University D08-02,University,Education,D08,,29.976202,31.701995,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3143,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00319,Synthetic Transit Stop D08-01,Transit_Stop,Transport,D08,,29.959498,31.729156,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3373,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00320,Synthetic Transit Stop D08-02,Transit_Stop,Transport,D08,,30.039747,31.669214,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,893,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00321,Synthetic Transit Stop D08-03,Transit_Stop,Transport,D08,,29.961483,31.710104,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3439,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00322,Synthetic Transit Stop D08-04,Transit_Stop,Transport,D08,,29.965099,31.730898,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2802,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00323,Synthetic Transit Stop D08-05,Transit_Stop,Transport,D08,,30.040403,31.694749,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5224,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00324,Synthetic EV Charging Station D08-01,EV_Charging_Station,Mobility,D08,,29.991189,31.647139,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2754,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00325,Synthetic EV Charging Station D08-02,EV_Charging_Station,Mobility,D08,,29.980792,31.712146,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2918,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00326,Synthetic EV Charging Station D08-03,EV_Charging_Station,Mobility,D08,,29.969612,31.712335,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5982,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00327,Synthetic EV Charging Station D08-04,EV_Charging_Station,Mobility,D08,,30.041965,31.744297,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1208,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00328,Synthetic Petrol Station D08-01,Petrol_Station,Mobility,D08,,30.005416,31.669324,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,47,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00329,Synthetic Supermarket D08-01,Supermarket,Retail,D08,,30.009658,31.749257,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2399,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00330,Synthetic Supermarket D08-02,Supermarket,Retail,D08,,29.964555,31.676403,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5916,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00331,Synthetic Park D08-01,Park,Recreation,D08,,29.997023,31.681375,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4424,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00332,Synthetic Park D08-02,Park,Recreation,D08,,30.022553,31.674921,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3103,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00333,Synthetic Club D08-01,Club,Recreation,D08,,29.968566,31.73122,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,990,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00334,Synthetic Club D08-02,Club,Recreation,D08,,29.96255,31.663264,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4712,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00335,Synthetic Club D08-03,Club,Recreation,D08,,29.964111,31.670325,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,352,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00336,Synthetic Hospital D09-01,Hospital,Healthcare,D09,,30.041207,31.744606,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1148,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00337,Synthetic Clinic D09-01,Clinic,Healthcare,D09,,29.97977,31.652532,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2116,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00338,Synthetic Clinic D09-02,Clinic,Healthcare,D09,,29.970948,31.749868,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4388,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00339,Synthetic Clinic D09-03,Clinic,Healthcare,D09,,29.980155,31.678539,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4986,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00340,Synthetic Clinic D09-04,Clinic,Healthcare,D09,,29.973152,31.746549,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5331,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00341,Synthetic Pharmacy D09-01,Pharmacy,Healthcare,D09,,29.981872,31.742493,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2420,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00342,Synthetic Pharmacy D09-02,Pharmacy,Healthcare,D09,,30.034368,31.701982,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3352,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00343,Synthetic Pharmacy D09-03,Pharmacy,Healthcare,D09,,29.970136,31.696578,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2755,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00344,Synthetic School D09-01,School,Education,D09,,30.028634,31.682319,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3563,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00345,Synthetic School D09-02,School,Education,D09,,29.974801,31.6804,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3481,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00346,Synthetic Nursery D09-01,Nursery,Education,D09,,30.033537,31.713094,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4658,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00347,Synthetic Nursery D09-02,Nursery,Education,D09,,30.043993,31.726531,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,361,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00348,Synthetic Transit Stop D09-01,Transit_Stop,Transport,D09,,30.033529,31.656793,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,385,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00349,Synthetic Transit Stop D09-02,Transit_Stop,Transport,D09,,29.98594,31.748137,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3025,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00350,Synthetic Transit Stop D09-03,Transit_Stop,Transport,D09,,29.998884,31.664881,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3397,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00351,Synthetic Petrol Station D09-01,Petrol_Station,Mobility,D09,,29.981415,31.675593,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5922,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00352,Synthetic Supermarket D09-01,Supermarket,Retail,D09,,30.001742,31.714765,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4689,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00353,Synthetic Supermarket D09-02,Supermarket,Retail,D09,,30.004869,31.658499,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3846,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00354,Synthetic Supermarket D09-03,Supermarket,Retail,D09,,30.030362,31.661054,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,106,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00355,Synthetic Supermarket D09-04,Supermarket,Retail,D09,,29.968261,31.696087,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2254,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00356,Synthetic Park D09-01,Park,Recreation,D09,,30.022204,31.710731,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1609,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00357,Synthetic Park D09-02,Park,Recreation,D09,,30.001435,31.725613,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3929,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00358,Synthetic Park D09-03,Park,Recreation,D09,,30.001988,31.720323,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2851,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00359,Synthetic Park D09-04,Park,Recreation,D09,,29.999561,31.680932,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1156,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00360,Synthetic Park D09-05,Park,Recreation,D09,,30.037302,31.66791,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4978,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00361,Synthetic Club D09-01,Club,Recreation,D09,,29.97616,31.669459,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1832,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00362,Synthetic Club D09-02,Club,Recreation,D09,,30.035994,31.696801,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4358,members,SYNTHETIC_NOT_REAL_LOCATION
+SVC00363,Synthetic Hospital D10-01,Hospital,Healthcare,D10,,29.979595,31.709707,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1877,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00364,Synthetic Hospital D10-02,Hospital,Healthcare,D10,,29.988233,31.734991,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3732,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00365,Synthetic Hospital D10-03,Hospital,Healthcare,D10,,30.004032,31.675291,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2174,beds,SYNTHETIC_NOT_REAL_LOCATION
+SVC00366,Synthetic Clinic D10-01,Clinic,Healthcare,D10,,29.997462,31.74588,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,764,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00367,Synthetic Clinic D10-02,Clinic,Healthcare,D10,,30.038917,31.71835,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,322,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00368,Synthetic Clinic D10-03,Clinic,Healthcare,D10,,30.024971,31.722365,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4770,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00369,Synthetic Clinic D10-04,Clinic,Healthcare,D10,,30.026779,31.719069,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3352,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00370,Synthetic Clinic D10-05,Clinic,Healthcare,D10,,29.97125,31.72288,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5519,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00371,Synthetic Clinic D10-06,Clinic,Healthcare,D10,,30.024864,31.693437,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5724,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00372,Synthetic Clinic D10-07,Clinic,Healthcare,D10,,30.017017,31.72708,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1180,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00373,Synthetic Clinic D10-08,Clinic,Healthcare,D10,,30.024572,31.72404,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3634,visits/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00374,Synthetic Pharmacy D10-01,Pharmacy,Healthcare,D10,,30.006627,31.750771,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4517,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00375,Synthetic Pharmacy D10-02,Pharmacy,Healthcare,D10,,30.031335,31.652902,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3909,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00376,Synthetic Pharmacy D10-03,Pharmacy,Healthcare,D10,,30.00877,31.716074,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,818,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00377,Synthetic Pharmacy D10-04,Pharmacy,Healthcare,D10,,30.007244,31.67661,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2943,transactions/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00378,Synthetic School D10-01,School,Education,D10,,30.036506,31.749613,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2941,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00379,Synthetic School D10-02,School,Education,D10,,30.035408,31.712287,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2603,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00380,Synthetic Nursery D10-01,Nursery,Education,D10,,30.002036,31.657952,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5322,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00381,Synthetic Nursery D10-02,Nursery,Education,D10,,30.01116,31.724276,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5262,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00382,Synthetic Nursery D10-03,Nursery,Education,D10,,30.022319,31.668188,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2957,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00383,Synthetic Nursery D10-04,Nursery,Education,D10,,30.030828,31.753238,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5709,seats,SYNTHETIC_NOT_REAL_LOCATION
+SVC00384,Synthetic Transit Stop D10-01,Transit_Stop,Transport,D10,,30.01619,31.701216,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1797,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00385,Synthetic Transit Stop D10-02,Transit_Stop,Transport,D10,,29.976526,31.729181,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4782,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00386,Synthetic Transit Stop D10-03,Transit_Stop,Transport,D10,,30.01827,31.748694,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,254,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00387,Synthetic Transit Stop D10-04,Transit_Stop,Transport,D10,,30.014075,31.67018,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,478,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00388,Synthetic Transit Stop D10-05,Transit_Stop,Transport,D10,,30.016825,31.684162,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,1327,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00389,Synthetic Transit Stop D10-06,Transit_Stop,Transport,D10,,29.987051,31.696818,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4990,passengers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00390,Synthetic EV Charging Station D10-01,EV_Charging_Station,Mobility,D10,,30.015919,31.69509,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5609,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00391,Synthetic EV Charging Station D10-02,EV_Charging_Station,Mobility,D10,,29.96328,31.684152,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3642,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00392,Synthetic EV Charging Station D10-03,EV_Charging_Station,Mobility,D10,,30.035618,31.744001,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3282,ports,SYNTHETIC_NOT_REAL_LOCATION
+SVC00393,Synthetic Petrol Station D10-01,Petrol_Station,Mobility,D10,,30.03563,31.645155,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4619,pumps,SYNTHETIC_NOT_REAL_LOCATION
+SVC00394,Synthetic Supermarket D10-01,Supermarket,Retail,D10,,29.985103,31.701619,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,4100,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00395,Synthetic Supermarket D10-02,Supermarket,Retail,D10,,30.037839,31.689302,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,594,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00396,Synthetic Supermarket D10-03,Supermarket,Retail,D10,,30.031353,31.749086,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,2913,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00397,Synthetic Supermarket D10-04,Supermarket,Retail,D10,,30.027627,31.693304,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,207,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00398,Synthetic Supermarket D10-05,Supermarket,Retail,D10,,30.008909,31.718209,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,5678,customers/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00399,Synthetic Park D10-01,Park,Recreation,D10,,30.027229,31.75044,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,870,visitors/day,SYNTHETIC_NOT_REAL_LOCATION
+SVC00400,Synthetic Club D10-01,Club,Recreation,D10,,29.957102,31.751889,SIMULATED_COORDINATE,True,2023-01-01,Simulated status; not verified,,3620,members,SYNTHETIC_NOT_REAL_LOCATION
