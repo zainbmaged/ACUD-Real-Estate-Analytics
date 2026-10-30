@@ -1,0 +1,284 @@
+{
+ "agent": "unsold_inventory",
+ "summary": "P030: 68 وحدة غير مباعة (34%) - مخاطرة 60/100",
+ "results": {
+  "project": {
+   "Project_ID": "P030",
+   "Project_Name": "Synthetic Project 030",
+   "District_ID": "D08",
+   "Developer_Name": "Synthetic Developer E",
+   "unsold_units": 68,
+   "unsold_ratio": 0.34,
+   "inventory_age_days": 479.6,
+   "months_of_inventory": 21.474,
+   "monthly_velocity": 3.167,
+   "risk_score": 60.38
+  },
+  "unsold_by_type": {
+   "Apartment": 33,
+   "Villa": 14,
+   "Commercial": 8,
+   "Townhouse": 8,
+   "Office": 5
+  },
+  "likely_causes": [
+   {
+    "cause": "مساحات الوحدات غير المباعة أكبر من المطلوب",
+    "severity": "medium",
+    "key": "mix"
+   },
+   {
+    "cause": "تأخر الإنشاء يضعف ثقة المشترين",
+    "severity": "high",
+    "key": "delivery"
+   },
+   {
+    "cause": "ضعف الخدمات في الحي يقلل الطلب",
+    "severity": "medium",
+    "key": "services"
+   }
+  ],
+  "suggested_actions": [
+   "تعديل مزيج الوحدات: طرح/إعادة تقسيم مساحات أصغر أو تسعيرها بحسب الشريحة",
+   "إعلان جدول تسليم واضح وتقارير تقدم شهرية للمشترين",
+   "إبراز خطة الخدمات القادمة أو الاتفاق مع جهات الخدمات"
+  ],
+  "baseline": {
+   "option": "الوضع الحالي",
+   "months_to_clear": 21.474,
+   "net_value_egp": 48762835.613,
+   "margin_pct": 50.039,
+   "avg_price_egp": 8985579.044,
+   "velocity_units_per_month": 3.167,
+   "delta_vs_baseline_egp": 0.0,
+   "avg_unit_price_egp": 8985579.044,
+   "unit_cost_egp": 4489300,
+   "unsold_units": 68
+  },
+  "alternatives": [
+   {
+    "option": "خصم محدود 3% لمدة 3 شهور",
+    "description": "خصم على الوحدات المباعة خلال النافذة ثم عودة السعر",
+    "quantified": true,
+    "addresses_cause": false,
+    "velocity_units_per_month": 3.958,
+    "months_to_clear": 20.724,
+    "net_value_egp": 47512325.773,
+    "margin_pct": 49.776,
+    "avg_price_egp": 8938503.859,
+    "assumed_speed_uplift_pct": 25.0,
+    "breakeven_speed_uplift_pct": null,
+    "delta_vs_baseline_egp": -1250509.84,
+    "months_saved": 0.75,
+    "rank": 1,
+    "recommended": false
+   },
+   {
+    "option": "خفض المقدم -5 نقطة",
+    "description": "من 12% إلى 7%",
+    "quantified": true,
+    "addresses_cause": false,
+    "velocity_units_per_month": 3.42,
+    "months_to_clear": 19.883,
+    "net_value_egp": 37509246.726,
+    "margin_pct": 50.039,
+    "avg_price_egp": 8985579.044,
+    "assumed_speed_uplift_pct": 8.0,
+    "breakeven_speed_uplift_pct": null,
+    "delta_vs_baseline_egp": -11253588.887,
+    "months_saved": 1.591,
+    "rank": 2,
+    "recommended": false
+   },
+   {
+    "option": "خفض السعر 5%",
+    "description": "خفض سعر الوحدات غير المباعة 5% (مرونة مفترضة 2.0)",
+    "quantified": true,
+    "addresses_cause": false,
+    "velocity_units_per_month": 3.483,
+    "months_to_clear": 19.522,
+    "net_value_egp": 33827239.985,
+    "margin_pct": 47.409,
+    "avg_price_egp": 8536300.091,
+    "assumed_speed_uplift_pct": 10.0,
+    "breakeven_speed_uplift_pct": null,
+    "delta_vs_baseline_egp": -14935595.628,
+    "months_saved": 1.952,
+    "rank": 3,
+    "recommended": false
+   },
+   {
+    "option": "تمديد التقسيط +2 سنة",
+    "description": "من 7 إلى 9 سنوات بنفس السعر",
+    "quantified": true,
+    "addresses_cause": false,
+    "velocity_units_per_month": 3.547,
+    "months_to_clear": 19.173,
+    "net_value_egp": 18807026.528,
+    "margin_pct": 50.039,
+    "avg_price_egp": 8985579.044,
+    "assumed_speed_uplift_pct": 12.0,
+    "breakeven_speed_uplift_pct": null,
+    "delta_vs_baseline_egp": -29955809.084,
+    "months_saved": 2.301,
+    "rank": 4,
+    "recommended": false
+   },
+   {
+    "option": "تحسين الخدمات / مزيج الوحدات",
+    "description": "تحسين الوصول للخدمات أو تعديل مساحات الوحدات (غير قابل للقياس مالياً بدون بيانات تكلفة وأثر)",
+    "quantified": false,
+    "addresses_cause": true,
+    "velocity_units_per_month": 3.167,
+    "months_to_clear": null,
+    "net_value_egp": null,
+    "margin_pct": null,
+    "avg_price_egp": null,
+    "assumed_speed_uplift_pct": 0.0,
+    "breakeven_speed_uplift_pct": 0.0,
+    "delta_vs_baseline_egp": null,
+    "months_saved": null,
+    "recommended": false
+   }
+  ],
+  "recommendation": "لا يوجد بديل مالي يرفع القيمة وفق الافتراضات الحالية؛ أقل البدائل تكلفة: خصم محدود 3% لمدة 3 شهور (-1.3 مليون). يُنصح بمعالجة الأسباب غير السعرية أولاً (الخدمات، الإنشاء، مزيج الوحدات) أو اختبار البدائل على دفعة صغيرة لقياس الاستجابة الفعلية | اختبار الحساسية: يوجد بديل يرفع القيمة في 0 من 12 سيناريو (معدل خصم 8-25% × قوة استجابة 0.5-2 ضعف) - النتيجة ثابتة عبر كل الافتراضات المختبرة",
+  "survey": {
+   "n": 60,
+   "decision_hurt_share": 0.283,
+   "top_problems": {
+    "المواصلات": 13,
+    "الخدمات الطبية": 9,
+    "المياه أو الكهرباء": 7
+   },
+   "top_improvement": {
+    "الخدمات الطبية أو الصيدليات": 12,
+    "المواصلات": 9
+   },
+   "top_factors": {
+    "موقع المنطقة": 25,
+    "المواصلات": 24,
+    "السعر": 21,
+    "نظام السداد": 16
+   }
+  },
+  "ml": null,
+  "sensitivity": [
+   {
+    "discount_rate_pct": 8,
+    "response_strength": 0.5,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1827394.886,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 8,
+    "response_strength": 1,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1802848.007,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 8,
+    "response_strength": 2,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1754756.949,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 12,
+    "response_strength": 0.5,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1549889.225,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 12,
+    "response_strength": 1,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1493838.845,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 12,
+    "response_strength": 2,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1382885.098,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 18,
+    "response_strength": 0.5,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1287256.065,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 18,
+    "response_strength": 1,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1250509.84,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 18,
+    "response_strength": 2,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1178571.261,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 25,
+    "response_strength": 0.5,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1124440.5,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 25,
+    "response_strength": 1,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1163013.8,
+    "adds_value": false
+   },
+   {
+    "discount_rate_pct": 25,
+    "response_strength": 2,
+    "best_option": "خصم محدود 3% لمدة 3 شهور",
+    "best_delta_egp": -1242736.307,
+    "adds_value": false
+   }
+  ]
+ },
+ "evidence": [
+  "سعر المتر أعلى/أقل من متوسط الحي بـ -2.0%",
+  "خطة سداد غير المباع 7.1 سنة ومقدم 12% مقابل المباع 7.0 سنة ومقدم 12%",
+  "متوسط مساحة غير المباع 178 م² مقابل المباع 146 م²",
+  "تحويل العملاء المحتملين لحجوزات 9.7% مقابل 9.8% في نفس الحي",
+  "متوسط سعر الوحدة غير المباعة 8,985,579 (شريحة 5M-10M) ونسبة العملاء في هذه الشريحة 40%",
+  "الإنجاز الإنشائي 68% (تأخر 20.9 نقطة عن المخطط)",
+  "مشروعات منافسة في الحي أرخص وأعلى بيعًا: 0 من 3",
+  "فجوات الخدمات في الحي: 7، تغطية الخدمات 32%",
+  "استبيان الحي (60 استجابة): أهم المشكلات المواصلات (13)، الخدمات الطبية (9)، المياه أو الكهرباء (7)؛ 28% ممن فكروا في الشراء أجّلوا أو اختاروا منطقة أخرى بسبب المشكلات"
+ ],
+ "assumptions": [
+  "الأسباب مستنتجة من قواعد بسيطة مقارنة بنفس الحي، وليست إثباتًا لسبب فعلي",
+  "أثر البدائل: معاملات استجابة افتراضية وليست مقاسة (خفض السعر: مرونة 2.0؛ +6% سرعة لكل سنة تقسيط؛ +1.6% لكل نقطة مقدم؛ خصم محدود +25% خلال النافذة)، قابلة للتعديل عبر response_assumptions",
+  "القيمة = القيمة الحالية لصافي (السعر وفق خطة السداد − التكلفة المفترضة) × الوحدات غير المباعة بخصم 18% سنويًا، ناقص مصروف التسويق حتى التصريف",
+  "سرعة البيع الأساسية = متوسط آخر 6 أشهر؛ السعر = سعر الأساس × نسبة العقود الفعلية",
+  "risk_score (0-100) = 30% unsold ratio + 20% inventory age + 15% collection shortfall + 15% construction delay + 10% cancellation rate + 10% district service gaps"
+ ],
+ "risks": [
+  "لا يمكن تقدير أثر خفض السعر على المبيعات دون بيانات مرونة الطلب، فالأرقام مقارنة نسبية بين البدائل وليست توقعًا",
+  "عمر المخزون 480 يوم يزيد تكلفة التمويل",
+  "تخفيض السعر قد يؤثر في أسعار الوحدات المباعة والمشروعات المجاورة"
+ ],
+ "missing_data": [
+  "تكاليف المطورين الحقيقية (نسبة التكلفة 68-78% افتراض سيناريو)",
+  "أسعار الأراضي",
+  "بيانات تشغيلية حقيقية (كل الجداول اصطناعية)",
+  "مرونة الطلب السعرية (غير مقاسة؛ أسعار المنافسين مقرَّبة بسعر المتر في مشروعات نفس الحي)",
+  "سبب إلغاء كل حجز",
+  "توقع الـ ML لمخاطر عدم بيع هذا المشروع (ملف data/ML_Predictions.csv غير متوفر)"
+ ],
+ "data_status": "Synthetic demonstration data - not real ACUD market evidence"
+}

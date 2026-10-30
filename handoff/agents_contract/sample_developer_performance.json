@@ -1,0 +1,293 @@
+{
+ "agent": "developer_performance",
+ "summary": "Synthetic Developer E: المركز 7 من 8 (درجة 41)",
+ "results": {
+  "developer": {
+   "Developer_ID": "DEV5",
+   "Developer_Name": "Synthetic Developer E",
+   "projects": 8,
+   "units_planned": 1887,
+   "units_sold": 1572,
+   "unsold_units": 315,
+   "sales_vs_expected": -2.91,
+   "sell_through_vs_district": -2.736,
+   "delay_vs_district": 3.188,
+   "on_time_share": 0.625,
+   "collection_rate": 0.959,
+   "cancel_rate": 0.032,
+   "avg_margin_pct": 30.262,
+   "cost_overrun_pct": -13.173,
+   "avg_inventory_age": 613.138,
+   "unsold_ratio": 0.174,
+   "avg_risk": 36.838,
+   "avg_project_age_months": 37.112,
+   "quality_index_reference": 0.592,
+   "sell_through_pct": 83.307,
+   "score": 41.356,
+   "sub_sales": 0.0,
+   "sub_profitability": 82.988,
+   "sub_collection": 41.07,
+   "sub_delivery": 17.188,
+   "sub_inventory": 65.448,
+   "weakest_component": "sales",
+   "red_flags": [
+    "sales: 0/100",
+    "delivery: 17/100"
+   ],
+   "rank": 7,
+   "sales_volume_rank": 2
+  },
+  "projects": [
+   {
+    "Project_ID": "P030",
+    "District_ID": "D08",
+    "Units_Planned": 200,
+    "age_months": 40.5,
+    "size_class": "medium",
+    "completion_pct": 67.76,
+    "sell_through_pct": 66.0,
+    "st_vs_district": -6.892,
+    "sales_vs_expected": -6.425,
+    "delay_pts": 20.88,
+    "planned_completion_month": "2026-04",
+    "forecast_completion_month": "2027-04",
+    "forecast_delay_months": 12.42,
+    "collection_rate": 0.949,
+    "margin_pct": 28.6,
+    "unsold_units": 68,
+    "risk_score": 60.38
+   },
+   {
+    "Project_ID": "P028",
+    "District_ID": "D07",
+    "Units_Planned": 184,
+    "age_months": 43.2,
+    "size_class": "medium",
+    "completion_pct": 70.22,
+    "sell_through_pct": 73.913,
+    "st_vs_district": -1.732,
+    "sales_vs_expected": -1.532,
+    "delay_pts": 16.02,
+    "planned_completion_month": "2026-06",
+    "forecast_completion_month": "2027-06",
+    "forecast_delay_months": 12.56,
+    "collection_rate": 0.939,
+    "margin_pct": 29.391,
+    "unsold_units": 48,
+    "risk_score": 52.755
+   },
+   {
+    "Project_ID": "P019",
+    "District_ID": "D05",
+    "Units_Planned": 257,
+    "age_months": 33.4,
+    "size_class": "large",
+    "completion_pct": 66.77,
+    "sell_through_pct": 70.817,
+    "st_vs_district": -10.264,
+    "sales_vs_expected": -10.52,
+    "delay_pts": 11.67,
+    "planned_completion_month": "2026-12",
+    "forecast_completion_month": "2028-02",
+    "forecast_delay_months": 14.357,
+    "collection_rate": 0.953,
+    "margin_pct": 29.082,
+    "unsold_units": 75,
+    "risk_score": 46.171
+   },
+   {
+    "Project_ID": "P020",
+    "District_ID": "D05",
+    "Units_Planned": 236,
+    "age_months": 37.9,
+    "size_class": "medium",
+    "completion_pct": 100.0,
+    "sell_through_pct": 81.78,
+    "st_vs_district": 0.698,
+    "sales_vs_expected": 0.745,
+    "delay_pts": 0.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "collection_rate": 0.917,
+    "margin_pct": 30.178,
+    "unsold_units": 43,
+    "risk_score": 36.549
+   },
+   {
+    "Project_ID": "P002",
+    "District_ID": "D01",
+    "Units_Planned": 285,
+    "age_months": 39.8,
+    "size_class": "large",
+    "completion_pct": 100.0,
+    "sell_through_pct": 95.789,
+    "st_vs_district": -1.937,
+    "sales_vs_expected": -2.261,
+    "delay_pts": 0.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "collection_rate": 0.965,
+    "margin_pct": 31.579,
+    "unsold_units": 12,
+    "risk_score": 27.727
+   },
+   {
+    "Project_ID": "P024",
+    "District_ID": "D06",
+    "Units_Planned": 249,
+    "age_months": 33.7,
+    "size_class": "medium",
+    "completion_pct": 100.0,
+    "sell_through_pct": 82.731,
+    "st_vs_district": -1.395,
+    "sales_vs_expected": -1.914,
+    "delay_pts": 0.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "collection_rate": 0.983,
+    "margin_pct": 30.273,
+    "unsold_units": 43,
+    "risk_score": 26.264
+   },
+   {
+    "Project_ID": "P014",
+    "District_ID": "D04",
+    "Units_Planned": 271,
+    "age_months": 30.3,
+    "size_class": "large",
+    "completion_pct": 100.0,
+    "sell_through_pct": 91.882,
+    "st_vs_district": -0.689,
+    "sales_vs_expected": -1.255,
+    "delay_pts": 0.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "collection_rate": 0.979,
+    "margin_pct": 31.188,
+    "unsold_units": 22,
+    "risk_score": 25.974
+   },
+   {
+    "Project_ID": "P001",
+    "District_ID": "D01",
+    "Units_Planned": 205,
+    "age_months": 38.1,
+    "size_class": "medium",
+    "completion_pct": 100.0,
+    "sell_through_pct": 98.049,
+    "st_vs_district": 0.323,
+    "sales_vs_expected": -0.116,
+    "delay_pts": 0.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "collection_rate": 0.983,
+    "margin_pct": 31.805,
+    "unsold_units": 4,
+    "risk_score": 18.884
+   }
+  ],
+  "subscores": {
+   "sales": 0.0,
+   "profitability": 82.988,
+   "collection": 41.07,
+   "delivery": 17.188,
+   "inventory": 65.448
+  },
+  "trends": [
+   {
+    "metric": "units_sold",
+    "previous_6m": 130,
+    "recent_6m": 162,
+    "change": 32,
+    "status": "improved"
+   },
+   {
+    "metric": "sales_value_egp",
+    "previous_6m": 1004945053.0,
+    "recent_6m": 1352512847.0,
+    "change": 347567794.0,
+    "status": "improved"
+   },
+   {
+    "metric": "collection_rate_pct",
+    "previous_6m": 92.578,
+    "recent_6m": 98.919,
+    "change": 6.341,
+    "status": "improved"
+   },
+   {
+    "metric": "cancel_rate_pct",
+    "previous_6m": 4.615,
+    "recent_6m": 3.704,
+    "change": -0.912,
+    "status": "stable"
+   },
+   {
+    "metric": "avg_inventory_age_days",
+    "previous_6m": 523.4,
+    "recent_6m": 613.138,
+    "change": 89.738,
+    "status": "declined"
+   },
+   {
+    "metric": "construction_delay_pts",
+    "previous_6m": 4.376,
+    "recent_6m": 6.071,
+    "change": 1.695,
+    "status": "declined"
+   }
+  ],
+  "strengths": [
+   "profitability"
+  ],
+  "issues": [
+   "sales",
+   "delivery"
+  ],
+  "filters": {},
+  "weights_used": {
+   "sales": 0.25,
+   "profitability": 0.25,
+   "collection": 0.2,
+   "delivery": 0.15,
+   "inventory": 0.15
+  },
+  "comparison_limits": [
+   "مقارنة داخل نفس الحي فقط",
+   "عدد المشروعات 8 فقط",
+   "نضج الحي (Lifecycle) يؤثر في معدل البيع"
+  ]
+ },
+ "evidence": [
+  "الترتيب 7 من 8 بدرجة 41/100 (ترتيبه حسب حجم البيع 2 - لا يُعتمد عليه وحده)",
+  "الدرجات الفرعية: sales 0، profitability 83، collection 41، delivery 17، inventory 65",
+  "نسبة بيع 83% (-2.7 نقطة عن أحيائه، -2.9 بعد تعديل العمر)",
+  "تحصيل 96%، إلغاءات 3.2%، أضعف مشروع P030 (مخاطرة 60)",
+  "تحسّن: units_sold, sales_value_egp, collection_rate_pct | تراجع: avg_inventory_age_days, construction_delay_pts"
+ ],
+ "assumptions": [
+  "المقارنة العادلة: نسبة البيع تُقاس مقابل متوسط نفس الحي ثم يُخصم أثر عمر المشروع (انحدار خطي)، والتأخير مقابل متوسط الحي",
+  "الدرجة = 25% مبيعات نسبية + 25% ربحية + 20% تحصيل + 15% تسليم/التزام + 15% مخزون (أوزان مبدئية غير مثبتة علميًا؛ كل مكوّن 0-100 باتجاه موحد)",
+  "الربحية = هامش مفترض (70%) + انحراف التكلفة (30%)؛ التسليم = التأخر الإنشائي مقابل الحي + نسبة المشروعات المتأخرة ≤ 2 نقطة (بديل لـ On-time delivery)",
+  "المخزون = عمر المخزون + نسبة غير المباع؛ Quality_Index للمرجعية فقط ولا يدخل في الدرجة",
+  "التطوّر عبر الزمن = آخر 6 أشهر مقابل الـ 6 قبلها (تغير أقل من 5% = مستقر)"
+ ],
+ "risks": [
+  "عدد مشروعات كل مطور صغير، فالترتيب حساس لمشروع واحد ضعيف",
+  "المقارنة بين مطورين في مشروعات مختلفة المرحلة محدودة الدلالة؛ استخدم المرشحات للمقارنة المتجانسة",
+  "كل البيانات اصطناعية"
+ ],
+ "missing_data": [
+  "تكاليف المطورين الحقيقية (نسبة التكلفة 68-78% افتراض سيناريو)",
+  "أسعار الأراضي",
+  "بيانات تشغيلية حقيقية (كل الجداول اصطناعية)",
+  "مواعيد التسليم التعاقدية من العقود (المعروض: موعد الإنجاز المخطط من منحنى الخطة وتوقع الإنجاز من معدل التقدم الفعلي آخر 6 أشهر؛ التسليم في الوقت يُقاس ببديل نقاط التأخر)",
+  "مستهدفات المبيعات (نسبة تحقيق المستهدف غير قابلة للحساب)"
+ ],
+ "data_status": "Synthetic demonstration data - not real ACUD market evidence"
+}

@@ -1,0 +1,475 @@
+{
+ "agent": "investment_advisor",
+ "summary": "أفضل 3 مشروعات لميزانية 10,000,000 جنيه، أفق 5 سنوات، مخاطرة medium",
+ "results": {
+  "top_projects": [
+   {
+    "Project_ID": "P007",
+    "Project_Name": "Synthetic Project 007",
+    "District_ID": "D02",
+    "District_Name": "Synthetic District 02",
+    "Developer_Name": "Synthetic Developer A",
+    "types": "Apartment",
+    "units_in_budget": 1,
+    "ticket": 5768101.822,
+    "price_per_m2_ref": 51217.715,
+    "price_vs_district_pct": -0.968,
+    "down_pct": 0.05,
+    "plan_years": 8.0,
+    "irr_base_pct": 47.662,
+    "irr_cons_pct": 35.003,
+    "irr_real_base_pct": 29.641,
+    "net_profit_base_egp": 4755968.935,
+    "net_profit_real_base_egp": 2021290.11,
+    "rent_income_base_egp": 1766600.259,
+    "gross_rent_yield_pct": 6.5,
+    "net_rent_yield_pct": 4.98,
+    "months_to_handover": 3.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "exit_depth_months": 10.457,
+    "exit_depth_label": "deep",
+    "exit_discount_pct": 3.569,
+    "months_of_inventory": 6.0,
+    "completion_pct": 100.0,
+    "delay_pts": 0.0,
+    "service_coverage_pct": 91.79,
+    "risk_score": 16.807,
+    "attractiveness_score": 90.71,
+    "score_complete": true,
+    "missing_components": "",
+    "components": {
+     "return": 100.0,
+     "risk": 83.2,
+     "liquidity": 97.3,
+     "services": 97.1,
+     "construction": 100.0,
+     "price_value": 57.5
+    },
+    "strengths": [
+     "العائد المتوقع",
+     "جودة الخدمات"
+    ],
+    "weaknesses": [],
+    "scenarios": {
+     "conservative": {
+      "net_profit_egp": 3031961.444,
+      "irr_pct": 35.003,
+      "irr_real_pct": 18.527,
+      "net_profit_real_egp": 1106795.439,
+      "rent_income_egp": 1587803.54,
+      "resale_value_egp": 7212259.726,
+      "net_cash_flows": [
+       -288405,
+       -463293,
+       -372061,
+       -353701,
+       -334264,
+       4843687
+      ]
+     },
+     "base": {
+      "net_profit_egp": 4755968.935,
+      "irr_pct": 47.662,
+      "irr_real_pct": 29.641,
+      "net_profit_real_egp": 2021290.11,
+      "rent_income_egp": 1766600.259,
+      "resale_value_egp": 8757470.497,
+      "net_cash_flows": [
+       -288405,
+       -458948,
+       -353298,
+       -319936,
+       -283219,
+       6459775
+      ]
+     },
+     "optimistic": {
+      "net_profit_egp": 8092390.493,
+      "irr_pct": 66.113,
+      "irr_real_pct": 45.841,
+      "net_profit_real_egp": 3787548.504,
+      "rent_income_egp": 2089548.59,
+      "resale_value_egp": 11770943.724,
+      "net_cash_flows": [
+       -288405,
+       -452164,
+       -322528,
+       -261768,
+       -190821,
+       9608077
+      ]
+     }
+    }
+   },
+   {
+    "Project_ID": "P011",
+    "Project_Name": "Synthetic Project 011",
+    "District_ID": "D03",
+    "District_Name": "Synthetic District 03",
+    "Developer_Name": "Synthetic Developer G",
+    "types": "Apartment, Commercial, Office",
+    "units_in_budget": 8,
+    "ticket": 4251306.833,
+    "price_per_m2_ref": 44030.821,
+    "price_vs_district_pct": -4.404,
+    "down_pct": 0.106,
+    "plan_years": 7.0,
+    "irr_base_pct": 40.08,
+    "irr_cons_pct": 29.811,
+    "irr_real_base_pct": 22.985,
+    "net_profit_base_egp": 3734114.333,
+    "net_profit_real_base_egp": 1492757.268,
+    "rent_income_base_egp": 1512522.496,
+    "gross_rent_yield_pct": 7.375,
+    "net_rent_yield_pct": 5.785,
+    "months_to_handover": 3.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "exit_depth_months": 8.633,
+    "exit_depth_label": "deep",
+    "exit_discount_pct": 3.295,
+    "months_of_inventory": 7.8,
+    "completion_pct": 100.0,
+    "delay_pts": 0.0,
+    "service_coverage_pct": 73.21,
+    "risk_score": 19.566,
+    "attractiveness_score": 79.144,
+    "score_complete": true,
+    "missing_components": "",
+    "components": {
+     "return": 68.4,
+     "risk": 80.4,
+     "liquidity": 94.6,
+     "services": 66.8,
+     "construction": 100.0,
+     "price_value": 77.3
+    },
+    "strengths": [
+     "سعر المتر مقابل الحي"
+    ],
+    "weaknesses": [],
+    "scenarios": {
+     "conservative": {
+      "net_profit_egp": 2438922.911,
+      "irr_pct": 29.811,
+      "irr_real_pct": 13.969,
+      "net_profit_real_egp": 804136.213,
+      "rent_income_egp": 1359440.86,
+      "resale_value_egp": 5330788.884,
+      "net_cash_flows": [
+       -451701,
+       -353013,
+       -274902,
+       -259183,
+       -242541,
+       4020264
+      ]
+     },
+     "base": {
+      "net_profit_egp": 3734114.333,
+      "irr_pct": 40.08,
+      "irr_real_pct": 22.985,
+      "net_profit_real_egp": 1492757.268,
+      "rent_income_egp": 1512522.496,
+      "resale_value_egp": 6472898.669,
+      "net_cash_flows": [
+       -451701,
+       -349293,
+       -258837,
+       -230274,
+       -198838,
+       5223058
+      ]
+     },
+     "optimistic": {
+      "net_profit_egp": 6237960.117,
+      "irr_pct": 55.278,
+      "irr_real_pct": 36.328,
+      "net_profit_real_egp": 2820988.931,
+      "rent_income_egp": 1789023.427,
+      "resale_value_egp": 8700243.522,
+      "net_cash_flows": [
+       -451701,
+       -343485,
+       -232493,
+       -180472,
+       -119729,
+       7565839
+      ]
+     }
+    }
+   },
+   {
+    "Project_ID": "P004",
+    "Project_Name": "Synthetic Project 004",
+    "District_ID": "D01",
+    "District_Name": "Synthetic District 01",
+    "Developer_Name": "Synthetic Developer A",
+    "types": "Apartment",
+    "units_in_budget": 2,
+    "ticket": 5255641.869,
+    "price_per_m2_ref": 50086.675,
+    "price_vs_district_pct": -1.487,
+    "down_pct": 0.125,
+    "plan_years": 7.5,
+    "irr_base_pct": 37.45,
+    "irr_cons_pct": 27.266,
+    "irr_real_base_pct": 20.676,
+    "net_profit_base_egp": 4242787.122,
+    "net_profit_real_base_egp": 1646922.387,
+    "rent_income_base_egp": 1609648.819,
+    "gross_rent_yield_pct": 6.5,
+    "net_rent_yield_pct": 4.98,
+    "months_to_handover": 3.0,
+    "planned_completion_month": null,
+    "forecast_completion_month": null,
+    "forecast_delay_months": 0.0,
+    "exit_depth_months": 17.76,
+    "exit_depth_label": "medium",
+    "exit_discount_pct": 4.664,
+    "months_of_inventory": 12.0,
+    "completion_pct": 100.0,
+    "delay_pts": 0.0,
+    "service_coverage_pct": 93.56,
+    "risk_score": 22.608,
+    "attractiveness_score": 77.995,
+    "score_complete": true,
+    "missing_components": "",
+    "components": {
+     "return": 57.4,
+     "risk": 77.4,
+     "liquidity": 88.3,
+     "services": 100.0,
+     "construction": 100.0,
+     "price_value": 60.5
+    },
+    "strengths": [
+     "جودة الخدمات"
+    ],
+    "weaknesses": [],
+    "scenarios": {
+     "conservative": {
+      "net_profit_egp": 2687940.562,
+      "irr_pct": 27.266,
+      "irr_real_pct": 11.735,
+      "net_profit_real_egp": 822017.977,
+      "rent_income_egp": 1446737.076,
+      "resale_value_egp": 6496845.355,
+      "net_cash_flows": [
+       -656955,
+       -372861,
+       -289734,
+       -273006,
+       -255295,
+       4535792
+      ]
+     },
+     "base": {
+      "net_profit_egp": 4242787.122,
+      "irr_pct": 37.45,
+      "irr_real_pct": 20.676,
+      "net_profit_real_egp": 1646922.387,
+      "rent_income_egp": 1609648.819,
+      "resale_value_egp": 7888780.172,
+      "net_cash_flows": [
+       -656955,
+       -368902,
+       -272638,
+       -242240,
+       -208785,
+       5992307
+      ]
+     },
+     "optimistic": {
+      "net_profit_egp": 7251597.649,
+      "irr_pct": 52.309,
+      "irr_real_pct": 33.722,
+      "net_profit_real_egp": 3239988.984,
+      "rent_income_egp": 1903905.201,
+      "resale_value_egp": 10603334.317,
+      "net_cash_flows": [
+       -656955,
+       -362721,
+       -244602,
+       -189240,
+       -124596,
+       8829711
+      ]
+     }
+    }
+   }
+  ],
+  "district_comparison": [
+   {
+    "District_ID": "D02",
+    "District_Name": "Synthetic District 02",
+    "Lifecycle_Archetype": "Completed & Mature",
+    "projects": 3,
+    "avg_irr_base_pct": 40.77,
+    "avg_risk": 21.366,
+    "avg_score": 78.354,
+    "service_coverage_pct": 91.79
+   },
+   {
+    "District_ID": "D04",
+    "District_Name": "Synthetic District 04",
+    "Lifecycle_Archetype": "Sold Mostly - Service Gaps",
+    "projects": 4,
+    "avg_irr_base_pct": 37.274,
+    "avg_risk": 23.094,
+    "avg_score": 72.114,
+    "service_coverage_pct": 72.34
+   },
+   {
+    "District_ID": "D03",
+    "District_Name": "Synthetic District 03",
+    "Lifecycle_Archetype": "Sold Mostly - Service Gaps",
+    "projects": 4,
+    "avg_irr_base_pct": 36.448,
+    "avg_risk": 21.792,
+    "avg_score": 71.753,
+    "service_coverage_pct": 73.21
+   },
+   {
+    "District_ID": "D01",
+    "District_Name": "Synthetic District 01",
+    "Lifecycle_Archetype": "Completed & Mature",
+    "projects": 4,
+    "avg_irr_base_pct": 34.515,
+    "avg_risk": 22.988,
+    "avg_score": 71.049,
+    "service_coverage_pct": 93.56
+   },
+   {
+    "District_ID": "D06",
+    "District_Name": "Synthetic District 06",
+    "Lifecycle_Archetype": "Partially Developed",
+    "projects": 4,
+    "avg_irr_base_pct": 36.43,
+    "avg_risk": 25.498,
+    "avg_score": 68.919,
+    "service_coverage_pct": 63.65
+   },
+   {
+    "District_ID": "D05",
+    "District_Name": "Synthetic District 05",
+    "Lifecycle_Archetype": "Partially Developed",
+    "projects": 4,
+    "avg_irr_base_pct": 33.584,
+    "avg_risk": 36.484,
+    "avg_score": 61.364,
+    "service_coverage_pct": 63.64
+   },
+   {
+    "District_ID": "D10",
+    "District_Name": "Synthetic District 10",
+    "Lifecycle_Archetype": "High Inventory Risk",
+    "projects": 4,
+    "avg_irr_base_pct": 35.078,
+    "avg_risk": 45.585,
+    "avg_score": 55.639,
+    "service_coverage_pct": 62.93
+   },
+   {
+    "District_ID": "D09",
+    "District_Name": "Synthetic District 09",
+    "Lifecycle_Archetype": "High Inventory Risk",
+    "projects": 4,
+    "avg_irr_base_pct": 35.475,
+    "avg_risk": 48.829,
+    "avg_score": 52.948,
+    "service_coverage_pct": 61.82
+   },
+   {
+    "District_ID": "D08",
+    "District_Name": "Synthetic District 08",
+    "Lifecycle_Archetype": "Under Construction",
+    "projects": 4,
+    "avg_irr_base_pct": 30.182,
+    "avg_risk": 45.149,
+    "avg_score": 44.491,
+    "service_coverage_pct": 32.32
+   },
+   {
+    "District_ID": "D07",
+    "District_Name": "Synthetic District 07",
+    "Lifecycle_Archetype": "Under Construction",
+    "projects": 4,
+    "avg_irr_base_pct": 28.326,
+    "avg_risk": 42.733,
+    "avg_score": 42.571,
+    "service_coverage_pct": 33.09
+   }
+  ],
+  "candidates_in_budget": 39,
+  "weights_used": {
+   "return": 0.25,
+   "risk": 0.25,
+   "liquidity": 0.15,
+   "services": 0.15,
+   "construction": 0.1,
+   "price_value": 0.1
+  },
+  "scenario_growth_pct_per_year": {
+   "conservative": 5.9,
+   "base": 10.1,
+   "optimistic": 16.8
+  },
+  "return_assumptions": {
+   "gross_rental_yield_pct_by_type": {
+    "Apartment": 6.5,
+    "Townhouse": 5.0,
+    "Villa": 4.5,
+    "Commercial": 8.5,
+    "Office": 8.0
+   },
+   "service_charge_pct": 1.0,
+   "vacancy_pct": 8.0,
+   "inflation_pct": 13.9,
+   "handover_lag_months": 3,
+   "exit_weight_project": 0.6,
+   "transaction_cost_pct": 2.5
+  }
+ },
+ "evidence": [
+  {
+   "project": "P007",
+   "why": "P007 (D02): وحدة بسعر ~5,768,102 (1 وحدة متاحة ضمن الميزانية)، درجة الجاذبية 91/100، مخاطرة 17/100، تقدم إنشائي 100% (تأخر 0.0 نقطة)، أشهر المخزون 6. عائد سنوي (IRR) متحفظ/أساسي/متفائل: 35.0% / 47.7% / 66.1%، صافي الربح الأساسي بعد 5 سنوات 4,755,969 جنيه (منها إيجار صافٍ 1,766,600)؛ العائد الحقيقي بعد التضخم 29.6%. الإيجار يبدأ بعد ~3 شهرًا من الشراء (عند التسليم)، وعائده الإيجاري الصافي المستقر 5.0%. عمق سوق التخارج: ~10 شهرًا لتصريف المعروض (عميق) وخصم تخارج 3.6%. نقاط القوة: العائد المتوقع، جودة الخدمات. "
+  },
+  {
+   "project": "P011",
+   "why": "P011 (D03): وحدة بسعر ~4,251,307 (8 وحدة متاحة ضمن الميزانية)، درجة الجاذبية 79/100، مخاطرة 20/100، تقدم إنشائي 100% (تأخر 0.0 نقطة)، أشهر المخزون 8. عائد سنوي (IRR) متحفظ/أساسي/متفائل: 29.8% / 40.1% / 55.3%، صافي الربح الأساسي بعد 5 سنوات 3,734,114 جنيه (منها إيجار صافٍ 1,512,522)؛ العائد الحقيقي بعد التضخم 23.0%. الإيجار يبدأ بعد ~3 شهرًا من الشراء (عند التسليم)، وعائده الإيجاري الصافي المستقر 5.8%. عمق سوق التخارج: ~9 شهرًا لتصريف المعروض (عميق) وخصم تخارج 3.3%. نقاط القوة: سعر المتر مقابل الحي. "
+  },
+  {
+   "project": "P004",
+   "why": "P004 (D01): وحدة بسعر ~5,255,642 (2 وحدة متاحة ضمن الميزانية)، درجة الجاذبية 78/100، مخاطرة 23/100، تقدم إنشائي 100% (تأخر 0.0 نقطة)، أشهر المخزون 12. عائد سنوي (IRR) متحفظ/أساسي/متفائل: 27.3% / 37.4% / 52.3%، صافي الربح الأساسي بعد 5 سنوات 4,242,787 جنيه (منها إيجار صافٍ 1,609,649)؛ العائد الحقيقي بعد التضخم 20.7%. الإيجار يبدأ بعد ~3 شهرًا من الشراء (عند التسليم)، وعائده الإيجاري الصافي المستقر 5.0%. عمق سوق التخارج: ~18 شهرًا لتصريف المعروض (متوسط) وخصم تخارج 4.7%. نقاط القوة: جودة الخدمات. "
+  }
+ ],
+ "assumptions": [
+  "الميزانية = سعر الوحدة الواحدة؛ تُعرض الوحدات المتاحة للبيع فقط (المشروعات المباعة بالكامل تُستبعد)",
+  "سعر الوحدة = سعر الأساس (يناير 2024) × نسبة العقود الفعلية للمشروع، وليس سعرًا معروضًا حاليًا",
+  "النمو السنوي للأسعار من مؤشر الأسعار آخر 12 شهرًا = 16.8%؛ السيناريوهات تأخذ conservative 35% / base 60% / optimistic 100% منه (افتراضات سيناريو)",
+  "سداد المستثمر: مقدم + أقساط سنوية متساوية حسب خطة وحدات المشروع؛ التخارج بإعادة بيع في نهاية الأفق، تكلفة معاملة 2.5%، خصم تخارج حتى 10% حسب عمق سوق التخارج، وخصم تأخير من نقاط التأخر الإنشائي",
+  "الإيجار (افتراض سيناريو وليس قياسًا): عائد إيجاري إجمالي سنوي من قيمة الوحدة الحالية — Apartment 6.5%، Townhouse 5.0%، Villa 4.5%، Commercial 8.5%، Office 8.0%؛ شاغر 8%، ورسوم خدمات وصيانة 1.0% سنويًا من القيمة. الإيجار يبدأ بعد اكتمال الإنشاء + 3 أشهر تسليم (من معدل التقدم الإنشائي آخر 6 أشهر)، والإيجار والرسوم يتبعان سعر السيناريو. مرجع الشقق: Global Property Guide الربع الرابع 2025 (القاهرة الجديدة 6.5-7.8%)",
+  "التضخم 13.9% سنويًا ثابت على كل الأفق (آخر قراءة للتضخم الحضري: 13.9% سبتمبر 2026، الجهاز المركزي للتعبئة والإحصاء)؛ العائد الحقيقي = (1+IRR الاسمي)÷(1+التضخم)−1 وصافي الربح الحقيقي بخصم التدفقات بالتضخم",
+  "عمق سوق التخارج = 60% أشهر تصريف مخزون المشروع + 40% أشهر تصريف مخزون الحي (غير المباع ÷ سرعة البيع آخر 6 أشهر)؛ ≤12 شهرًا عميق، ≤36 متوسط، أكثر من ذلك ضحل",
+  "الأوزان (قابلة للتعديل عبر weights): العائد المتوقع 25%، انخفاض المخاطر 25%، السيولة (سهولة التخارج) 15%، جودة الخدمات 15%، التقدم الإنشائي 10%، سعر المتر مقابل الحي 10%",
+  "كل البيانات اصطناعية؛ الإيجار والتضخم وعمق التخارج افتراضات/مشتقات معلنة وقابلة للتعديل وليست قياسات سوق"
+ ],
+ "risks": [
+  "العائد يعتمد على استمرار نمو الأسعار التاريخي؛ تراجع السوق غير مُمثَّل إلا في السيناريو المتحفظ",
+  "المشروعات ذات المخزون القديم أو التحصيل الضعيف قد تحتاج وقتًا أطول للتخارج",
+  "التأخر الإنشائي قد يؤخر التسليم وإعادة البيع",
+  "الإيجار جزء كبير من العائد وهو افتراض؛ فرق نقطة واحدة في العائد الإيجاري يغيّر الـ IRR، فاختبر القيم في خانة الافتراضات",
+  "التضخم ثابت على الأفق كله؛ لو انخفض فالعائد الحقيقي أعلى من المعروض ولو ارتفع فهو أقل"
+ ],
+ "missing_data": [
+  "تكاليف المطورين الحقيقية (نسبة التكلفة 68-78% افتراض سيناريو)",
+  "أسعار الأراضي",
+  "بيانات تشغيلية حقيقية (كل الجداول اصطناعية)"
+ ],
+ "data_status": "Synthetic demonstration data - not real ACUD market evidence"
+}

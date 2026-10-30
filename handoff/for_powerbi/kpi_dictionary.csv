@@ -1,0 +1,31 @@
+﻿KPI,Formula,Tables_or_Columns,Grain,Owner,Status_in_prototype
+Total Contract Value,SUM(Contract_Value_EGP) of non-cancelled sales,Fact_Sales,Project x Month,Dashboard,Implemented (sales_value_12m)
+Units Sold,COUNT non-cancelled sales,Fact_Sales / Fact_Inventory_Monthly.Units_Sold,Project x Month,Dashboard,Implemented
+Sales Growth %,(last 6m sales value - previous 6m) / previous 6m x 100,Fact_Inventory_Monthly.Sales_Value_EGP,Portfolio,Dashboard,Implemented (sales_growth_6m_pct)
+Collection Rate %,"SUM(Amount_Collected) / SUM(Amount_Due) x 100, last 12m",Fact_Collections_Monthly,Project,Dashboard,Implemented
+Gross Profit Margin %,(avg contract - assumed cost per unit) / avg contract,Project_Investment_Inputs,Project,Dashboard,PROXY - cost is an assumed ratio 68-78%
+Average Selling Price,Contract value / units sold,Fact_Sales,Type / District,Dashboard,Implemented
+Revenue per m2,Contract value / sold area,Fact_Sales + Dim_Unit.Area_m2,Type / District,Dashboard,Implemented
+Unsold Units,count(Dim_Unit) - sold_units_observed,"Project_Investment_Inputs, Dim_Project",Project,Dashboard,"Implemented (reconciled: unit count taken from Dim_Unit = 2,201, matches Fact_Inventory_Monthly; Dim_Project.Units_Planned misses the unplanned P038 +300 release)"
+Sell-Through Rate %,sold_units_observed / Units_Planned,Project_Investment_Inputs,Project,Dashboard,"Implemented (cumulative, not per-period)"
+Inventory Aging,Avg_Inventory_Age_Days at last month,Fact_Inventory_Monthly,Project,Dashboard,Implemented
+Monthly Sales Velocity,Units sold last 6 months / 6,Fact_Inventory_Monthly.Units_Sold,Project,Agents,Implemented
+Months of Inventory,Unsold units / monthly velocity (cap 120),derived,Project,Agents,Implemented - assumes constant velocity
+Unsold Risk Rate %,Projects with risk_score >= 60 / projects,derived,Portfolio,Agents,"Implemented (project level, not unit level)"
+Unsold Inventory Risk Score,30% unsold ratio + 20% inv age + 15% collection shortfall + 15% delay + 10% cancel rate + 10% service gaps (min-max scaled),see unsold_inventory_risk_score.csv,Project,Agents,Implemented - rule based; ML probability plugs in via ML_Predictions.csv
+Fair Developer Performance Score,25% sales vs expected + 25% profitability + 20% collection + 15% delivery + 15% inventory,developer_scores.csv,Developer,Agents,"Implemented - weights are initial, untested"
+Construction Progress Variance,Actual_Pct - Planned_Pct (last month),Fact_Construction_Monthly,Project,Dashboard,"Implemented (delay_pts = max(planned - actual, 0))"
+On-Time Delivery Rate %,Units delivered on time / units due,-,Developer,Dashboard,NOT POSSIBLE - no contractual delivery dates; proxy = share of projects with delay <= 2 pts. Planned / forecast completion months and forecast delay (months) are derived from the construction curves (kpi_projects.csv)
+Sales Target Achievement %,Actual / target x 100,-,Developer,Dashboard,NOT POSSIBLE - no sales targets in data
+Investment Attractiveness Score,25% return(IRR base) + 25% risk + 15% liquidity + 15% services + 10% construction + 10% price value,investment_attractiveness_reference_budgets.csv,Project x budget,Agents,Implemented - shows 'incomplete' if a component is missing
+Real IRR (after inflation),(1 + nominal IRR) / (1 + inflation) - 1; real net profit = sum of cash flows deflated by inflation,investment_attractiveness_reference_budgets.csv,Project x budget,Agents,Implemented - inflation 13.9% (CAPMAS Sep-2026) is an editable constant assumption
+Net Rental Yield,"gross yield by unit type x (1 - vacancy) - service charges, on current value; rent starts at handover",investment_attractiveness_reference_budgets.csv,Project x budget,Agents,SCENARIO ASSUMPTION - no rental data (apartments anchored on Global Property Guide Q4 2025); editable
+Exit Market Depth,60% project months of inventory + 40% district months of inventory (unsold / 6-month sales pace),kpi_projects.csv (exit_depth_months),Project,Agents,"Derived from sales pace; sets the exit discount (2% + 0.15% per month, cap 10%)"
+Expected Service Demand / Projected Capacity Use,sold units x household size; current utilisation x expected / current residents (capacity held constant),for_smart_city_sustainability/service_readiness.csv,District,Smart City,Derived; not computed for districts with < 50 occupied units
+Urban Service Readiness Score,30% coverage + 20% infrastructure + 20% transport + 15% access + 15% (100 - 10 x gaps),for_smart_city_sustainability/service_readiness.csv,District,Smart City,Implemented (prototype formula - agree on it with the owner)
+Service Availability / Capacity Utilization,Essential_Service_Coverage_Pct / Service_Capacity_Utilization_Pct,Fact_District_Monthly_Status,District x Month,Smart City,Implemented as given in data
+Non-Buyer Barrier Rate %,Respondents choosing option / valid respondents,synthetic_survey_responses_ar,District,Smart City,Implemented for q11 (decision impact) and q5 (problems)
+Electricity Cost per Unit,(kWh x monthly tariff) / occupied unit,Fact_Utilities_Monthly + Fact_Tariffs_Monthly,District x Month,Sustainability,Implemented (tariffs are synthetic assumptions)
+Water per Resident,m3 / residents (litres per resident per day),Fact_Utilities_Monthly + Fact_Residents_Monthly,District x Month,Sustainability,Implemented (resident counts are synthetic: occupied units x household size)
+Renewable Share / Cost Savings / Payback,solar kWh / total kWh; (baseline - after) x tariff; capex / (saving - O&M),"Fact_Solar_Monthly, Fact_Solution_Pilot_Monthly, Solution_Deployments, Sustainability_Solutions, Fact_Tariffs_Monthly",District / Solution,Sustainability,"Implemented on SYNTHETIC inputs - replace with metered data, real tariffs and vendor quotes"
+Forecast MAE / WAPE,see spec,ML predictions on held-out time period,Project / Portfolio,ML,NOT IN THIS CODE - owned by ML teammate

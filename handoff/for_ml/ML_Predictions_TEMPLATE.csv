@@ -1,0 +1,2 @@
+﻿Project_ID,Unsold_Risk_Probability,Forecast_Horizon_Months,Model_Name,Evaluation_Metric,Evaluation_WAPE,Evaluation_Period
+P030,0.0,6,your_model_name,WAPE,0.0,2025-07..2025-12 (held out)

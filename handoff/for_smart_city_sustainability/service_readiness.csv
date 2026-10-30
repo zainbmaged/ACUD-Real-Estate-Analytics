@@ -1,0 +1,11 @@
+﻿District_ID,District_Name,Lifecycle_Archetype,readiness_score,Essential_Service_Coverage_Pct,Service_Capacity_Utilization_Pct,Infrastructure_Readiness_Pct,Transport_Accessibility_Score,Service_Gap_Count,Occupancy_Pct,Average_Travel_Time_Min,Public_Transport_Coverage_Pct,Healthcare_Access_Score,School_Access_Score,Retail_Access_Score,Utilities_Reliability_Pct,capacity_stress,current_residents,expected_residents_buildout,demand_growth_pct,projected_utilization_pct,capacity_stress_buildout,capacity_gap_pct
+D01,Synthetic District 01,Completed & Mature,93.958,93.56,90.13,100.0,9.35,1,88.83,32.01,91.06,9.19,9.38,8.81,90.48,True,2962,3250.89,9.753,98.921,False,0.0
+D02,Synthetic District 02,Completed & Mature,95.438,91.79,90.94,99.53,9.39,0,88.02,39.82,86.58,8.95,10.0,9.48,94.17,True,2905,3228.75,11.145,101.075,True,1.075
+D03,Synthetic District 03,Sold Mostly - Service Gaps,75.738,73.21,82.8,81.3,8.12,4,64.76,37.72,79.22,8.27,8.66,7.62,87.45,False,2412,3493.5,44.838,119.926,True,19.926
+D04,Synthetic District 04,Sold Mostly - Service Gaps,77.87,72.34,80.82,80.09,8.06,2,62.51,36.46,79.13,8.05,8.48,7.53,85.18,False,2368,3506.82,48.092,119.688,True,19.688
+D05,Synthetic District 05,Partially Developed,70.732,63.64,49.17,73.2,7.52,3,33.75,39.81,80.03,7.46,8.35,7.11,89.52,False,1240,2960.29,138.733,117.385,True,17.385
+D06,Synthetic District 06,Partially Developed,68.298,63.65,80.82,72.14,7.12,4,55.49,35.26,80.44,7.56,7.59,7.92,81.83,False,2044,3103.44,51.832,122.71,True,22.71
+D07,Synthetic District 07,Under Construction,43.272,33.09,5.0,43.5,5.05,6,0.52,47.33,71.88,6.03,5.58,5.48,78.63,False,18,2593.5,,,False,
+D08,Synthetic District 08,Under Construction,41.36,32.32,5.0,41.22,5.26,7,0.76,45.05,67.55,6.21,5.96,4.63,71.47,False,23,2218.32,,,False,
+D09,Synthetic District 09,High Inventory Risk,67.291,61.82,51.83,69.6,7.43,4,34.63,42.55,79.44,7.39,7.57,6.97,92.88,False,1281,1911.21,49.197,77.329,False,0.0
+D10,Synthetic District 10,High Inventory Risk,67.932,62.93,40.91,69.64,7.61,4,27.79,51.12,79.67,6.99,7.52,7.3,86.62,False,1581,2601.66,64.558,67.321,False,0.0

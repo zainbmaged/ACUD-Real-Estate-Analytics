@@ -1,0 +1,22 @@
+﻿Deployment_ID,District_ID,Solution_ID,Install_Month,Pilot_Units,Capex_EGP,Status,Data_Status
+DEP01,D01,S02,2024-04-01,300,365300.0,Implemented (pilot),Synthetic assumption
+DEP02,D01,S05,2024-07-01,250,172500.0,Implemented (pilot),Synthetic assumption
+DEP03,D02,S03,2024-06-01,200,914600.0,Implemented (pilot),Synthetic assumption
+DEP04,D02,S04,2024-10-01,300,182100.0,Implemented (pilot),Synthetic assumption
+DEP05,D03,S02,2024-09-01,200,248900.0,Implemented (pilot),Synthetic assumption
+DEP06,D03,S05,2025-01-01,150,97400.0,Implemented (pilot),Synthetic assumption
+DEP07,D04,S03,2025-01-01,120,564300.0,Implemented (pilot),Synthetic assumption
+DEP08,D04,S04,2024-11-01,200,116700.0,Implemented (pilot),Synthetic assumption
+DEP09,D05,S02,2025-03-01,100,121100.0,Implemented (pilot),Synthetic assumption
+DEP10,D06,S05,2025-02-01,150,112500.0,Implemented (pilot),Synthetic assumption
+DEP11,D06,S06,2025-04-01,80,113400.0,Implemented (pilot),Synthetic assumption
+DEP12,D09,S04,2025-06-01,80,48900.0,Implemented (pilot),Synthetic assumption
+DEP13,D10,S03,2025-05-01,100,420100.0,Implemented (pilot),Synthetic assumption
+DEP14,D01,S01,2024-02-01,220,3818000.0,Implemented (roll-out),Synthetic assumption
+DEP15,D02,S01,2024-05-01,170,3235000.0,Implemented (roll-out),Synthetic assumption
+DEP16,D03,S01,2024-09-01,90,1557000.0,Implemented (roll-out),Synthetic assumption
+DEP17,D04,S01,2024-11-01,80,1276000.0,Implemented (roll-out),Synthetic assumption
+DEP18,D05,S01,2025-03-01,40,694000.0,Implemented (roll-out),Synthetic assumption
+DEP19,D06,S01,2025-01-01,60,972000.0,Implemented (roll-out),Synthetic assumption
+DEP20,D09,S01,2025-06-01,25,449000.0,Implemented (roll-out),Synthetic assumption
+DEP21,D10,S01,2025-04-01,30,569000.0,Implemented (roll-out),Synthetic assumption

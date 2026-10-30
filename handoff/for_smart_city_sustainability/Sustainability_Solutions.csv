@@ -1,0 +1,7 @@
+﻿Solution_ID,Solution_Name_EN,Solution_Name_AR,Resource,Cost_Basis,Capex_EGP_per_basis_unit,Expected_Saving_Pct,Lifetime_Years,OM_Pct_of_Capex_per_Year,Data_Status
+S01,Rooftop solar PV,الطاقة الشمسية على الأسطح,Electricity,kWp,18000,,25,1.5,Synthetic assumption
+S02,LED + smart lighting (common areas),إنارة LED ذكية للمناطق المشتركة,Electricity,occupied unit,1200,0.06,12,1.0,Synthetic assumption
+S03,High-efficiency AC / smart thermostats,تكييف عالي الكفاءة وترموستات ذكي,Electricity,occupied unit,4500,0.14,12,2.0,Synthetic assumption
+S04,Smart water metering + leak detection,عدادات مياه ذكية وكشف التسريب,Water,occupied unit,600,0.08,10,3.0,Synthetic assumption
+S05,Low-flow fixtures,تركيبات مياه منخفضة التدفق,Water,occupied unit,700,0.12,10,0.5,Synthetic assumption
+S06,Greywater reuse for irrigation,إعادة استخدام المياه الرمادية للري,Water,occupied unit,1500,0.18,20,3.0,Synthetic assumption

@@ -1,0 +1,6 @@
+﻿Solution_ID,solution_en,solution_ar,resource,measured_saving_pct,capex_egp,annual_saving_egp,payback_years,lifetime_years,pilots
+S02,LED + smart lighting (common areas),إنارة LED ذكية للمناطق المشتركة,Electricity,5.995,4378640.0,1832665.852,2.448,12.0,3
+S03,High-efficiency AC / smart thermostats,تكييف عالي الكفاءة وترموستات ذكي,Electricity,14.58,16419900.0,4457215.425,3.977,12.0,3
+S05,Low-flow fixtures,تركيبات مياه منخفضة التدفق,Water,10.723,2554206.667,459489.177,5.718,10.0,3
+S04,Smart water metering + leak detection,عدادات مياه ذكية وكشف التسريب,Water,7.876,2189320.0,337498.379,8.054,10.0,3
+S06,Greywater reuse for irrigation,إعادة استخدام المياه الرمادية للري,Water,14.353,5473300.0,615018.806,12.141,20.0,1

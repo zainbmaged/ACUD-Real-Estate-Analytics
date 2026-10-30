@@ -1,0 +1,11 @@
+﻿District_ID,District_Name,Lifecycle_Archetype,projects,units_planned,units_sold,unsold_units,sales_value_12m_egp,avg_inventory_age,collection_rate,avg_risk,avg_margin_pct,service_coverage_pct,service_gap_count,occupancy_pct,sell_through_pct
+D01,Synthetic District 01,Completed & Mature,4,903,881,22,48644924.0,992.525,0.983,22.988,31.773,93.56,1,88.83,97.564
+D02,Synthetic District 02,Completed & Mature,4,895,875,20,97278525.0,588.1,0.983,17.014,31.762,91.79,0,88.02,97.765
+D03,Synthetic District 03,Sold Mostly - Service Gaps,4,906,850,56,511772549.0,561.875,1.0,21.792,31.376,73.21,4,64.76,93.819
+D04,Synthetic District 04,Sold Mostly - Service Gaps,4,898,831,67,636836767.0,645.675,0.976,23.094,31.257,72.34,2,62.51,92.539
+D05,Synthetic District 05,Partially Developed,4,943,761,182,1814867928.0,449.2,0.935,36.484,30.108,63.64,3,33.75,80.7
+D06,Synthetic District 06,Partially Developed,4,955,804,151,1849768479.0,441.7,0.979,25.498,30.413,63.65,4,55.49,84.188
+D07,Synthetic District 07,Under Construction,4,978,741,237,2239655401.0,486.35,0.963,42.733,29.565,33.09,6,0.52,75.767
+D08,Synthetic District 08,Under Construction,4,865,632,233,2016003064.0,532.85,0.966,45.149,29.289,32.32,7,0.76,73.064
+D09,Synthetic District 09,High Inventory Risk,4,927,479,448,1142465114.0,851.4,0.978,48.829,27.106,61.82,4,34.63,51.672
+D10,Synthetic District 10,High Inventory Risk,4,1447,662,785,1674701913.0,735.175,0.987,45.585,27.755,62.93,4,27.79,45.75
