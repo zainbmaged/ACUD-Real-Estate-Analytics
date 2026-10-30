@@ -13,6 +13,7 @@ from sqlalchemy import inspect, text
 from app.config import get_settings
 from app.database import engine
 from app.routers.sales import _read
+from app.analytics.executive import executive_brief
 
 router = APIRouter(prefix="/api/v1/survey-sales", tags=["Survey + sales intelligence"])
 TABLE = "acud_survey_responses"
@@ -39,6 +40,24 @@ def _survey() -> pd.DataFrame:
 
 def _records(df: pd.DataFrame) -> list[dict]:
     return df.astype(object).where(pd.notna(df), None).to_dict("records")
+
+
+def _decision_signal(frame: pd.DataFrame) -> dict:
+    """Summarize reported decision influence without treating it as observed conversion."""
+    col = "q11_problem_changed_decision"
+    if col not in frame:
+        return {"valid_responses": 0, "affected_count": 0, "affected_pct": None, "outcome_changed_count": 0, "outcome_changed_pct": None}
+    values = frame[col].dropna().astype(str).str.strip()
+    valid = values[~values.str.contains("لا ينطبق", na=False)]
+    affected = valid.str.startswith("نعم")
+    outcome_changed = valid.str.contains("أجل القرار|منطقة أخرى", regex=True, na=False)
+    return {
+        "valid_responses": int(len(valid)),
+        "affected_count": int(affected.sum()),
+        "affected_pct": round(float(affected.mean() * 100), 1) if len(valid) else None,
+        "outcome_changed_count": int(outcome_changed.sum()),
+        "outcome_changed_pct": round(float(outcome_changed.mean() * 100), 1) if len(valid) else None,
+    }
 
 
 def _latest_sales(district_id: str | None = None, project_id: str | None = None):
@@ -110,7 +129,8 @@ def dashboard(
         values = survey[column].dropna().astype(str)
         if split:
             values = values[values.str.strip().ne("")].str.split(r"\s*[;；]\s*").explode()
-        return [{"label": str(k), "count": int(v)} for k, v in values.value_counts().head(12).items()]
+        denominator = len(values)
+        return [{"label": str(k), "count": int(v), "share_pct": round(float(v / denominator * 100), 1) if denominator else None} for k, v in values.value_counts().head(12).items()]
 
     service_gaps = []
     for key, label in SERVICE_NAMES.items():
@@ -120,8 +140,9 @@ def dashboard(
             current = pd.to_numeric(survey[level], errors="coerce")
             valid = importance.notna() & current.notna()
             if valid.any():
-                service_gaps.append({"service": label, "importance": round(float(importance[valid].mean()), 2), "current_level": round(float(current[valid].mean()), 2), "gap": round(float((importance[valid] - current[valid]).mean()), 2)})
+                service_gaps.append({"service": label, "importance": round(float(importance[valid].mean()), 2), "current_level": round(float(current[valid].mean()), 2), "gap": round(float((importance[valid] - current[valid]).mean()), 2), "valid_responses": int(valid.sum()), "coverage_pct": round(float(valid.mean() * 100), 1)})
     service_gaps.sort(key=lambda x: x["gap"], reverse=True)
+    decision_signal = _decision_signal(survey)
 
     as_of, sales_projects, sales_districts = _latest_sales(district_id, project_id)
     # District-level complaint/sales comparison uses the same District_ID on both tables.
@@ -130,6 +151,7 @@ def dashboard(
         if pd.isna(did):
             continue
         top = group.get("q5_most_impactful_problem", pd.Series(dtype=str)).dropna().astype(str).value_counts()
+        group_decision = _decision_signal(group)
         sales_row = sales_districts[sales_districts["District_ID"].astype(str).str.upper() == str(did).upper()]
         linked_districts.append({
             "district_id": str(did),
@@ -137,7 +159,9 @@ def dashboard(
             "survey_responses": int(len(group)),
             "top_complaint": str(top.index[0]) if len(top) else None,
             "top_complaint_count": int(top.iloc[0]) if len(top) else 0,
+            "top_complaint_share_pct": round(float(top.iloc[0] / top.sum() * 100), 1) if len(top) and top.sum() else None,
             "average_attractiveness": round(float(pd.to_numeric(group.get("q13_area_attractiveness_1_5"), errors="coerce").mean()), 2) if "q13_area_attractiveness_1_5" in group else None,
+            "decision_signal": group_decision,
             "sales": _records(sales_row.head(1))[0] if not sales_row.empty else None,
         })
     linked_districts.sort(key=lambda x: x["district_id"])
@@ -147,6 +171,7 @@ def dashboard(
         if pd.isna(pid):
             continue
         top = group.get("q5_most_impactful_problem", pd.Series(dtype=str)).dropna().astype(str).value_counts()
+        group_decision = _decision_signal(group)
         sales_row = sales_projects[sales_projects["Project_ID"].astype(str).str.upper() == str(pid).upper()]
         linked_projects.append({
             "project_id": str(pid),
@@ -155,6 +180,9 @@ def dashboard(
             "survey_responses": int(len(group)),
             "top_complaint": str(top.index[0]) if len(top) else None,
             "top_complaint_count": int(top.iloc[0]) if len(top) else 0,
+            "top_complaint_share_pct": round(float(top.iloc[0] / top.sum() * 100), 1) if len(top) and top.sum() else None,
+            "average_attractiveness": round(float(pd.to_numeric(group.get("q13_area_attractiveness_1_5"), errors="coerce").mean()), 2) if "q13_area_attractiveness_1_5" in group else None,
+            "decision_signal": group_decision,
             "sales": _records(sales_row.head(1))[0] if not sales_row.empty else None,
         })
     linked_projects.sort(key=lambda x: x["project_id"])
@@ -165,15 +193,23 @@ def dashboard(
         "survey": {
             "responses": int(len(survey)),
             "eligible_responses": int(len(survey)),
+            "total_rows": int(len(df)),
+            "screened_out": int(len(df) - len(eligible)),
             "districts": counts("district_name"),
+            "relationship_to_area": counts("q1_relationship_to_area"),
+            "location_label": counts("q2_location_label"),
+            "relationship_duration": counts("q3_relationship_duration"),
             "top_problems": counts("q5_most_impactful_problem"),
             "recent_problems": counts("q4_recent_service_problems", True),
+            "problem_frequency": counts("q6_problem_frequency"),
+            "problem_severity": counts("q7_problem_severity"),
+            "decision_factors": counts("q10_top_3_decision_factors", True),
             "priority_issues": counts("q15_top_improvement_priority"),
-            "frequency": counts("q6_problem_frequency"),
-            "severity": counts("q7_problem_severity"),
             "recommendation": counts("q14_recommend_area"),
             "decision_impact": counts("q11_problem_changed_decision"),
+            "decision_signal": decision_signal,
             "attractiveness": round(float(pd.to_numeric(survey["q13_area_attractiveness_1_5"], errors="coerce").mean()), 2) if "q13_area_attractiveness_1_5" in survey and len(survey) else None,
+            "attractiveness_distribution": counts("q13_area_attractiveness_1_5"),
             "service_gaps": service_gaps,
         },
         "sales": {"as_of": as_of, "districts": _records(sales_districts.sort_values("units_sold")) if not sales_districts.empty else [], "projects": _records(sales_projects.sort_values("units_sold").head(40)) if not sales_projects.empty else []},
@@ -223,3 +259,142 @@ def ask(payload: SurveySalesQuestion):
     except Exception as exc:
         raise HTTPException(status_code=502, detail="Cohere assistant is temporarily unavailable.") from exc
     return {"reply": reply, "provider": "cohere", "model": settings.cohere_model, "data_status": evidence.get("data_status"), "evidence_source": "survey_and_sales_database"}
+
+
+def _read_optional_table(name: str) -> pd.DataFrame:
+    """Read an optional analytics source without breaking the executive endpoint."""
+    try:
+        result = _read(name)
+        return result if isinstance(result, pd.DataFrame) else pd.DataFrame(result)
+    except Exception:
+        return pd.DataFrame()
+
+
+def _executive_json_safe(value):
+    """Convert pandas/numpy values into JSON-compatible Python values."""
+    if isinstance(value, dict):
+        return {str(k): _executive_json_safe(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_executive_json_safe(v) for v in value]
+    if isinstance(value, (np.integer,)):
+        return int(value)
+    if isinstance(value, (np.floating,)):
+        return None if not np.isfinite(value) else float(value)
+    if isinstance(value, np.bool_):
+        return bool(value)
+    if pd.isna(value):
+        return None
+    if isinstance(value, (pd.Timestamp,)):
+        return value.isoformat()
+    return value
+
+
+@router.get("/executive")
+def executive(
+    district_id: str | None = Query(default=None, min_length=2, max_length=32),
+    project_id: str | None = Query(default=None, min_length=2, max_length=32),
+    sales_position: Literal["weaker", "stronger"] | None = Query(default=None),
+):
+    """
+    Executive resident-service analysis.
+
+    Uses the service-gap analytics pipeline and PostgreSQL-backed source tables.
+    The portfolio-wide sales-position comparison is calculated before applying
+    the requested district/sales-position display filters.
+    """
+    # 1. Load source data.
+    survey = _survey()
+
+    try:
+        districts = _read("Dim_District")
+        projects = _read("Dim_Project")
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="District/project dimensions could not be loaded from PostgreSQL.",
+        ) from exc
+
+    indicators = _read_optional_table("Fact_District_Service_Indicators")
+    status = _read_optional_table("Fact_District_Monthly_Status")
+    funnel = _read_optional_table("Fact_Project_Sales_Funnel")
+
+    # 2. Validate the requested project filter against the actual dimension.
+    if project_id:
+        project_keys = (
+            projects["Project_ID"].astype(str).str.strip().str.upper()
+            if "Project_ID" in projects
+            else pd.Series(dtype=str)
+        )
+        project_key = project_id.strip().upper()
+
+        if project_key not in set(project_keys):
+            raise HTTPException(status_code=404, detail="Unknown project_id.")
+
+        # A project filter narrows the respondent-level analysis.
+        survey = survey[
+            survey["project_id"].astype(str).str.upper() == project_key
+        ].copy()
+
+        # Keep the selected project's district context available.
+        selected_project = projects[
+            projects["Project_ID"].astype(str).str.upper() == project_key
+        ]
+        if district_id and not selected_project.empty:
+            actual_district = str(
+                selected_project.iloc[0]["District_ID"]
+            ).upper()
+            if actual_district != district_id.strip().upper():
+                raise HTTPException(
+                    status_code=422,
+                    detail="The selected project does not belong to the selected district.",
+                )
+
+    # 3. Run the executive analysis.
+    # The executive module derives sales positions from the full district
+    # context, not from a pre-filtered subset of districts.
+    try:
+        result = executive_brief(
+            survey=survey,
+            districts=districts,
+            projects=projects,
+            indicators=indicators,
+            status=status,
+            funnel=funnel,
+            district_id=district_id,
+            sales_position=sales_position,
+        )
+    except Exception as exc:
+        # Log the original exception in the backend; do not expose internals.
+        import logging
+        logging.getLogger(__name__).exception(
+            "Executive resident-service analysis failed"
+        )
+        raise HTTPException(
+            status_code=500,
+            detail="Executive analysis could not be completed. Check the backend logs.",
+        ) from exc
+
+    if not isinstance(result, dict):
+        raise HTTPException(
+            status_code=500,
+            detail="Executive analysis returned an invalid response.",
+        )
+
+    # 4. Add source and filter metadata without replacing analytical results.
+    result["filters"] = {
+        "district_id": district_id.upper() if district_id else None,
+        "project_id": project_id.upper() if project_id else None,
+        "sales_position": sales_position,
+    }
+    result["source"] = (
+        "PostgreSQL: acud_survey_responses, Dim_District, Dim_Project, "
+        "Fact_District_Service_Indicators, Fact_District_Monthly_Status, "
+        "Fact_Project_Sales_Funnel"
+    )
+    result["data_status"] = (
+        "synthetic_linked_demo"
+        if result.get("data_mode") == "synthetic_demonstration"
+        else "observed"
+    )
+
+    return _executive_json_safe(result)

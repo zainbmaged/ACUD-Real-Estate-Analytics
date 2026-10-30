@@ -7,7 +7,7 @@ from app.config import get_settings
 from app.database import Base, engine
 from app.routers import analytics, chat, complaints, sales , survey_sales
 from app import models  # noqa: F401 - registers SQLAlchemy models
-
+from app.routers import survey_sales
 
 settings = get_settings()
 
@@ -39,7 +39,7 @@ app.include_router(chat.router)
 app.include_router(analytics.router)
 app.include_router(sales.router)
 app.include_router(survey_sales.router)
-
+app.include_router(survey_sales.router)
 @app.get("/")
 def root():
     return {"service": "ACUD Operations & Real-Estate Analytics API", "docs": "/docs", "sales_dashboard": "/api/v1/sales/dashboard"}
