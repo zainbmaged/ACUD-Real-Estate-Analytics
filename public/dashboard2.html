@@ -621,7 +621,17 @@ $('#vbadge').textContent=`${D.data_status||'PostgreSQL data'} · ${D.months.leng
  const SM={prior_rate:'Constant rate',project_rate_rule:'Project rate rule',logistic:'Logistic',gbm:'Gradient boosting',blend:'Blend',gbm_calibrated:'Calibrated GBM'};
  const MC={logistic:C.b,gbm:C.o,blend:C.g,gbm_calibrated:'var(--y)',project_rate_rule:C.mut,prior_rate:C.mut};
  const p1=(v,d=1)=>v==null?'–':(Number(v)*100).toFixed(d)+'%';
- const head=`<div class="card accent"><div class="panel-head"><div><h2>Will a listed unit still be unsold in 90 days?</h2><p class="note">Unit-level classifiers trained on dated sales history and tested on a later period with a 90-day purge gap, so no outcome window overlaps training. Everything below is hold-out data: what the model predicted versus what actually happened.</p></div><button id="acud-risk-retrain" class="btn primary" type="button">${R.available?'Refresh risk models':'Train 90-day risk models'}</button></div><p id="acud-risk-train-status" class="note" aria-live="polite"></p></div>`;
+ const head=`<div class="card accent"><div class="panel-head"><div><h2>Will a listed unit still be unsold in 90 days?</h2><p class="note">Unit-level classifiers trained on dated sales history and tested on a later period with a 90-day purge gap, so no outcome window overlaps training. Everything below is hold-out data: what the model predicted versus what actually happened.he model uses 29 numeric features plus 5 unit-type indicator features, for a total of 34 features.
+Feature group	Input features	What they represent
+Unit characteristics	area_m2, price_premium, plan_years, down_pct	Unit size, relative price, payment plan and down payment
+Listing status	listing_age	Number of days the unit has been listed
+Construction	completion, schedule_lag, handover	Project completion, construction delay and handover progress
+Services and district	svc_coverage, svc_gaps, occupancy, dist_avail_log	District infrastructure, service gaps, occupancy and available inventory
+Project sales	proj_sold_90d, proj_avail, proj_rate_90d	Recent project sales, available units and sales rate
+Developer	dev_quality	Developer quality index
+Future calendar	fut_ramadan_days, fut_eid_days, fut_working_days, fut_launch_days, fut_summer_days	Calendar conditions during the next 90 days
+Time and market	sin_m, cos_m, price_index	Month seasonality and property price index
+Unit type	type_Apartment, type_Townhouse, type_Villa, type_Commercial, type_Office	One-hot encoded unit categories</p></div><button id="acud-risk-retrain" class="btn primary" type="button">${R.available?'Refresh risk models':'Train 90-day risk models'}</button></div><p id="acud-risk-train-status" class="note" aria-live="polite"></p></div>`;
  const wire=()=>{const btn=document.getElementById('acud-risk-retrain'), status=document.getElementById('acud-risk-train-status'); if(!btn)return;
   btn.addEventListener('click',async()=>{btn.disabled=true;status.textContent='Starting risk retraining…';
    try{const r=await fetch(`${window.ACUD_API_BASE}/api/v1/sales/risk/retrain`,{method:'POST',headers:{'Accept':'application/json'}});const j=await r.json();if(!r.ok)throw new Error(j.detail||`HTTP ${r.status}`);status.textContent=j.message||'Risk retraining queued';
@@ -666,7 +676,7 @@ $('#vbadge').textContent=`${D.data_status||'PostgreSQL data'} · ${D.months.leng
   body+=`<div class="card mt"><div class="panel-head"><div><h2>Expected vs actual unsold units by project (hold-out)</h2><p class="note">Expected = sum of predicted probabilities. Actual = units that really remained unsold. Totals across all ${B.n_projects} projects are in the first table.</p></div><label>Model <select id="r-pm"></select></label></div><div class="tw"><table><thead><tr><th>Model</th><th class="n">Expected unsold</th><th class="n">Actual unsold</th><th class="n">Total error</th><th class="n">Project-rate correlation</th><th class="n">Project-rate MAE</th></tr></thead><tbody>${(B.totals||[]).map(t=>`<tr><td>${esc(NM[t.model]||t.model)}</td><td class="n">${fmtNum(t.expected_unsold)}</td><td class="n">${fmtNum(t.actual_unsold)}</td><td class="n">${t.error_pct>0?'+':''}${t.error_pct}%</td><td class="n">${t.project_rate_corr==null?'–':t.project_rate_corr.toFixed(2)}</td><td class="n">${t.project_mae_pp==null?'–':t.project_mae_pp+' pp'}</td></tr>`).join('')}</tbody></table></div><div class="tw mt" id="r-pt"></div></div>`;
  }
  const CS=R.current_scores||{}, dist=(D.risk_dist||[]).slice().sort((a,b)=>b.expected_unsold-a.expected_unsold).slice(0,15), proj=(D.risk_proj||[]).slice(0,15);
- body+=`<div class="card mt"><div class="panel-head"><div><h2>Current predictions · units on the market as of ${esc(R.as_of||'—')}</h2><p class="note">${esc(NM[prim])} scores every currently listed unit. ${CS.expected_unsold!=null?`Expected unsold in the next 90 days: <b>${fmtNum(CS.expected_unsold)}</b> of ${fmtNum(R.n_current_units)} units (mean probability ${p1(CS.mean_p_unsold)}).`:''}</p></div></div><div class="grid g2"><div><h3>Expected unsold units by district (top 15)</h3><div id="r-dist"></div></div><div><h3>Risk bands</h3>${CS.band_counts?`<div class="stat-row" style="margin-bottom:10px">${Object.entries(CS.band_counts).map(([k,v])=>`<span>${esc(k)} <b>${Number(v).toLocaleString()}</b></span>`).join('')}</div>`:'<p class="note">Refresh the models to see band counts.</p>'}<h3>Projects with most expected unsold units</h3><div class="tw"><table><thead><tr><th>Project</th><th>District</th><th class="n">Units</th><th class="n">Expected unsold</th><th class="n">Mean P</th></tr></thead><tbody>${proj.map(p=>`<tr><td>${esc(p.Project_ID)}</td><td>${esc(p.District_ID)}</td><td class="n">${fmtNum(p.units_on_market)}</td><td class="n">${fmtNum(p.expected_unsold_90d)}</td><td class="n">${p1(p.mean_p_unsold)}</td></tr>`).join('')}</tbody></table></div></div></div>${CS.top_units&&CS.top_units.length?`<h3 class="mt">25 listed units with the highest unsold probability</h3><div class="tw"><table><thead><tr><th>Unit</th><th>Project</th><th>District</th><th class="n">P(unsold in 90 d)</th><th>Band</th></tr></thead><tbody>${CS.top_units.map(u=>`<tr><td>${esc(u.Unit_ID)}</td><td>${esc(u.Project_ID)}</td><td>${esc(u.District_ID)}</td><td class="n">${p1(u.p_unsold_90d)}</td><td>${esc(u.risk_band)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>`;
+ body+=`<div class="card mt"><div class="panel-head"><div><h2>Current predictions · units on the market as of ${esc(R.as_of||'—')}</h2><p class="note">${esc(NM[prim])} scores every currently listed unit. ${CS.expected_unsold!=null?`Expected unsold in the next 90 days: <b>${fmtNum(CS.expected_unsold)}</b> of ${fmtNum(R.n_current_units)} units (mean probability ${p1(CS.mean_p_unsold)}).`:''}</p></div></div><div class="grid g2"><div><h3>Expected unsold units by district (top 15)</h3><div id="r-dist"></div></div><div><h3>Risk bands</h3>${CS.band_counts?`<div class="stat-row" style="margin-bottom:10px">${Object.entries(CS.band_counts).map(([k,v])=>`<span>${esc(k)} <b>${Number(v).toLocaleString()}</b></span>`).join('')}</div>`:'<p class="note">Refresh the models to see band counts.</p>'}<h3>Projects with most expected unsold units</h3><div class="tw"><table><thead><tr><th>Project</th><th>District</th><th class="n">Units</th><th class="n">Expected unsold</th><th class="n">Mean P</th></tr></thead><tbody>${proj.map(p=>`<tr><td>${esc(p.Project_ID)}</td><td>${esc(p.District_ID)}</td><td class="n">${fmtNum(p.units_on_market)}</td><td class="n">${fmtNum(p.expected_unsold_90d)}</td><td class="n">${p1(p.mean_p_unsold)}</td></tr>`).join('')}</tbody></table></div></div></div>${CS.top_units&&CS.top_units.length?`<h3 class="mt">25 listed units with the highest unsold probability </h3><div class="tw"><table><thead><tr><th>Unit</th><th>Project</th><th>District</th><th class="n">P(unsold in 90 d)</th><th>Band</th></tr></thead><tbody>${CS.top_units.map(u=>`<tr><td>${esc(u.Unit_ID)}</td><td>${esc(u.Project_ID)}</td><td>${esc(u.District_ID)}</td><td class="n">${p1(u.p_unsold_90d)}</td><td>${esc(u.risk_band)}</td></tr>`).join('')}</tbody></table></div>`:''}</div>`;
  h.innerHTML=body; wire();
  if(dist.length) barChart($('#r-dist'),dist.map(d=>({l:d.District_ID,v:d.expected_unsold,c:'var(--b)',tip:`<b>${esc(d.District_ID)}</b><br>${fmtNum(d.units)} units · expected unsold ${fmtNum(d.expected_unsold)}`})),{ml:44,fmt:v=>Math.round(v).toLocaleString(),title:'Expected unsold by district'}); else $('#r-dist').innerHTML='<p class="note">No district scores available.</p>';
  if(!B) return;
@@ -711,25 +721,83 @@ document.getElementById('acud-ai-toggle').addEventListener('click', () => {
   document.getElementById('acud-ai-toggle').textContent = hidden ? 'Hide' : 'Ask analyst';
   document.getElementById('acud-ai-toggle').setAttribute('aria-expanded', String(hidden));
 });
+// Keep a short, in-memory conversation for follow-up questions.
+const acudAnalystHistory = [];
+function acudCompactAnalystContext(D, districtId, projectId) {
+  if (!D) return {};
+  const pick = (obj, keys) => {
+    if (!obj || typeof obj !== 'object') return obj ?? null;
+    return Object.fromEntries(keys.filter(k => obj[k] !== undefined).map(k => [k, obj[k]]));
+  };
+  const riskProjects = Array.isArray(D.risk_proj) ? D.risk_proj : [];
+  const riskDistricts = Array.isArray(D.risk_dist) ? D.risk_dist : [];
+  const projectRows = riskProjects.filter(x => !projectId || String(x.Project_ID) === String(projectId));
+  const districtRows = riskDistricts.filter(x => !districtId || String(x.District_ID) === String(districtId));
+  const selectedProjectRows = projectRows.filter(x => !districtId || String(x.District_ID) === String(districtId));
+  const selectedDistrictRows = districtRows;
+  const forecast = Array.isArray(D.forecast) ? D.forecast.slice(-24) : [];
+  const evalObj = D.forecast_eval && typeof D.forecast_eval === 'object' ? D.forecast_eval : {};
+  const forecastEval = Object.fromEntries(Object.entries(evalObj).map(([key, value]) => [key, pick(value, [
+    'target','model','wape','baseline_wape','beats_baseline','mae','rmse','r2','adjusted_r2','n_folds','test_points'
+  ])]));
+  const anomalyRows = Array.isArray(D.anomalies) ? D.anomalies : [];
+  return {
+    source: D.data_source || D.source || 'Live dashboard API',
+    data_status: D.data_status || null,
+    generated_at: D.generated_at || null,
+    displayed_period: { first_month: D.months?.[0] || null, last_month: D.months?.at(-1) || null, month_count: D.months?.length || 0 },
+    summary: pick(D.summary, ['projects','districts','units','total_units','total_sales','total_contract_value','monthly_sales','latest_month_sales']),
+    selected_filters: { district_id: districtId || null, project_id: projectId || null },
+    forecast: forecast,
+    forecast_evaluation: forecastEval,
+    unsold_risk: {
+      available: D.risk_available === true,
+      message: D.risk_message || null,
+      as_of: D.risk_as_of || null,
+      trained_through_as_of: D.risk_trained_through_as_of || null,
+      projects: selectedProjectRows.slice().sort((a,b) => Number(b.expected_unsold_90d || 0) - Number(a.expected_unsold_90d || 0)).slice(0, 12),
+      districts: selectedDistrictRows.slice().sort((a,b) => Number(b.expected_unsold || 0) - Number(a.expected_unsold || 0)).slice(0, 12)
+    },
+    recent_months: Array.isArray(D.months) ? D.months.slice(-6) : [],
+    anomalies: { count: anomalyRows.length, recent: anomalyRows.slice(-8) },
+    limitations: [
+      'Forecasts and risk scores are model estimates, not observed outcomes.',
+      'If data_status is synthetic_prototype_data, values are synthetic prototype data.',
+      'ROI and break-even may use synthetic investment assumptions and are not accounting profit.'
+    ]
+  };
+}
+
 document.getElementById('acud-ai-send').addEventListener('click', async () => {
   const question = document.getElementById('acud-ai-question').value.trim();
   const district_id = document.getElementById('acud-ai-district').value.trim() || null;
   const project_id = document.getElementById('acud-ai-project').value.trim() || null;
   const answerNode = document.getElementById('acud-ai-answer');
   if (question.length < 2) { answerNode.textContent = 'Please enter a question.'; return; }
-  answerNode.textContent = 'Checking database evidence…';
+  const D = window.__ACUD_LIVE_DATA__;
+  if (!D) { answerNode.textContent = 'Live dashboard data is not loaded. The analyst cannot answer without current database evidence.'; return; }
+  answerNode.textContent = 'Analyzing the current dashboard data…';
   const button = document.getElementById('acud-ai-send'); button.disabled = true;
   try {
-    const response = await fetch(`${window.ACUD_API_BASE}/api/v1/sales/ask`, {
+    const response = await fetch(`${window.ACUD_API_BASE}/api/v1/chat/sales`, {
       method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ question, language: document.documentElement.lang === 'ar' ? 'ar' : 'en', district_id, project_id })
+      body: JSON.stringify({
+        message: question,
+        language: document.documentElement.lang === 'ar' ? 'ar' : 'en',
+        history: acudAnalystHistory.slice(-10),
+        dashboard_context: acudCompactAnalystContext(D, district_id, project_id)
+      })
     });
     const body = await response.json();
     if (!response.ok) throw new Error(body.detail || `Request failed (${response.status})`);
-    answerNode.textContent = body.reply + (body.data_status === 'synthetic_prototype_data' ? '\n\nNote: this prototype uses synthetic data.' : '');
-  } catch (error) { answerNode.textContent = `Unable to answer: ${error.message}. Check the backend, database import, and COHERE_API_KEY.`; }
-  finally { button.disabled = false; }
+    answerNode.textContent = body.reply || 'The analyst returned an empty answer.';
+    acudAnalystHistory.push({ role: 'user', content: question }, { role: 'assistant', content: body.reply || '' });
+    if (acudAnalystHistory.length > 12) acudAnalystHistory.splice(0, acudAnalystHistory.length - 12);
+  } catch (error) {
+    answerNode.textContent = `Unable to answer: ${error.message}. Check the backend and COHERE_API_KEY.`;
+  } finally { button.disabled = false; }
 });
+
 
 
 // ---------------- Project sales and break-even analysis ----------------

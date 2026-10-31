@@ -71,3 +71,19 @@ class ChatResponse(BaseModel):
     address: Optional[str] = None
     description: Optional[str] = None
     onset: Optional[Onset] = None
+
+from typing import Any, Dict, List, Literal, Optional
+from pydantic import BaseModel, Field
+
+
+class SalesAnalystChatRequest(BaseModel):
+    language: Literal["ar", "en"] = "en"
+    message: str = Field(min_length=2, max_length=4000)
+    history: List[ChatMessage] = Field(default_factory=list, max_length=12)
+    dashboard_context: Dict[str, Any] = Field(default_factory=dict)
+
+
+class SalesAnalystChatResponse(BaseModel):
+    reply: str
+    provider: str = "cohere"
+    model: str
