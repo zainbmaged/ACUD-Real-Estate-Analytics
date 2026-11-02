@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 type LandingPageProps = {
@@ -6,6 +5,61 @@ type LandingPageProps = {
   onSelectInvestor: () => void;
   onSelectGovernment: () => void;
 };
+
+// Save the capital photo as /public/acud-capital.jpg (Vite/CRA) so this path resolves.
+const BACKGROUND_IMAGE = "/acud-capital.jpg";
+
+// Save both logos in /public so these paths resolve.
+const ACUD_LOGO = "/acud-logo.png";
+const URBANSIGHT_LOGO = "/urbansight-logo.jpg";
+
+// TODO: replace with the real A2O ELITE — Decision Studio URL.
+const A2O_URL = "#";
+
+type DashboardKey = "forecast" | "sales" | "service" | "sustain" | "agents";
+
+const dashboards: { key: DashboardKey; href: string; icon: JSX.Element }[] = [
+  {
+    key: "forecast",
+    href: "http://localhost:8080/public/dashboard2.html#roi",
+    icon: <path d="M3 3v18h18M7 15l4-4 3 3 5-6" />,
+  },
+  {
+    key: "sales",
+    href: "http://127.0.0.1:8081/residential-sales-map.html",
+    icon: (
+      <>
+        <path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z" />
+        <circle cx="12" cy="10" r="2.5" />
+      </>
+    ),
+  },
+  {
+    key: "service",
+    href: "http://127.0.0.1:8081/acud-executive-dashboard.html",
+    icon: (
+      <>
+        <path d="M4 5h16v11H8l-4 4V5Z" />
+        <path d="M8 9h8M8 12h5" />
+      </>
+    ),
+  },
+  {
+    key: "sustain",
+    href: "http://127.0.0.1:8000/agents-ui",
+    icon: <path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14M5 19c1-4 4-7 8-9" />,
+  },
+  {
+    key: "agents",
+    href: A2O_URL,
+    icon: (
+      <>
+        <circle cx="12" cy="12" r="3" />
+        <path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2" />
+      </>
+    ),
+  },
+];
 
 export default function LandingPage({
   onSelectResident,
@@ -53,6 +107,49 @@ export default function LandingPage({
       ? "اختر الفئة المناسبة للمتابعة إلى الخدمة المطلوبة."
       : "Choose the option that best describes your needs.",
     future: ar ? "المستقبل يبدأ هنا" : "THE FUTURE STARTS HERE",
+    dashLabel: ar ? "لوحات التحليلات" : "ANALYTICS & INTELLIGENCE",
+    dashTitle: ar ? "لوحات المعلومات الذكية" : "Intelligence dashboards",
+    dashHint: ar
+      ? "تنبؤات، خرائط مبيعات، ذكاء الخدمات، والاستدامة، وتوصيات الوكلاء."
+      : "Forecasting, sales mapping, service intelligence, sustainability and agent recommendations.",
+    open: ar ? "فتح اللوحة" : "Open dashboard",
+    dash: {
+      forecast: {
+        tag: ar ? "التنبؤ" : "Forecasting",
+        name: ar ? "لوحة التعلم الآلي والتنبؤ" : "NAC ML & Forecasting Dashboard",
+        desc: ar
+          ? "نماذج التعلم الآلي والتنبؤات وعائد الاستثمار للعاصمة الإدارية."
+          : "Machine-learning models, forecasts and ROI for the New Administrative Capital.",
+      },
+      sales: {
+        tag: ar ? "خريطة المبيعات" : "Sales map",
+        name: ar ? "خريطة مبيعات الوحدات السكنية" : "ACUD | Residential Sales Map",
+        desc: ar
+          ? "استكشف مبيعات الوحدات السكنية جغرافيًا عبر الأحياء."
+          : "Explore residential sales geographically across districts.",
+      },
+      service: {
+        tag: ar ? "ذكاء الخدمات" : "Service intelligence",
+        name: ar ? "ذكاء خدمات السكان" : "ACUD Resident Service Intelligence",
+        desc: ar
+          ? "لوحة تنفيذية لشكاوى السكان وأداء الخدمات."
+          : "Executive view of resident complaints and service performance.",
+      },
+      sustain: {
+        tag: ar ? "الاستدامة" : "Sustainability",
+        name: ar ? "ACUD · ذكاء القطاع العقاري" : "ACUD · Real Estate Intelligence",
+        desc: ar
+          ? "رؤى الاستدامة والقطاع العقاري مدعومة بالوكلاء الأذكياء."
+          : "Sustainability and real-estate insights powered by AI agents.",
+      },
+      agents: {
+        tag: ar ? "توصيات الوكلاء" : "Agents recommendation",
+        name: "A2O ELITE — Decision Studio",
+        desc: ar
+          ? "استوديو القرار: توصيات الوكلاء الأذكياء لدعم اتخاذ القرار."
+          : "Decision studio with agent-generated recommendations.",
+      },
+    },
   };
 
   return (
@@ -63,16 +160,19 @@ export default function LandingPage({
       <header className="bg-[#1D1616] text-white">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-10">
           <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#8E1616] text-xl font-black">
-              A
+            <div className="rounded-lg bg-white px-3 py-1.5">
+              <img
+                src={ACUD_LOGO}
+                alt="ACUD — Administrative Capital for Urban Development"
+                className="h-12 w-auto"
+              />
             </div>
-            <div>
-              <div className="text-xl font-bold tracking-widest">
-                {copy.brand}
-              </div>
-              <div className="text-[10px] tracking-wider text-gray-300">
-                {copy.tagline}
-              </div>
+            <div className="rounded-lg bg-white px-2 py-1">
+              <img
+                src={URBANSIGHT_LOGO}
+                alt="UrbanSight — Smarter insights. Stronger decisions."
+                className="h-12 w-auto"
+              />
             </div>
           </div>
 
@@ -86,10 +186,16 @@ export default function LandingPage({
         </nav>
       </header>
 
-      <section className="relative overflow-hidden bg-[#1D1616] text-white">
+      {/* Hero with background image */}
+      <section
+        className="relative overflow-hidden bg-[#1D1616] bg-cover bg-center text-white"
+        style={{ backgroundImage: `url(${BACKGROUND_IMAGE})` }}
+      >
+        {/* dark overlay keeps text readable over the photo */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#1D1616]/90 via-[#1D1616]/70 to-[#8E1616]/40" />
         <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#8E1616]/40 blur-3xl" />
 
-        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 md:grid-cols-2 md:px-10 md:py-24">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 md:grid-cols-2 md:px-10 md:py-28">
           <div>
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-[#D84040]">
               {copy.eyebrow}
@@ -99,7 +205,7 @@ export default function LandingPage({
               {copy.title}
             </h1>
 
-            <p className="mt-6 max-w-xl text-base leading-8 text-gray-300 md:text-lg">
+            <p className="mt-6 max-w-xl text-base leading-8 text-gray-200 md:text-lg">
               {copy.description}
             </p>
 
@@ -116,13 +222,17 @@ export default function LandingPage({
           </div>
 
           <div className="relative">
-            <div className="flex aspect-[5/4] items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-[#8E1616] via-[#4a2424] to-[#242020] p-8">
-              <div className="text-center">
-                <div className="text-7xl font-black tracking-widest text-white/90 md:text-9xl">
-                  ACUD
+            <div className="flex aspect-[5/4] items-center justify-center overflow-hidden rounded-2xl border border-white/20 bg-black/30 p-8 backdrop-blur-sm">
+              <div className="flex flex-col items-center gap-4 text-center">
+                <div className="rounded-xl bg-white px-4 py-2">
+                  <img
+                    src={URBANSIGHT_LOGO}
+                    alt="UrbanSight — Smarter insights. Stronger decisions."
+                    className="h-28 w-auto md:h-44"
+                  />
                 </div>
-                <div className="mx-auto mt-5 h-1 w-24 rounded-full bg-[#D84040]" />
-                <p className="mt-5 text-sm tracking-[0.25em] text-white/70">
+                <div className="mx-auto mt-1 h-1 w-24 rounded-full bg-[#D84040]" />
+                <p className="text-sm tracking-[0.25em] text-white/80">
                   {copy.future}
                 </p>
               </div>
@@ -133,9 +243,66 @@ export default function LandingPage({
         </div>
       </section>
 
+      {/* Dashboards */}
+      <section
+        id="dashboards"
+        className="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-20"
+      >
+        <div className="mx-auto mb-10 max-w-2xl text-center">
+          <p className="text-sm font-bold uppercase tracking-widest text-[#8E1616]">
+            {copy.dashLabel}
+          </p>
+          <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">
+            {copy.dashTitle}
+          </h2>
+          <p className="mt-3 text-gray-600">{copy.dashHint}</p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {dashboards.map(({ key, href, icon }) => {
+            const d = copy.dash[key];
+            return (
+              <a
+                key={key}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col rounded-2xl border border-gray-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-[#8E1616]/40 hover:shadow-xl"
+              >
+                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#8E1616]/10 text-[#8E1616]">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-7 w-7"
+                    aria-hidden="true"
+                  >
+                    {icon}
+                  </svg>
+                </div>
+
+                <span className="mt-5 text-xs font-bold uppercase tracking-widest text-[#D84040]">
+                  {d.tag}
+                </span>
+                <h3 className="mt-2 text-xl font-bold">{d.name}</h3>
+                <p className="mt-3 flex-1 leading-7 text-gray-600">{d.desc}</p>
+
+                <span className="mt-6 inline-flex items-center gap-2 font-semibold text-[#8E1616] transition group-hover:gap-3">
+                  {copy.open}
+                  <span aria-hidden="true">{ar ? "←" : "→"}</span>
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
       <section
         id="services"
-        className="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-20"
+        className="mx-auto max-w-7xl px-5 pb-16 md:px-10 md:pb-24"
       >
         <div className="mx-auto mb-10 max-w-2xl text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-[#8E1616]">
@@ -215,36 +382,13 @@ export default function LandingPage({
 
           {/* Government Services 
           <article className="group flex flex-col rounded-2xl border border-gray-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-[#8E1616]/40 hover:shadow-xl md:p-8">
-            <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#8E1616]/10 text-[#8E1616]">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.7"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-7 w-7"
-                aria-hidden="true"
-              >
-                <path d="M3 10h18L12 4 3 10Z" />
-                <path d="M5 10v9M9 10v9M15 10v9M19 10v9M3 21h18M2 19h20" />
-              </svg>
-            </div>
-
-            <h3 className="mt-6 text-2xl font-bold">
-              {copy.government}
-            </h3>
-
-            <p className="mt-4 flex-1 leading-7 text-gray-600">
-              {copy.governmentDesc}
-            </p>
-
+            <h3 className="mt-6 text-2xl font-bold">{copy.government}</h3>
+            <p className="mt-4 flex-1 leading-7 text-gray-600">{copy.governmentDesc}</p>
             <button
               onClick={onSelectGovernment}
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-[#8E1616] px-5 py-4 font-semibold text-white transition hover:bg-[#6f1010]"
             >
               {copy.governmentButton}
-              <span aria-hidden="true">{ar ? "←" : "→"}</span>
             </button>
           </article>*/}
         </div>
